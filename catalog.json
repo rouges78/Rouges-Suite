@@ -109,6 +109,28 @@
         "it": "Desktop remoto leggero"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#f783ac",
+      "accent_light": "#a61e4d",
+      "description": {
+        "en": "A classic keypad, an editable tape that recalculates as you type, and unambiguous percentages, with exact calculations.",
+        "it": "Tastierino classico, nastro modificabile che si ricalcola mentre scrivi e percentuali senza ambiguità, con calcoli esatti."
+      },
+      "icon": "calc",
+      "id": "kalc",
+      "name": "Kalc+",
+      "package": {
+        "exe": "RougesKalc.exe",
+        "sha256": "89c96e45737f75c8b1ef9fa0ea4bfd680b40c46a7f3966920eb05a8f58689cdf",
+        "size": 7007352,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/kalc-v0.1.0/kalc-0.1.0.zip"
+      },
+      "subtitle": {
+        "en": "Tape calculator",
+        "it": "Calcolatrice a nastro"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -117,5 +139,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.0/RougesSetup.exe",
     "version": "0.1.0"
   },
-  "serial": 6
+  "serial": 7
 }
