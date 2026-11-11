@@ -131,6 +131,28 @@
         "it": "Calcolatrice a nastro"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#ff8787",
+      "accent_light": "#c92a2a",
+      "description": {
+        "en": "PostgreSQL and SQLite, a fast grid, safe edits with SQL review, Ctrl+K and a kill switch.",
+        "it": "PostgreSQL e SQLite, griglia veloce, modifiche sicure con review SQL, Ctrl+K, kill switch."
+      },
+      "icon": "db",
+      "id": "db",
+      "name": "DB++",
+      "package": {
+        "exe": "RougesDB.exe",
+        "sha256": "86ead95d689149fd77c604a6a2264f8db0f7e8392ae75fedcb76545397243ac4",
+        "size": 2916834,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/db-v0.1.0/db-0.1.0.zip"
+      },
+      "subtitle": {
+        "en": "Lightweight database client",
+        "it": "Client database leggero"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -139,5 +161,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.0/RougesSetup.exe",
     "version": "0.1.0"
   },
-  "serial": 7
+  "serial": 8
 }
