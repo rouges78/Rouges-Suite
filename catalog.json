@@ -43,6 +43,28 @@
         "it": "Navigazione leggera e senza tracker"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#ffd43b",
+      "accent_light": "#7a5c00",
+      "description": {
+        "en": "A session that is never lost, multi-cursor, regex, an edit timeline, fluid Markdown, data tools and local AI with Ctrl+K.",
+        "it": "Sessione che non si perde mai, multi-cursore, regex, timeline delle modifiche, Markdown fluido, strumenti dati e IA locale con Ctrl+K."
+      },
+      "icon": "note",
+      "id": "futurenote",
+      "name": "FutureNote",
+      "package": {
+        "exe": "FutureNote.exe",
+        "sha256": "5eb3ae7c29c3580f80090f65fcc1ecaf84ffbdb6be1efac5091af044232a981f",
+        "size": 8223016,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/futurenote-v0.1.0/futurenote-0.1.0.zip"
+      },
+      "subtitle": {
+        "en": "Text editor and notes",
+        "it": "Editor di testo e appunti"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -51,5 +73,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.0/RougesSetup.exe",
     "version": "0.1.0"
   },
-  "serial": 3
+  "serial": 4
 }
