@@ -153,6 +153,35 @@
         "it": "Client database leggero"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#ffa94d",
+      "accent_light": "#a64d00",
+      "description": {
+        "en": "A fast, minimal desktop email client.",
+        "it": "Client di posta desktop veloce e minimale."
+      },
+      "icon": "mail",
+      "id": "mail",
+      "name": "Mail",
+      "package": {
+        "args": [
+          "/S"
+        ],
+        "exe": "%LOCALAPPDATA%\\Rouges@Mail\\lightmail.exe",
+        "kind": "installer",
+        "previous_exe": "%LOCALAPPDATA%\\Light@Mail\\lightmail.exe",
+        "previous_uninstaller": "%LOCALAPPDATA%\\Light@Mail\\uninstall.exe",
+        "sha256": "73ca795307abbe3f49cf9040a082d78164b6c9a4758682345fb8e126c22fe109",
+        "size": 3682799,
+        "uninstaller": "%LOCALAPPDATA%\\Rouges@Mail\\uninstall.exe",
+        "url": "https://github.com/rouges78/light-mail-releases/releases/download/v0.2.1/LightMail_0.2.1_x64-setup.exe"
+      },
+      "subtitle": {
+        "en": "Lightweight email",
+        "it": "Posta elettronica leggera"
+      },
+      "version": "0.2.1"
     }
   ],
   "launcher": {
@@ -161,5 +190,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.0/RougesSetup.exe",
     "version": "0.1.0"
   },
-  "serial": 8
+  "serial": 9
 }
