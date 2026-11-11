@@ -87,6 +87,28 @@
         "it": "Lettore ed editor PDF"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#38d9a9",
+      "accent_light": "#087f5b",
+      "description": {
+        "en": "ID and password and you are connected: no account, hardware encoding at 60 FPS (NVENC, AMF, QuickSync), traffic straight between the two PCs.",
+        "it": "ID e password e sei connesso: niente account, codifica hardware a 60 FPS (NVENC, AMF, QuickSync), traffico diretto tra i due PC."
+      },
+      "icon": "remote",
+      "id": "pc2pc",
+      "name": "Pc2Pc",
+      "package": {
+        "exe": "RougesPc2Pc.exe",
+        "sha256": "896ef423a2dd344052366bc6a17bc5513084389870ca59a2434211c52a6c7a16",
+        "size": 8185448,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pc2pc-v0.1.0/pc2pc-0.1.0.zip"
+      },
+      "subtitle": {
+        "en": "Lightweight remote desktop",
+        "it": "Desktop remoto leggero"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -95,5 +117,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.0/RougesSetup.exe",
     "version": "0.1.0"
   },
-  "serial": 5
+  "serial": 6
 }
