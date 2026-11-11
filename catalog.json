@@ -1,10 +1,33 @@
 {
-  "apps": [],
+  "apps": [
+    {
+      "accent_dark": "#3ec6e0",
+      "accent_light": "#0b7488",
+      "description": {
+        "en": "Dual pane, parallel queue with resume, and saved sites.",
+        "it": "Doppio pannello, coda parallela con ripresa e siti salvati."
+      },
+      "icon": "ftp",
+      "id": "ftp",
+      "name": "FTP",
+      "package": {
+        "exe": "RougesFTP.exe",
+        "sha256": "8b911a06345adbb985c28ec82d53e1e5dc6c76d4cbcd05eac6b9ebe1585c60d5",
+        "size": 10612456,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/ftp-v0.1.0/ftp-0.1.0.zip"
+      },
+      "subtitle": {
+        "en": "FTP, FTPS and SFTP file transfer",
+        "it": "Trasferimento file FTP, FTPS e SFTP"
+      },
+      "version": "0.1.0"
+    }
+  ],
   "launcher": {
     "sha256": "4ad0f949c96f25ea9078685a7a93c60a0b883079f6a6515a12a1191343f6b5fe",
     "size": 17479680,
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.0/RougesSetup.exe",
     "version": "0.1.0"
   },
-  "serial": 1
+  "serial": 2
 }
