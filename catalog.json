@@ -65,6 +65,28 @@
         "it": "Editor di testo e appunti"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#4dabf7",
+      "accent_light": "#1864ab",
+      "description": {
+        "en": "Instant opening, tiled rendering, a light table to reorder pages and Ctrl+K commands: rotate even, extract 5-12, split every 2.",
+        "it": "Apertura istantanea, rendering a riquadri, tavolo luminoso per riordinare le pagine e comandi Ctrl+K: ruota pari, estrai 5-12, dividi ogni 2."
+      },
+      "icon": "pdf",
+      "id": "pdfking",
+      "name": "PDFKing",
+      "package": {
+        "exe": "PDFKing.exe",
+        "sha256": "dc45cd5ffa24f2f34604b2f9677f2606b79187d860ed7662115381a3fb9edd6e",
+        "size": 26471550,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pdfking-v0.1.0/pdfking-0.1.0.zip"
+      },
+      "subtitle": {
+        "en": "PDF reader and editor",
+        "it": "Lettore ed editor PDF"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -73,5 +95,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.0/RougesSetup.exe",
     "version": "0.1.0"
   },
-  "serial": 4
+  "serial": 5
 }
