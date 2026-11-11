@@ -62,7 +62,8 @@ It downloads the same `RougesSetup.exe`, checks its SHA-256 and runs it.
 
 ## Why a launcher
 
-- **One click per app.** Install, open, update and uninstall each app from its card.
+- **One click per app.** Install, open, update and uninstall each app from its card. Web apps, like
+  Rouges@GameLedger, simply open in your browser: there is nothing to install.
 - **Always up to date.** A new version shows up as **UPDATE**; the launcher updates itself too.
 - **Clean.** Apps live in `%LOCALAPPDATA%\Rouges`, with a Start menu shortcut and a normal entry in
   *Settings → Apps → Installed apps*. No admin rights, no services, nothing running in the background.
