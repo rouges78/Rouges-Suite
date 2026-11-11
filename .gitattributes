@@ -1,0 +1,3 @@
+# catalog.json is signed byte for byte: git must never change its line endings.
+catalog.json -text
+catalog.json.sig -text
