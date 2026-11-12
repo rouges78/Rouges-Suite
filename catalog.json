@@ -122,15 +122,15 @@
       "name": "Kalc+",
       "package": {
         "exe": "RougesKalc.exe",
-        "sha256": "89c96e45737f75c8b1ef9fa0ea4bfd680b40c46a7f3966920eb05a8f58689cdf",
-        "size": 7007352,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/kalc-v0.1.0/kalc-0.1.0.zip"
+        "sha256": "eca9280484e32877da437b6536679b1c530817d95c4337e9fd30f9be38a07c9b",
+        "size": 7007424,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/kalc-v0.1.1/kalc-0.1.1.zip"
       },
       "subtitle": {
         "en": "Tape calculator",
         "it": "Calcolatrice a nastro"
       },
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     {
       "accent_dark": "#ff8787",
@@ -258,5 +258,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.0/RougesSetup.exe",
     "version": "0.1.0"
   },
-  "serial": 21
+  "serial": 22
 }
