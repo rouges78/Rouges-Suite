@@ -57,6 +57,8 @@ It downloads the same `RougesSetup.exe`, checks its SHA-256 and runs it.
 | <img src="assets/icons/db.svg" width="40" alt=""> | **Rouges@DB++** | Lightweight database client: PostgreSQL and SQLite, fast grid, safe edits with SQL review. |
 | <img src="assets/icons/pc2pc.svg" width="40" alt=""> | **Rouges@Pc2Pc** | Lightweight remote desktop: ID and password, no account, hardware encoding at 60 FPS. |
 | <img src="assets/icons/kalc.svg" width="40" alt=""> | **Rouges@Kalc+** | Tape calculator: an editable tape that recalculates as you type, exact calculations. |
+| <img src="assets/icons/playvideo.svg" width="40" alt=""> | **Rouges@PlayVideo** | Video player: any format up to 4K HDR with hardware decoding, seek-bar previews, subtitles and A-B loop. |
+| <img src="assets/icons/videoenhancer.svg" width="40" alt=""> | **Rouges@VideoEnhancer** | AI video upscaling and frame interpolation: Real-ESRGAN and RIFE on the GPU, a live before/after preview. |
 | <img src="assets/icons/gamestringer.svg" width="40" alt=""> | **Rouges@GameStringer** | Game translation with AI: detects the game's engine, extracts the text, translates it and applies the patch. |
 | <img src="assets/icons/gameledger.svg" width="40" alt=""> | **Rouges@GameLedger** | Video game production, in the browser: design docs, assets, roadmap, sprints and bugs linked together, separated by project. |
 
