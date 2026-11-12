@@ -1,4 +1,4 @@
-# Rouges@Launcher - one-command install, without the browser (so no SmartScreen warning):
+# Rouges-Launcher - one-command install, without the browser (so no SmartScreen warning):
 #
 #   irm https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/install.ps1 | iex
 #
@@ -30,7 +30,7 @@ function Test-Address([string]$url) {
 if (-not (Test-Address $catalogUrl)) { throw "Invalid catalog address: $catalogUrl" }
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-Write-Host 'Rouges@Launcher: reading the catalog...'
+Write-Host 'Rouges-Launcher: reading the catalog...'
 $catalog = Invoke-RestMethod -Uri $catalogUrl -UseBasicParsing
 $launcher = $catalog.launcher
 if (-not $launcher -or -not $launcher.url -or -not $launcher.sha256 -or -not $launcher.size) { throw 'The catalog does not list the launcher.' }
@@ -41,7 +41,7 @@ $size = [long]$launcher.size
 
 $setup = Join-Path $env:TEMP "RougesSetup-$version.exe"
 try {
-    Write-Host "Downloading Rouges@Launcher $version..."
+    Write-Host "Downloading Rouges-Launcher $version..."
     Invoke-WebRequest -Uri $launcher.url -OutFile $setup -UseBasicParsing
 
     if ((Get-Item $setup).Length -ne $size) { throw 'The size does not match the catalog: install cancelled.' }
@@ -56,8 +56,8 @@ try {
     # The setup reports its own errors in a window and always exits with 0: the installed launcher
     # must be this very file.
     $ok = $process.ExitCode -eq 0 -and (Test-Path $installed) -and (Get-FileHash -Path $installed -Algorithm SHA256).Hash -eq $hash
-    if (-not $ok) { throw 'Rouges@Launcher was not installed.' }
+    if (-not $ok) { throw 'Rouges-Launcher was not installed.' }
 } finally {
     Remove-Item $setup -Force -ErrorAction SilentlyContinue
 }
-Write-Host 'Done: Rouges@Launcher is in the Start menu and on the desktop.'
+Write-Host 'Done: Rouges-Launcher is in the Start menu and on the desktop.'
