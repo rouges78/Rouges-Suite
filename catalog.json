@@ -272,6 +272,28 @@
         "it": "Upscaling video con IA e interpolazione dei fotogrammi"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#748ffc",
+      "accent_light": "#3b5bdb",
+      "description": {
+        "en": "Finds the devices on the network in seconds, recognises their role and audits Windows PCs: hardware, software to update and health.",
+        "it": "Trova in pochi secondi i dispositivi della rete, ne riconosce il ruolo e analizza i PC Windows: hardware, software da aggiornare e salute."
+      },
+      "icon": "network",
+      "id": "scanlan",
+      "name": "ScanLanPc",
+      "package": {
+        "exe": "RougesScanLanPc.exe",
+        "sha256": "10432f1ef6543f27c40869bd08c825bccccbb5262b46a6255fd75037ed274223",
+        "size": 4239198,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/scanlan-v0.1.0/scanlan-0.1.0.zip"
+      },
+      "subtitle": {
+        "en": "LAN scanner and PC diagnostics",
+        "it": "Scanner LAN e diagnostica dei PC"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -280,5 +302,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.1/RougesSetup.exe",
     "version": "0.1.1"
   },
-  "serial": 24
+  "serial": 25
 }
