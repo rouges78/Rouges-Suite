@@ -184,35 +184,6 @@
       "version": "0.2.3"
     },
     {
-      "accent_dark": "#a9e34b",
-      "accent_light": "#4d6b00",
-      "description": {
-        "en": "Detects the game's engine, extracts the text, translates it with local or cloud AI and applies the patch.",
-        "it": "Riconosce il motore del gioco, estrae i testi, li traduce con IA locale o cloud e applica la patch."
-      },
-      "icon": "translate",
-      "id": "gamestringer",
-      "name": "GameStringer",
-      "package": {
-        "args": [
-          "/S"
-        ],
-        "exe": "%LOCALAPPDATA%\\GameStringer\\gamestringer.exe",
-        "kind": "installer",
-        "previous_exe": "",
-        "previous_uninstaller": "",
-        "sha256": "8c543920075c20b89ff873f03ed40d7bcaa5bf4c643f7fecfebd5fb18c689977",
-        "size": 17868102,
-        "uninstaller": "%LOCALAPPDATA%\\GameStringer\\uninstall.exe",
-        "url": "https://github.com/rouges78/GameStringer/releases/download/v1.17.0/GameStringer_1.17.0_x64-setup.exe"
-      },
-      "subtitle": {
-        "en": "Game translation with AI",
-        "it": "Traduzione di videogiochi con IA"
-      },
-      "version": "1.17.0"
-    },
-    {
       "accent_dark": "#7bd88f",
       "accent_light": "#1d7237",
       "description": {
@@ -302,5 +273,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.3/RougesSetup.exe",
     "version": "0.1.3"
   },
-  "serial": 29
+  "serial": 30
 }

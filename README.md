@@ -60,7 +60,6 @@ It downloads the same `RougesSetup.exe`, checks its SHA-256 and runs it.
 | <img src="assets/icons/playvideo.svg" width="40" alt=""> | **Rouges@PlayVideo** | Video player: any format up to 4K HDR with hardware decoding, seek-bar previews, subtitles and A-B loop. |
 | <img src="assets/icons/videoenhancer.svg" width="40" alt=""> | **Rouges@VideoEnhancer** | AI video upscaling and frame interpolation: Real-ESRGAN and RIFE on the GPU, a live before/after preview. |
 | <img src="assets/icons/scanlan.svg" width="40" alt=""> | **Rouges@ScanLanPc** | LAN scanner and PC diagnostics: finds the devices on the network in seconds, recognises their role and audits Windows PCs: hardware, software to update and health. |
-| <img src="assets/icons/gamestringer.svg" width="40" alt=""> | **Rouges@GameStringer** | Game translation with AI: detects the game's engine, extracts the text, translates it and applies the patch. |
 | <img src="assets/icons/gameledger.svg" width="40" alt=""> | **Rouges@GameLedger** | Video game production, in the browser: design docs, assets, roadmap, sprints and bugs linked together, separated by project. |
 
 ## Why a launcher
