@@ -228,6 +228,28 @@
       },
       "url": "https://gameledger.pages.dev",
       "version": "0.1.1"
+    },
+    {
+      "accent_dark": "#da77f2",
+      "accent_light": "#862e9c",
+      "description": {
+        "en": "Plays any format up to 4K HDR with hardware decoding, seek-bar previews, subtitles, speed, A-B loop and an always-on-top window.",
+        "it": "Apre qualsiasi formato fino al 4K HDR con decodifica hardware, anteprime sulla barra, sottotitoli, velocità, loop A-B e finestra sempre in primo piano."
+      },
+      "icon": "video",
+      "id": "playvideo",
+      "name": "PlayVideo",
+      "package": {
+        "exe": "RougesPlayVideo.exe",
+        "sha256": "d555bd59ca7a8f0fcd6abf41c4a41d90c11e23b14e399b4b840fbde95056cebd",
+        "size": 45424480,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/playvideo-v0.1.0/playvideo-0.1.0.zip"
+      },
+      "subtitle": {
+        "en": "Video player",
+        "it": "Lettore video"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -236,5 +258,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.0/RougesSetup.exe",
     "version": "0.1.0"
   },
-  "serial": 20
+  "serial": 21
 }
