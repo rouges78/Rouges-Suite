@@ -175,7 +175,7 @@
         "sha256": "c2335cc446329c0b063dcea68a985f04b3dd6e4db28e44de683b5fb2467cddc3",
         "size": 3786091,
         "uninstaller": "%LOCALAPPDATA%\\Rouges@Mail\\uninstall.exe",
-        "url": "https://github.com/rouges78/light-mail-releases/releases/download/v0.2.2/RougesMail_0.2.2_x64-setup.exe"
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mail-v0.2.2/RougesMail_0.2.2_x64-setup.exe"
       },
       "subtitle": {
         "en": "Lightweight email",
@@ -302,5 +302,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.2/RougesSetup.exe",
     "version": "0.1.2"
   },
-  "serial": 26
+  "serial": 27
 }
