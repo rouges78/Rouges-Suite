@@ -7,6 +7,68 @@
         "en": "Dual pane, parallel queue with resume, and saved sites.",
         "it": "Doppio pannello, coda parallela con ripresa e siti salvati."
       },
+      "features": [
+        {
+          "text": {
+            "en": "Sign in to SFTP with a password, a private key or the keys in ~/.ssh. Plain FTP and explicit FTPS (TLS) work too.",
+            "it": "Accedi in SFTP con password, chiave privata o le chiavi in ~/.ssh. Funzionano anche FTP e FTPS esplicito (TLS)."
+          },
+          "title": {
+            "en": "SFTP with keys, FTP and FTPS",
+            "it": "SFTP con chiavi, FTP e FTPS"
+          }
+        },
+        {
+          "text": {
+            "en": "Saved sites keep only host and user on disk: passwords go to the Windows Credential Manager.",
+            "it": "Dei siti salvati restano su disco solo host e utente: le password finiscono nel Gestore credenziali di Windows."
+          },
+          "title": {
+            "en": "No passwords in files",
+            "it": "Nessuna password nei file"
+          }
+        },
+        {
+          "text": {
+            "en": "SSH host keys and FTPS certificates not signed by a CA are shown on first use and remembered. If they change, you are warned before any credential is sent.",
+            "it": "Le chiavi host SSH e i certificati FTPS non firmati da una CA vengono mostrati al primo uso e ricordati. Se cambiano, l'app avvisa prima di inviare le credenziali."
+          },
+          "title": {
+            "en": "Host keys and certificates checked",
+            "it": "Chiavi host e certificati controllati"
+          }
+        },
+        {
+          "text": {
+            "en": "Browsing uses its own connection, so folders never freeze while the queue runs on 1 to 10 parallel connections.",
+            "it": "La navigazione usa una connessione separata: le cartelle non si bloccano mai mentre la coda lavora su 1-10 connessioni parallele."
+          },
+          "title": {
+            "en": "Browse while transferring",
+            "it": "Navighi mentre trasferisci"
+          }
+        },
+        {
+          "text": {
+            "en": "Type host, port, user and password, or paste a full address like sftp://user@host:port/path.",
+            "it": "Scrivi host, porta, utente e password, oppure incolla un indirizzo completo come sftp://utente@host:porta/percorso."
+          },
+          "title": {
+            "en": "Quick connect from an address",
+            "it": "Connessione rapida da un indirizzo"
+          }
+        },
+        {
+          "text": {
+            "en": "F5 transfers, F2 renames, F7 makes a folder, Del deletes (local files go to the Recycle Bin). Instant filter and multiple selection in both panes.",
+            "it": "F5 trasferisce, F2 rinomina, F7 crea una cartella, Canc elimina (i file locali vanno nel Cestino). Filtro istantaneo e selezione multipla in entrambi i pannelli."
+          },
+          "title": {
+            "en": "Driven from the keyboard",
+            "it": "Si usa da tastiera"
+          }
+        }
+      ],
       "icon": "ftp",
       "id": "ftp",
       "name": "FTP",
@@ -16,6 +78,17 @@
         "size": 10613675,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/ftp-v0.2.0/ftp-0.2.0.zip"
       },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "Local and remote panes, with the transfer queue",
+            "it": "Pannelli locale e remoto, con la coda dei trasferimenti"
+          },
+          "sha256": "d58026084975ce712035f71cbc42815b3e56584e89b3e8a102e2e8c15f4fc6b8",
+          "size": 75138,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/ftp-1-d5802608.png"
+        }
+      ],
       "subtitle": {
         "en": "FTP, FTPS and SFTP file transfer",
         "it": "Trasferimento file FTP, FTPS e SFTP"
@@ -29,6 +102,68 @@
         "en": "Vertical tabs, spaces, a native tracker shield, Ctrl+K palette, split view and @ commands.",
         "it": "Schede verticali, spazi, scudo anti-tracker nativo, palette Ctrl+K, split view e comandi @."
       },
+      "features": [
+        {
+          "text": {
+            "en": "Uses the WebView2 already in Windows instead of bundling Chromium: an executable of about 6 MB. No account, no telemetry, no feed in the new tab.",
+            "it": "Usa il WebView2 già presente in Windows invece di includere Chromium: un eseguibile di circa 6 MB. Niente account, niente telemetria, niente feed nella nuova scheda."
+          },
+          "title": {
+            "en": "Light, with no account",
+            "it": "Leggero e senza account"
+          }
+        },
+        {
+          "text": {
+            "en": "Install them from the Chrome Web Store with Add to Rouges-Browser, or from a .crx or .zip file. Each one can be switched off or removed.",
+            "it": "Si installano dal Chrome Web Store con Aggiungi a Rouges-Browser, oppure da un file .crx o .zip. Ognuna si può disattivare o rimuovere."
+          },
+          "title": {
+            "en": "Chrome extensions",
+            "it": "Estensioni di Chrome"
+          }
+        },
+        {
+          "text": {
+            "en": "WhatsApp, Telegram, Discord, Slack and any other site stay one click away next to the page, and keep running when the panel is closed.",
+            "it": "WhatsApp, Telegram, Discord, Slack o qualsiasi altro sito restano a un clic, accanto alla pagina, e continuano a funzionare a pannello chiuso."
+          },
+          "title": {
+            "en": "Side panels for chats",
+            "it": "Pannelli laterali per le chat"
+          }
+        },
+        {
+          "text": {
+            "en": "@iso opens a tab with its own cookies and logins, to use two accounts on the same site. @temp (Ctrl+Shift+N) forgets everything when it closes.",
+            "it": "@iso apre una scheda con cookie e accessi separati, per usare due account sullo stesso sito. @temp (Ctrl+Shift+N) cancella tutto alla chiusura."
+          },
+          "title": {
+            "en": "Isolated and throwaway tabs",
+            "it": "Schede isolate e usa e getta"
+          }
+        },
+        {
+          "text": {
+            "en": "Background tabs left alone for 5 minutes are closed to free RAM; they stay in the sidebar and reload with a click. @hibernate changes the delay.",
+            "it": "Le schede in secondo piano inattive da 5 minuti vengono chiuse per liberare RAM; restano nella barra e si ricaricano con un clic. @hibernate cambia l'attesa."
+          },
+          "title": {
+            "en": "Tab hibernation",
+            "it": "Ibernazione delle schede"
+          }
+        },
+        {
+          "text": {
+            "en": "@read (F9) shows only the text, without scripts. Ctrl+Shift+F lets the page fill the whole window.",
+            "it": "@read (F9) mostra solo il testo, senza script. Ctrl+Shift+F lascia alla pagina tutta la finestra."
+          },
+          "title": {
+            "en": "Reader and focus modes",
+            "it": "Modalità lettura e focus"
+          }
+        }
+      ],
       "icon": "browser",
       "id": "browser",
       "name": "Browser",
@@ -38,6 +173,7 @@
         "size": 2888137,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/browser-v0.3.0/browser-0.3.0.zip"
       },
+      "screenshots": [],
       "subtitle": {
         "en": "Light, tracker-free browsing",
         "it": "Navigazione leggera e senza tracker"
@@ -51,6 +187,68 @@
         "en": "A session that is never lost, multi-cursor, regex, an edit timeline, fluid Markdown, data tools and local AI with Ctrl+K.",
         "it": "Sessione che non si perde mai, multi-cursore, regex, timeline delle modifiche, Markdown fluido, strumenti dati e IA locale con Ctrl+K."
       },
+      "features": [
+        {
+          "text": {
+            "en": "Unnamed notes and unsaved edits are stored as you type: reopen and every character is there. Closed tabs can be brought back for 30 days with Ctrl+Shift+T.",
+            "it": "Note senza nome e modifiche non salvate vengono conservate mentre scrivi: riapri e ritrovi tutto. Le schede chiuse si recuperano per 30 giorni con Ctrl+Shift+T."
+          },
+          "title": {
+            "en": "Never asked to save",
+            "it": "Mai più «Vuoi salvare?»"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+Shift+H opens the timeline: drag it to see the note 20 minutes ago or yesterday, then restore it or copy it to a new note. No git to set up.",
+            "it": "Ctrl+Shift+H apre la timeline: la trascini e vedi la nota di 20 minuti fa o di ieri, poi la ripristini o la copi in una nuova nota. Nessun git da configurare."
+          },
+          "title": {
+            "en": "See a note as it was",
+            "it": "La nota com'era prima"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+K sends free requests, like extracting IPs or fixing punctuation, to a local Ollama model. Only local addresses are accepted; Ctrl+Z undoes the result.",
+            "it": "Ctrl+K manda richieste libere, come estrarre gli IP o correggere la punteggiatura, a un modello locale Ollama. Accetta solo indirizzi locali; Ctrl+Z annulla il risultato."
+          },
+          "title": {
+            "en": "AI that stays on your PC",
+            "it": "IA che resta sul tuo PC"
+          }
+        },
+        {
+          "text": {
+            "en": "Files over 16 MB load in the background and only the visible lines are drawn. A file changed on disk is reloaded, and if you were at the end you stay there.",
+            "it": "I file oltre 16 MB si caricano in sottofondo e si disegnano solo le righe visibili. Se un file cambia su disco viene ricaricato, e se eri in fondo resti in fondo."
+          },
+          "title": {
+            "en": "Big files and live logs",
+            "it": "File enormi e log in diretta"
+          }
+        },
+        {
+          "text": {
+            "en": "A diff of two open tabs shows added and removed lines, with the changed words highlighted.",
+            "it": "Il confronto tra due schede aperte mostra le righe aggiunte e tolte, con le parole cambiate evidenziate."
+          },
+          "title": {
+            "en": "Compare two tabs",
+            "it": "Confronto tra due schede"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+B groups unnamed notes into to-dos, code, data, logs and drafts from the shape of the text, with search in their content.",
+            "it": "Ctrl+B raggruppa le note senza nome in to-do, codice, dati, log e bozze in base alla forma del testo, con ricerca nel contenuto."
+          },
+          "title": {
+            "en": "A drawer that sorts notes",
+            "it": "Un cassetto che ordina le note"
+          }
+        }
+      ],
       "icon": "note",
       "id": "futurenote",
       "name": "FutureNote",
@@ -60,6 +258,17 @@
         "size": 8223102,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/futurenote-v0.2.0/futurenote-0.2.0.zip"
       },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "A Markdown file open, with the drawer",
+            "it": "Un file Markdown aperto, con il cassetto"
+          },
+          "sha256": "286da6273fd23b27b14fc8590e2b890855c1683a26f21b5db5f30e1f34d0a139",
+          "size": 151884,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/futurenote-1-286da627.png"
+        }
+      ],
       "subtitle": {
         "en": "Text editor and notes",
         "it": "Editor di testo e appunti"
@@ -73,6 +282,68 @@
         "en": "Instant opening, tiled rendering, a light table to reorder pages and Ctrl+K commands: rotate even, extract 5-12, split every 2.",
         "it": "Apertura istantanea, rendering a riquadri, tavolo luminoso per riordinare le pagine e comandi Ctrl+K: ruota pari, estrai 5-12, dividi ogni 2."
       },
+      "features": [
+        {
+          "text": {
+            "en": "Finds tax codes, VAT numbers, IBANs, emails and phone numbers; BURN removes them from the file itself, not just under a black box, then checks nothing is left.",
+            "it": "Trova codici fiscali, partite IVA, IBAN, email e telefoni; BRUCIA li toglie davvero dal file, non solo sotto un riquadro nero, e poi controlla che non resti nulla."
+          },
+          "title": {
+            "en": "Real redaction",
+            "it": "Oscuramento vero"
+          }
+        },
+        {
+          "text": {
+            "en": "Highlights, notes, shapes, stamps and handwriting are standard PDF annotations that Acrobat shows too. Click a text block to edit it, or a form field to fill it in.",
+            "it": "Evidenziazioni, note, forme, timbri e scrittura a mano sono annotazioni PDF standard, visibili anche in Acrobat. Un clic su un blocco di testo lo modifica, su un campo lo compila."
+          },
+          "title": {
+            "en": "Annotate, edit text, fill forms",
+            "it": "Annoti, modifichi il testo, compili moduli"
+          }
+        },
+        {
+          "text": {
+            "en": "Sign with a certificate from Windows, a smart card, CNS or USB token, or a .pfx file. Signatures in the files you open are verified.",
+            "it": "Firmi con un certificato di Windows, smart card, CNS, token USB o file .pfx. Le firme dei documenti che apri vengono verificate."
+          },
+          "title": {
+            "en": "Digital signatures",
+            "it": "Firma digitale"
+          }
+        },
+        {
+          "text": {
+            "en": "Scanned pages are read on your PC, so search, copy and redaction work on them; embed writes the text into the PDF. ASCII letters only for now.",
+            "it": "Le pagine scansionate vengono lette sul tuo PC, così ricerca, copia e oscuramento funzionano anche lì; incorpora scrive il testo nel PDF. Per ora senza lettere accentate."
+          },
+          "title": {
+            "en": "OCR for scans, offline",
+            "it": "OCR delle scansioni, senza cloud"
+          }
+        },
+        {
+          "text": {
+            "en": "Added words in green and removed ones in red across the whole document, plus a slider that marks pixel differences such as signatures and stamps.",
+            "it": "In verde le parole aggiunte e in rosso quelle tolte, su tutto il documento, più un cursore che segna le differenze al pixel, come firme e timbri."
+          },
+          "title": {
+            "en": "Compare two versions",
+            "it": "Confronto tra due versioni"
+          }
+        },
+        {
+          "text": {
+            "en": "Watermark, header, footer, page numbers, crop and A4/A3/Letter sizes. Protect with an AES-256 password; clean strips metadata, attachments and scripts.",
+            "it": "Filigrana, intestazione, piè di pagina, numeri, ritaglio e formati A4/A3/Lettera. Password AES-256 per proteggere; pulisci toglie metadati, allegati e script."
+          },
+          "title": {
+            "en": "Page tools and passwords",
+            "it": "Strumenti di pagina e password"
+          }
+        }
+      ],
       "icon": "pdf",
       "id": "pdfking",
       "name": "PDFKing",
@@ -82,6 +353,17 @@
         "size": 26471550,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pdfking-v0.1.0/pdfking-0.1.0.zip"
       },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "A PDF in reading mode, with the page thumbnails",
+            "it": "Un PDF in lettura, con le miniature delle pagine"
+          },
+          "sha256": "90ae1797b75c29452b5183c99afe1d8c9a2a8dcb076d88b4156bc4888b1413cb",
+          "size": 169755,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/pdfking-1-90ae1797.png"
+        }
+      ],
       "subtitle": {
         "en": "PDF reader and editor",
         "it": "Lettore ed editor PDF"
@@ -95,6 +377,68 @@
         "en": "ID and password and you are connected: no account, hardware encoding at 60 FPS (NVENC, AMF, QuickSync), traffic straight between the two PCs.",
         "it": "ID e password e sei connesso: niente account, codifica hardware a 60 FPS (NVENC, AMF, QuickSync), traffico diretto tra i due PC."
       },
+      "features": [
+        {
+          "text": {
+            "en": "The ID finds the PC on the local network or online, with a direct connection through the routers or a relay when they block it. No ports to open.",
+            "it": "L'ID trova il PC nella rete locale o su Internet, con collegamento diretto attraverso i router o un relay quando lo bloccano. Nessuna porta da aprire."
+          },
+          "title": {
+            "en": "Works over the Internet too",
+            "it": "Funziona anche via Internet"
+          }
+        },
+        {
+          "text": {
+            "en": "A single executable: start it on both PCs. The ID and a temporary password appear at once, and the password changes at every start or with REGENERATE.",
+            "it": "Un solo eseguibile da avviare sui due PC. ID e password temporanea compaiono subito, e la password cambia a ogni avvio o con RIGENERA."
+          },
+          "title": {
+            "en": "Nothing to install",
+            "it": "Niente da installare"
+          }
+        },
+        {
+          "text": {
+            "en": "Password check bound to the TLS 1.3 session, so no man in the middle. After 5 wrong passwords in 10 minutes a new password replaces the old one.",
+            "it": "Il controllo della password è legato alla sessione TLS 1.3, quindi nessun attacco man-in-the-middle. Dopo 5 password errate in 10 minuti ne viene generata una nuova."
+          },
+          "title": {
+            "en": "Protected against guessing",
+            "it": "Protetto da chi tira a indovinare"
+          }
+        },
+        {
+          "text": {
+            "en": "It shows who is connected and a STOP button that ends the session. One control session at a time.",
+            "it": "Mostra chi è collegato e un pulsante STOP che chiude la sessione. Una sola sessione di controllo alla volta."
+          },
+          "title": {
+            "en": "The controlled PC stays in charge",
+            "it": "Il PC controllato decide"
+          }
+        },
+        {
+          "text": {
+            "en": "An auto-hiding bar in the remote window shows FPS, bandwidth and latency, with full screen and disconnect.",
+            "it": "Una barra a scomparsa nella finestra remota mostra FPS, banda e latenza, con schermo intero e disconnessione."
+          },
+          "title": {
+            "en": "Live connection stats",
+            "it": "Statistiche dal vivo"
+          }
+        },
+        {
+          "text": {
+            "en": "Type an IP or a host name instead of the ID. The last 6 PCs are listed, with a green dot when they answer on the LAN.",
+            "it": "Al posto dell'ID puoi scrivere un IP o un nome host. Gli ultimi 6 PC restano in elenco, con un punto verde se rispondono in rete locale."
+          },
+          "title": {
+            "en": "Connect by address or from recents",
+            "it": "Per indirizzo o dai recenti"
+          }
+        }
+      ],
       "icon": "remote",
       "id": "pc2pc",
       "name": "Pc2Pc",
@@ -104,6 +448,17 @@
         "size": 8185294,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pc2pc-v0.2.0/pc2pc-0.2.0.zip"
       },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "ID and password of this PC, and the connection to another one",
+            "it": "ID e password di questo PC, e il collegamento a un altro"
+          },
+          "sha256": "05c3bb263ea9d5b53cbff8f43bdf6041c5376cd74eb5bb75e568a78bf2891ae5",
+          "size": 62773,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/pc2pc-1-05c3bb26.png"
+        }
+      ],
       "subtitle": {
         "en": "Lightweight remote desktop",
         "it": "Desktop remoto leggero"
@@ -117,6 +472,68 @@
         "en": "A classic keypad, an editable tape that recalculates as you type, and unambiguous percentages, with exact calculations.",
         "it": "Tastierino classico, nastro modificabile che si ricalcola mentre scrivi e percentuali senza ambiguità, con calcoli esatti."
       },
+      "features": [
+        {
+          "text": {
+            "en": "The Quick-Bar applies the typed number to the last result: +% adds, −% subtracts, ÷% EXTRACT takes the tax out of a gross amount, Δ% gives the change.",
+            "it": "La Quick-Bar applica il numero scritto al risultato precedente: +% aggiunge, −% toglie, ÷% SCORPORA ricava il netto dal lordo, Δ% dà la variazione."
+          },
+          "title": {
+            "en": "VAT in one key",
+            "it": "IVA con un tasto"
+          }
+        },
+        {
+          "text": {
+            "en": "ans is the line above and r3 the result of line 3; a label after # says what each line is. Change a number and everything below updates.",
+            "it": "ans è la riga sopra e r3 il risultato della riga 3; un'etichetta dopo # dice cos'è ogni riga. Cambi un numero e tutto ciò che segue si aggiorna."
+          },
+          "title": {
+            "en": "Lines that build on each other",
+            "it": "Righe collegate tra loro"
+          }
+        },
+        {
+          "text": {
+            "en": "Tick the lines to include in the total. Errors, empty lines and percentage changes are left out.",
+            "it": "Spunti le righe da includere nel totale. Errori, righe vuote e variazioni percentuali restano fuori."
+          },
+          "title": {
+            "en": "Grand Total you choose",
+            "it": "Grand Total a scelta"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+V turns an amount copied from a PDF or website, like € 1.240,50 VAT incl., into a number ready to use.",
+            "it": "Ctrl+V trasforma un importo copiato da un PDF o da un sito, come € 1.240,50 IVA incl., in un numero pronto da usare."
+          },
+          "title": {
+            "en": "Clean paste of amounts",
+            "it": "Incolla gli importi puliti"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+Z and Ctrl+Y undo and redo up to 200 steps on the tape. The tape is saved at every change.",
+            "it": "Ctrl+Z e Ctrl+Y annullano e ripetono fino a 200 passi sul nastro. Il nastro viene salvato a ogni modifica."
+          },
+          "title": {
+            "en": "Undo on the tape",
+            "it": "Annulla sul nastro"
+          }
+        },
+        {
+          "text": {
+            "en": "FLOAT, 2 DEC or 0 DEC with commercial rounding. TOP keeps the window above the others, 123 hides the keypad.",
+            "it": "FLOAT, 2 DEC o 0 DEC con arrotondamento commerciale. TOP tiene la finestra sopra le altre, 123 nasconde il tastierino."
+          },
+          "title": {
+            "en": "Rounding and compact window",
+            "it": "Arrotondamento e finestra compatta"
+          }
+        }
+      ],
       "icon": "calc",
       "id": "kalc",
       "name": "Kalc+",
@@ -126,6 +543,17 @@
         "size": 7087998,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/kalc-v0.1.2/kalc-0.1.2.zip"
       },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "Tape, Quick-Bar and keypad",
+            "it": "Nastro, Quick-Bar e tastierino"
+          },
+          "sha256": "ee737fbf668aef80d75a305b3e243360f130a068939eb8ef6b91405d537d7fac",
+          "size": 39063,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/kalc-1-ee737fbf.png"
+        }
+      ],
       "subtitle": {
         "en": "Tape calculator",
         "it": "Calcolatrice a nastro"
@@ -139,6 +567,68 @@
         "en": "PostgreSQL and SQLite, a fast grid, safe edits with SQL review, Ctrl+K and a kill switch.",
         "it": "PostgreSQL e SQLite, griglia veloce, modifiche sicure con review SQL, Ctrl+K, kill switch."
       },
+      "features": [
+        {
+          "text": {
+            "en": "Drop a .sqlite or .db file to open it; CSV, TSV, JSON and NDJSON become in-memory tables you can JOIN together.",
+            "it": "Trascini un .sqlite o .db e si apre; CSV, TSV, JSON e NDJSON diventano tabelle in memoria che puoi unire con JOIN."
+          },
+          "title": {
+            "en": "Query dropped files",
+            "it": "Interroghi i file trascinati"
+          }
+        },
+        {
+          "text": {
+            "en": "Run SELECT … FROM result on the rows already downloaded, without querying the server again.",
+            "it": "Esegui SELECT … FROM result sulle righe già scaricate, senza interrogare di nuovo il server."
+          },
+          "title": {
+            "en": "SQL on the result",
+            "it": "SQL sul risultato"
+          }
+        },
+        {
+          "text": {
+            "en": "Hover a foreign key cell to see the linked row. Column headers show the share of NULLs and distinct values, with min and max in the tooltip.",
+            "it": "Passando su una cella con foreign key vedi la riga collegata. Le intestazioni mostrano la % di NULL e i valori distinti, con minimo e massimo nel tooltip."
+          },
+          "title": {
+            "en": "Foreign keys and column stats",
+            "it": "Foreign key e statistiche delle colonne"
+          }
+        },
+        {
+          "text": {
+            "en": "Read-only is enforced by PostgreSQL and SQLite themselves, not just the interface. A green, yellow or red bar marks local, staging or production.",
+            "it": "La sola lettura la impongono PostgreSQL e SQLite, non solo l'interfaccia. Una barra verde, gialla o rossa indica locale, staging o produzione."
+          },
+          "title": {
+            "en": "Real read-only mode",
+            "it": "Sola lettura vera"
+          }
+        },
+        {
+          "text": {
+            "en": "Copies as CSV, JSON, Markdown or TSV hide emails, tax codes, VAT numbers, IBANs, hashes and passwords.",
+            "it": "Le copie in CSV, JSON, Markdown o TSV nascondono email, codici fiscali, partite IVA, IBAN, hash e password."
+          },
+          "title": {
+            "en": "Personal data masked on copy",
+            "it": "Dati personali oscurati nelle copie"
+          }
+        },
+        {
+          "text": {
+            "en": "The connection file keeps host, port and user; passwords stay in the Windows Credential Manager.",
+            "it": "Il file delle connessioni contiene host, porta e utente; le password restano nel Gestore credenziali di Windows."
+          },
+          "title": {
+            "en": "Passwords in the system keyring",
+            "it": "Password nel portachiavi di sistema"
+          }
+        }
+      ],
       "icon": "db",
       "id": "db",
       "name": "DB",
@@ -148,6 +638,17 @@
         "size": 2917198,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/db-v0.2.1/db-0.2.1.zip"
       },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "The demo SQLite database and the query editor",
+            "it": "Il database SQLite di prova e l'editor delle query"
+          },
+          "sha256": "1f33e992f63a571052d0ceebc4be610ced1170bdb1c082696e034a4273b55dd2",
+          "size": 49202,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/db-1-1f33e992.png"
+        }
+      ],
       "subtitle": {
         "en": "Lightweight database client",
         "it": "Client database leggero"
@@ -161,6 +662,68 @@
         "en": "A fast, minimal desktop email client.",
         "it": "Client di posta desktop veloce e minimale."
       },
+      "features": [
+        {
+          "text": {
+            "en": "Messages are downloaded and kept locally, compressed, with instant full-text search that works offline. The archive can be encrypted with a master password.",
+            "it": "I messaggi vengono scaricati e conservati in locale, compressi, con ricerca immediata nel testo anche offline. L'archivio si può cifrare con una password principale."
+          },
+          "title": {
+            "en": "All your mail on your PC",
+            "it": "Tutta la posta sul tuo PC"
+          }
+        },
+        {
+          "text": {
+            "en": "Works with any provider over IMAP or POP3, Gmail and PEC included. Account passwords stay in the Windows Credential Manager.",
+            "it": "Funziona con qualsiasi provider via IMAP o POP3, compresi Gmail e PEC. Le password degli account restano nel Gestore credenziali di Windows."
+          },
+          "title": {
+            "en": "IMAP and POP3 accounts",
+            "it": "Account IMAP e POP3"
+          }
+        },
+        {
+          "text": {
+            "en": "With Ollama on your PC: summarise a message, draft a reply, or make your text shorter, more formal or translated. Message text never leaves the computer.",
+            "it": "Con Ollama sul tuo PC riassume un messaggio, scrive una bozza di risposta, rende il testo più breve, più formale o lo traduce. Il testo delle email non esce dal computer."
+          },
+          "title": {
+            "en": "Local AI assistant",
+            "it": "Assistente AI locale"
+          }
+        },
+        {
+          "text": {
+            "en": "Flags suspicious messages and links that show an address different from the real one. Remote content stays blocked until you allow it.",
+            "it": "Segnala i messaggi sospetti e i link che mostrano un indirizzo diverso da quello reale. I contenuti remoti restano bloccati finché non li consenti."
+          },
+          "title": {
+            "en": "Phishing warnings",
+            "it": "Avvisi contro il phishing"
+          }
+        },
+        {
+          "text": {
+            "en": "Snooze a message until later, schedule a send for tomorrow morning, and get reminded when nobody has replied.",
+            "it": "Rimandi un messaggio a più tardi, programmi un invio per domattina e ricevi un promemoria se nessuno ha risposto."
+          },
+          "title": {
+            "en": "Snooze, send later, reminders",
+            "it": "Rimanda, invio programmato, promemoria"
+          }
+        },
+        {
+          "text": {
+            "en": "Copies your mail to any folder or NAS as .eml and HTML files, with a searchable index.html you can browse in any browser. It can update itself daily.",
+            "it": "Copia la posta in una cartella o su un NAS come file .eml e HTML, con un index.html consultabile da qualsiasi browser. Può aggiornarsi da solo ogni giorno."
+          },
+          "title": {
+            "en": "Backup readable without the app",
+            "it": "Backup leggibile senza l'app"
+          }
+        }
+      ],
       "icon": "mail",
       "id": "mail",
       "name": "LightMail",
@@ -177,6 +740,7 @@
         "uninstaller": "%LOCALAPPDATA%\\Rouges-LightMail\\uninstall.exe",
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mail-v0.2.4/Rouges-LightMail_0.2.4_x64-setup.exe"
       },
+      "screenshots": [],
       "subtitle": {
         "en": "Lightweight email",
         "it": "Posta elettronica leggera"
@@ -190,9 +754,72 @@
         "en": "Design docs, assets, roadmap, sprints and bugs linked together, separated by project.",
         "it": "Design doc, asset, roadmap, sprint e bug collegati tra loro, separati per progetto."
       },
+      "features": [
+        {
+          "text": {
+            "en": "A block editor with nested pages, / commands, images, a GDD template and autosave. Each document shows the assets linked to it.",
+            "it": "Editor a blocchi con pagine annidate, comandi /, immagini, template GDD e salvataggio automatico. Ogni documento mostra gli asset collegati."
+          },
+          "title": {
+            "en": "Notion-style design docs",
+            "it": "Design doc in stile Notion"
+          }
+        },
+        {
+          "text": {
+            "en": "A table with search and filters by type, status and milestone. Change status inline: Idea, In progress, Ready for Engine, In-Game.",
+            "it": "Tabella con ricerca e filtri per tipo, stato e milestone. Lo stato si cambia in riga: Idea, In corso, Ready for Engine, In-Game."
+          },
+          "title": {
+            "en": "Asset pipeline",
+            "it": "Pipeline degli asset"
+          }
+        },
+        {
+          "text": {
+            "en": "From prototype to release and patches, each with a deadline, progress of tasks and assets, open bugs and its own build checklist.",
+            "it": "Dal prototipo al rilascio e alle patch, ognuna con scadenza, avanzamento di task e asset, bug aperti e la sua checklist di build."
+          },
+          "title": {
+            "en": "Milestones with build checklist",
+            "it": "Milestone con checklist di build"
+          }
+        },
+        {
+          "text": {
+            "en": "A Kanban from Backlog to Done with drag and drop, from the keyboard too (Space, arrows, Space), filtered by milestone.",
+            "it": "Kanban da Backlog a Fatto con trascinamento, anche da tastiera (Spazio, frecce, Spazio), filtrabile per milestone."
+          },
+          "title": {
+            "en": "Sprint board",
+            "it": "Sprint board"
+          }
+        },
+        {
+          "text": {
+            "en": "Severity, status, steps to reproduce, build, platform, milestone and the asset involved. Open bugs are shown by default.",
+            "it": "Severità, stato, passi per riprodurre, build, piattaforma, milestone e asset coinvolto. Di default mostra solo i bug aperti."
+          },
+          "title": {
+            "en": "Bug tracker",
+            "it": "Bug tracker"
+          }
+        },
+        {
+          "text": {
+            "en": "Nothing to install: sign in and create your projects. Only project members see their data, and a notice offers to reload when a new version is out.",
+            "it": "Niente da installare: accedi e crei i tuoi progetti. Solo i membri vedono i dati di un progetto, e un avviso propone di ricaricare quando esce una nuova versione."
+          },
+          "title": {
+            "en": "Private projects, in the browser",
+            "it": "Progetti privati, nel browser"
+          }
+        }
+      ],
       "icon": "ledger",
       "id": "gameledger",
       "name": "GameLedger",
+      "screenshots": [],
       "subtitle": {
         "en": "Video game production",
         "it": "Produzione di videogiochi"
@@ -207,6 +834,68 @@
         "en": "Plays any format up to 4K HDR with hardware decoding, seek-bar previews, subtitles, speed, A-B loop and an always-on-top window.",
         "it": "Apre qualsiasi formato fino al 4K HDR con decodifica hardware, anteprime sulla barra, sottotitoli, velocità, loop A-B e finestra sempre in primo piano."
       },
+      "features": [
+        {
+          "text": {
+            "en": "Videos longer than 2 minutes reopen at the point you stopped; Home starts over.",
+            "it": "I video più lunghi di 2 minuti ripartono dal punto in cui li avevi lasciati; Home ricomincia dall'inizio."
+          },
+          "title": {
+            "en": "Picks up where you left off",
+            "it": "Riprende da dove eri rimasto"
+          }
+        },
+        {
+          "text": {
+            "en": "P turns the window into a borderless 480 px mini-player in the corner of the screen, always on top. On exit it goes back exactly as it was.",
+            "it": "P trasforma la finestra in un mini-player senza bordi da 480 px nell'angolo dello schermo, sempre in primo piano. Uscendo torna esattamente com'era."
+          },
+          "title": {
+            "en": "Picture-in-Picture",
+            "it": "Picture-in-Picture"
+          }
+        },
+        {
+          "text": {
+            "en": ", and . step one frame; the arrows jump 5 s (60 s with Shift). Speed from 0.25× to 4× with pitch correction.",
+            "it": ", e . vanno avanti o indietro di un fotogramma; le frecce saltano di 5 s (60 s con Shift). Velocità da 0,25× a 4× con correzione del tono."
+          },
+          "title": {
+            "en": "Frame-accurate control",
+            "it": "Controllo al fotogramma"
+          }
+        },
+        {
+          "text": {
+            "en": "V and A switch track, G and H shift subtitles by 100 ms. Set preferred languages and subtitle size, or drop a subtitle file on the window.",
+            "it": "V e A cambiano traccia, G e H spostano i sottotitoli di 100 ms. Imposti lingue preferite e dimensione dei sottotitoli, o trascini un file di sottotitoli sulla finestra."
+          },
+          "title": {
+            "en": "Subtitles and audio tracks",
+            "it": "Sottotitoli e tracce audio"
+          }
+        },
+        {
+          "text": {
+            "en": "N turns on the dynamic audio normalizer for quiet dialogue and loud scenes; volume goes up to 300%.",
+            "it": "N attiva il normalizzatore audio dinamico, utile con dialoghi bassi e scene forti; il volume arriva al 300%."
+          },
+          "title": {
+            "en": "Even volume",
+            "it": "Volume uniforme"
+          }
+        },
+        {
+          "text": {
+            "en": "S saves the current frame as PNG, WebP or JPEG in the folder you choose.",
+            "it": "S salva il fotogramma corrente in PNG, WebP o JPEG nella cartella che preferisci."
+          },
+          "title": {
+            "en": "Frame screenshots",
+            "it": "Screenshot del fotogramma"
+          }
+        }
+      ],
       "icon": "video",
       "id": "playvideo",
       "name": "PlayVideo",
@@ -216,6 +905,17 @@
         "size": 45424480,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/playvideo-v0.1.0/playvideo-0.1.0.zip"
       },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "Start screen: drop a video or open a file",
+            "it": "Schermata iniziale: trascini un video o apri un file"
+          },
+          "sha256": "ddf9a42b24ce0815a8c6169a8f1d58de50566dbcdb1a4f66b724828085f0da45",
+          "size": 157788,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/playvideo-1-ddf9a42b.png"
+        }
+      ],
       "subtitle": {
         "en": "Video player",
         "it": "Lettore video"
@@ -229,6 +929,68 @@
         "en": "Real-ESRGAN upscaling and RIFE interpolation on the GPU, a live before/after preview and the original audio kept.",
         "it": "Upscaling Real-ESRGAN e interpolazione RIFE su GPU, anteprima dal vivo prima/dopo e audio originale conservato."
       },
+      "features": [
+        {
+          "text": {
+            "en": "Pick 1x, 2x or 4x as the final size. At 1x the AI model cleans up the picture without changing resolution.",
+            "it": "Scegli 1x, 2x o 4x come dimensione finale. A 1x il modello AI migliora l'immagine senza cambiare risoluzione."
+          },
+          "title": {
+            "en": "Upscale or just enhance",
+            "it": "Ingrandire o solo migliorare"
+          }
+        },
+        {
+          "text": {
+            "en": "Doubles or quadruples the frame rate with RIFE. At scene cuts the frame is repeated instead of blended, to avoid ghosting.",
+            "it": "Raddoppia o quadruplica i fotogrammi al secondo con RIFE. Ai cambi di scena il fotogramma viene ripetuto invece che fuso, per evitare immagini fantasma."
+          },
+          "title": {
+            "en": "Smoother motion",
+            "it": "Movimento più fluido"
+          }
+        },
+        {
+          "text": {
+            "en": "Drag the divider to compare original and result, zoom with the wheel, and move along the timeline to try another frame.",
+            "it": "Trascini il divisore per confrontare originale e risultato, zoomi con la rotella e scorri la timeline per provare un altro fotogramma."
+          },
+          "title": {
+            "en": "Check before you render",
+            "it": "Verifichi prima di elaborare"
+          }
+        },
+        {
+          "text": {
+            "en": "Auto acceleration picks a provider for NVIDIA, AMD or Intel GPUs, with the CPU as fallback; the log shows which one is running.",
+            "it": "L'accelerazione automatica sceglie il motore adatto a GPU NVIDIA, AMD o Intel, con la CPU come riserva; il log indica quale è attivo."
+          },
+          "title": {
+            "en": "Uses the GPU you have",
+            "it": "Usa la GPU che hai"
+          }
+        },
+        {
+          "text": {
+            "en": "ProRes and FFV1 outputs go through a 16-bit pipeline; other formats use 8 bits.",
+            "it": "In uscita ProRes e FFV1 l'elaborazione è a 16 bit; gli altri formati usano 8 bit."
+          },
+          "title": {
+            "en": "16-bit for ProRes and FFV1",
+            "it": "16 bit per ProRes e FFV1"
+          }
+        },
+        {
+          "text": {
+            "en": "Real-ESRGAN and RIFE models are downloaded on first use and checked with SHA-256.",
+            "it": "I modelli Real-ESRGAN e RIFE vengono scaricati al primo uso e verificati con SHA-256."
+          },
+          "title": {
+            "en": "Verified open models",
+            "it": "Modelli aperti verificati"
+          }
+        }
+      ],
       "icon": "enhance",
       "id": "videoenhancer",
       "name": "VideoEnhancer",
@@ -238,6 +1000,17 @@
         "size": 112753656,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/videoenhancer-v0.1.0/videoenhancer-0.1.0.zip"
       },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "AI model, scale and frame interpolation",
+            "it": "Modello AI, scala e interpolazione dei fotogrammi"
+          },
+          "sha256": "eee9e914ac1c781cc9bca22f325c39cee52aecd85bf1e3329895d32c6f5edaf1",
+          "size": 73091,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/videoenhancer-1-eee9e914.png"
+        }
+      ],
       "subtitle": {
         "en": "AI video upscaling and frame interpolation",
         "it": "Upscaling video con IA e interpolazione dei fotogrammi"
@@ -251,6 +1024,68 @@
         "en": "Finds the devices on the network in seconds, recognises their role and audits Windows PCs: hardware, software to update and health.",
         "it": "Trova in pochi secondi i dispositivi della rete, ne riconosce il ruolo e analizza i PC Windows: hardware, software da aggiornare e salute."
       },
+      "features": [
+        {
+          "text": {
+            "en": "Stars out of 10 from hardware age, system disk, RAM, CPU and Windows 11 support, with the reasons: from Replace now to Brand new and fast.",
+            "it": "Stelle su 10 in base a età dell'hardware, disco di sistema, RAM, CPU e compatibilità con Windows 11, con i motivi: da «Da cambiare subito» a «Nuovo e performante»."
+          },
+          "title": {
+            "en": "A rating for every PC",
+            "it": "Un voto per ogni PC"
+          }
+        },
+        {
+          "text": {
+            "en": "S.M.A.R.T., SSD wear and disk temperature, hardware errors and unexpected shutdowns in the last 7 days, antivirus status and pending reboots.",
+            "it": "S.M.A.R.T., usura degli SSD e temperatura dei dischi, errori hardware e spegnimenti anomali degli ultimi 7 giorni, stato dell'antivirus e riavvii in sospeso."
+          },
+          "title": {
+            "en": "Disk and hardware health",
+            "it": "Salute di dischi e hardware"
+          }
+        },
+        {
+          "text": {
+            "en": "Installed programs are checked against the winget catalog; the most exposed ones, like browsers, PDF readers and remote access, are marked critical.",
+            "it": "I programmi installati vengono confrontati con il catalogo winget; i più esposti, come browser, lettori PDF e accesso remoto, sono segnati come critici."
+          },
+          "title": {
+            "en": "Programs to update",
+            "it": "Programmi da aggiornare"
+          }
+        },
+        {
+          "text": {
+            "en": "Filter PCs by rating, health or system, add a recipient and notes, then print the report or save it as PDF.",
+            "it": "Filtri i PC per voto, salute o sistema, aggiungi destinatario e note, poi stampi il resoconto o lo salvi in PDF."
+          },
+          "title": {
+            "en": "Printable assessment",
+            "it": "Valutazione da stampare"
+          }
+        },
+        {
+          "text": {
+            "en": "Wake a PC with Wake-on-LAN, restart or shut it down, open C$ and shares, or take control with Remote Desktop or Rouges-Pc2Pc.",
+            "it": "Accendi un PC con Wake-on-LAN, lo riavvii o lo spegni, apri C$ e le condivisioni, oppure lo controlli con Desktop remoto o Rouges-Pc2Pc."
+          },
+          "title": {
+            "en": "Remote actions",
+            "it": "Azioni da remoto"
+          }
+        },
+        {
+          "text": {
+            "en": "Discovery needs neither admin rights nor Npcap. The audit uses admin credentials, kept in the Windows Credential Manager.",
+            "it": "La ricerca dei dispositivi non richiede admin né Npcap. L'analisi usa credenziali di amministratore, conservate nel Gestore credenziali di Windows."
+          },
+          "title": {
+            "en": "Scan without admin rights",
+            "it": "Scansione senza diritti di admin"
+          }
+        }
+      ],
       "icon": "network",
       "id": "scanlan",
       "name": "ScanLanPc",
@@ -260,6 +1095,17 @@
         "size": 4283735,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/scanlan-v0.2.5/scanlan-0.2.5.zip"
       },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "The device list, before the first scan",
+            "it": "L'elenco dei dispositivi, prima della prima scansione"
+          },
+          "sha256": "26360bbe198308c6d5e204734b8d596863c6b61308b42560165a8e95e23ccd03",
+          "size": 30819,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/scanlan-1-26360bbe.png"
+        }
+      ],
       "subtitle": {
         "en": "LAN scanner and PC diagnostics",
         "it": "Scanner LAN e diagnostica dei PC"
@@ -273,5 +1119,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.5/RougesSetup.exe",
     "version": "0.1.5"
   },
-  "serial": 43
+  "serial": 44
 }
