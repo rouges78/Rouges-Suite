@@ -996,9 +996,9 @@
       "name": "VideoEnhancer",
       "package": {
         "exe": "RougesVideoEnhancer.exe",
-        "sha256": "0b61752835a959f4d8a5c708a88aa400f9c3265015b63e9f1ac455302623c87c",
-        "size": 112753656,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/videoenhancer-v0.1.0/videoenhancer-0.1.0.zip"
+        "sha256": "61b52a76ddf55163f839be5556a9ed89789df5e88334a963847320dfce363d41",
+        "size": 112753749,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/videoenhancer-v0.1.1/videoenhancer-0.1.1.zip"
       },
       "screenshots": [
         {
@@ -1015,7 +1015,7 @@
         "en": "AI video upscaling and frame interpolation",
         "it": "Upscaling video con IA e interpolazione dei fotogrammi"
       },
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     {
       "accent_dark": "#748ffc",
@@ -1119,5 +1119,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.6/RougesSetup.exe",
     "version": "0.1.6"
   },
-  "serial": 51
+  "serial": 52
 }
