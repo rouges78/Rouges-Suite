@@ -54,7 +54,7 @@ It downloads the same `RougesSetup.exe`, checks its SHA-256 and runs it.
 | <img src="assets/icons/browser.svg" width="40" alt=""> | **Rouges-Browser** | Light, tracker-free browsing: vertical tabs, spaces, a native tracker shield, split view. |
 | <img src="assets/icons/futurenote.svg" width="40" alt=""> | **Rouges-FutureNote** | Text editor and notes: a session that is never lost, multi-cursor, fluid Markdown, local AI. |
 | <img src="assets/icons/pdfking.svg" width="40" alt=""> | **Rouges-PDFKing** | PDF reader and editor: instant opening, a light table to reorder pages, OCR. |
-| <img src="assets/icons/db.svg" width="40" alt=""> | **Rouges-DB++** | Lightweight database client: PostgreSQL and SQLite, fast grid, safe edits with SQL review. |
+| <img src="assets/icons/db.svg" width="40" alt=""> | **Rouges-DB** | Lightweight database client: PostgreSQL and SQLite, fast grid, safe edits with SQL review. |
 | <img src="assets/icons/pc2pc.svg" width="40" alt=""> | **Rouges-Pc2Pc** | Lightweight remote desktop: ID and password, no account, hardware encoding at 60 FPS. |
 | <img src="assets/icons/kalc.svg" width="40" alt=""> | **Rouges-Kalc+** | Tape calculator: an editable tape that recalculates as you type, exact calculations. |
 | <img src="assets/icons/playvideo.svg" width="40" alt=""> | **Rouges-PlayVideo** | Video player: any format up to 4K HDR with hardware decoding, seek-bar previews, subtitles and A-B loop. |

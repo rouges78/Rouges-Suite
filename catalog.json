@@ -141,18 +141,18 @@
       },
       "icon": "db",
       "id": "db",
-      "name": "DB++",
+      "name": "DB",
       "package": {
         "exe": "RougesDB.exe",
-        "sha256": "f8a8a838bddc52b2182f3c75ba3a9a0f93ba039ad1a84f90fe84757ab01d41d3",
-        "size": 2916728,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/db-v0.2.0/db-0.2.0.zip"
+        "sha256": "e5667cceca4e009e26cdb51a376be14c664cbeb7d98ff0c1b3ae4540c1c0d6cb",
+        "size": 2917198,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/db-v0.2.1/db-0.2.1.zip"
       },
       "subtitle": {
         "en": "Lightweight database client",
         "it": "Client database leggero"
       },
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
     {
       "accent_dark": "#ffa94d",
@@ -273,5 +273,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.4/RougesSetup.exe",
     "version": "0.1.4"
   },
-  "serial": 41
+  "serial": 42
 }
