@@ -254,9 +254,9 @@
       "name": "FutureNote",
       "package": {
         "exe": "FutureNote.exe",
-        "sha256": "4a7a1b16388d66440481b2a15f0b84efcf053ec8dd039adaa6a8af8cb9b20e5c",
-        "size": 8312871,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/futurenote-v0.2.1/futurenote-0.2.1.zip"
+        "sha256": "f247ab690104a8e94eab726153b9cc18571eb57fd20ff406f971de2abc303693",
+        "size": 8325387,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/futurenote-v0.2.2/futurenote-0.2.2.zip"
       },
       "screenshots": [
         {
@@ -273,7 +273,7 @@
         "en": "Text editor and notes",
         "it": "Editor di testo e appunti"
       },
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     {
       "accent_dark": "#4dabf7",
@@ -1119,5 +1119,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.6/RougesSetup.exe",
     "version": "0.1.6"
   },
-  "serial": 55
+  "serial": 56
 }
