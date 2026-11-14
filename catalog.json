@@ -349,9 +349,9 @@
       "name": "PDFKing",
       "package": {
         "exe": "PDFKing.exe",
-        "sha256": "26ca7d8efe4607be8b6e4f180dca4ad5f0e191383d275e81cde17624c1b040cd",
-        "size": 26529345,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pdfking-v0.1.2/pdfking-0.1.2.zip"
+        "sha256": "6c8a44451d9c6324de7f2cf5fbfbdaa56aba30672c798c8b0da783f034ec905a",
+        "size": 26540904,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pdfking-v0.1.3/pdfking-0.1.3.zip"
       },
       "screenshots": [
         {
@@ -368,7 +368,7 @@
         "en": "PDF reader and editor",
         "it": "Lettore ed editor PDF"
       },
-      "version": "0.1.2"
+      "version": "0.1.3"
     },
     {
       "accent_dark": "#38d9a9",
@@ -1119,5 +1119,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.6/RougesSetup.exe",
     "version": "0.1.6"
   },
-  "serial": 56
+  "serial": 57
 }
