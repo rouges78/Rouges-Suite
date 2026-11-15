@@ -99,18 +99,38 @@
       "accent_dark": "#b197fc",
       "accent_light": "#6741d9",
       "description": {
-        "en": "Vertical tabs, spaces, a native tracker shield, Ctrl+K palette, split view and @ commands.",
-        "it": "Schede verticali, spazi, scudo anti-tracker nativo, palette Ctrl+K, split view e comandi @."
+        "en": "Vertical tabs, spaces, a native tracker shield, bookmarks with an update LED, Ctrl+K palette, split view and @ commands.",
+        "it": "Schede verticali, spazi, scudo anti-tracker nativo, preferiti con il LED degli aggiornamenti, palette Ctrl+K, split view e comandi @."
       },
       "features": [
         {
           "text": {
-            "en": "Uses the WebView2 already in Windows instead of bundling Chromium: an executable of about 6 MB. No account, no telemetry, no feed in the new tab.",
-            "it": "Usa il WebView2 già presente in Windows invece di includere Chromium: un eseguibile di circa 6 MB. Niente account, niente telemetria, niente feed nella nuova scheda."
+            "en": "Uses the WebView2 already in Windows instead of bundling Chromium: an executable of about 8 MB. No account, no telemetry, no feed in the new tab.",
+            "it": "Usa il WebView2 già presente in Windows invece di includere Chromium: un eseguibile di circa 8 MB. Niente account, niente telemetria, niente feed nella nuova scheda."
           },
           "title": {
             "en": "Light, with no account",
             "it": "Leggero e senza account"
+          }
+        },
+        {
+          "text": {
+            "en": "A green light tells when a bookmarked page has something new since you last read it; for sites with a feed it also lists the new articles. Amber means the page no longer exists. Checks run in the background, without your cookies.",
+            "it": "Una luce verde dice quando una pagina tra i preferiti ha qualcosa di nuovo dall'ultima volta che l'hai letta; per i siti con un feed elenca anche gli articoli nuovi. Ambra vuol dire che la pagina non esiste più. I controlli girano in background, senza i tuoi cookie."
+          },
+          "title": {
+            "en": "A LED on every bookmark",
+            "it": "Un LED su ogni preferito"
+          }
+        },
+        {
+          "text": {
+            "en": "Import from Chrome, Edge, Brave, Vivaldi, Opera, Firefox and their relatives, every profile, folders kept; or from an HTML file. The manager (Ctrl+Shift+O) shows news, duplicates and dead links.",
+            "it": "Si importano da Chrome, Edge, Brave, Vivaldi, Opera, Firefox e simili, da ogni profilo, con le cartelle; oppure da un file HTML. La gestione (Ctrl+Shift+O) mostra novità, doppioni e link morti."
+          },
+          "title": {
+            "en": "Bookmarks from any browser",
+            "it": "Preferiti da qualsiasi browser"
           }
         },
         {
@@ -1119,5 +1139,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.8/RougesSetup.exe",
     "version": "0.1.8"
   },
-  "serial": 64
+  "serial": 65
 }
