@@ -1151,6 +1151,119 @@
         "it": "Scanner LAN e diagnostica dei PC"
       },
       "version": "0.2.9"
+    },
+    {
+      "accent_dark": "#a9e34b",
+      "accent_light": "#5c940d",
+      "description": {
+        "en": "A magnetic timeline that turns into tracks with one key, editing from a script transcribed on your PC, node-based colour and export to several formats at once.",
+        "it": "Timeline magnetica che diventa a tracce con un tasto, montaggio dal copione trascritto sul tuo PC, colore a nodi ed export in più formati insieme."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "The main storyline is always continuous: inserting, removing or trimming a clip moves the rest, with no gaps and nothing out of sync. Tab shows the same clips on separate video and audio tracks.",
+            "it": "La storyline principale resta sempre continua: inserire, togliere o accorciare una clip sposta il resto, senza buchi né fuori sincrono. Con Tab le stesse clip passano su tracce video e audio separate."
+          },
+          "title": {
+            "en": "Magnetic timeline, or tracks",
+            "it": "Timeline magnetica, o a tracce"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+T turns the timeline into a script, transcribed on your PC by Whisper and split by speaker. Select words and Del cuts that stretch from the whole timeline. The model (about 590 MB) is downloaded once.",
+            "it": "Ctrl+T trasforma la timeline in un copione, trascritto sul tuo PC da Whisper e diviso per parlante. Selezioni le parole e Canc taglia quel tratto da tutta la timeline. Il modello (circa 590 MB) si scarica una volta."
+          },
+          "title": {
+            "en": "Edit from the text",
+            "it": "Montaggio dal testo"
+          }
+        },
+        {
+          "text": {
+            "en": "Clean up marks in red the pauses over a threshold and fillers like “um”; Enter makes all the cuts at once.",
+            "it": "Ripulisci segna in rosso le pause oltre una soglia e gli intercalari come «ehm» e «cioè»; Invio esegue tutti i tagli insieme."
+          },
+          "title": {
+            "en": "Clean up pauses and fillers",
+            "it": "Via pause e intercalari"
+          }
+        },
+        {
+          "text": {
+            "en": "Primaries (lift, gamma, gain, exposure, temperature) and Curves nodes in series, with Rec.709, S-Log3, LogC3 and V-Log inputs. Preview and export use the same LUT, so they match.",
+            "it": "Nodi Primarie (lift, gamma, gain, esposizione, temperatura) e Curve in serie, con ingressi Rec.709, S-Log3, LogC3 e V-Log. Anteprima ed export usano la stessa LUT, quindi coincidono."
+          },
+          "title": {
+            "en": "Node-based colour",
+            "it": "Colore a nodi"
+          }
+        },
+        {
+          "text": {
+            "en": "H.264, 10-bit HEVC, ProRes 422 HQ and vertical 9:16, even all together, with hardware encoding when available. The final render is done by FFmpeg at 10 bits from the original files.",
+            "it": "H.264, HEVC 10 bit, ProRes 422 HQ e verticale 9:16, anche tutti insieme, con codifica hardware se disponibile. Il render finale lo fa FFmpeg a 10 bit dai file originali."
+          },
+          "title": {
+            "en": "Several formats in one go",
+            "it": "Più formati in un colpo"
+          }
+        },
+        {
+          "text": {
+            "en": "An .srt file next to the video, or burned into the picture in four styles. When several people speak, the subtitles say who starts talking.",
+            "it": "Un file .srt accanto al video, oppure impressi nell'immagine in quattro stili. Se parlano più persone, i sottotitoli dicono chi comincia a parlare."
+          },
+          "title": {
+            "en": "Subtitles from the script",
+            "it": "Sottotitoli dal copione"
+          }
+        }
+      ],
+      "icon": "editor",
+      "id": "aethernle",
+      "name": "AetherNLE",
+      "package": {
+        "exe": "RougesAetherNLE.exe",
+        "sha256": "31c84f6fd961a749caf04afa73bd9596bb80e056dcc527d6cae5832edae471b9",
+        "size": 89001353,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/aethernle-v0.4.4/aethernle-0.4.4.zip"
+      },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "The magnetic timeline",
+            "it": "La timeline magnetica"
+          },
+          "sha256": "06155851aea432def37510f405d73f062e7284cdd509d7eb932755497377ac40",
+          "size": 1140169,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/aethernle-1-06155851.png"
+        },
+        {
+          "caption": {
+            "en": "Script with pauses and fillers to clean up",
+            "it": "Il copione con pause e intercalari da ripulire"
+          },
+          "sha256": "b16bbeaa1ef509a16179ad102f937bf09498af521ea119919eeb453a3eb4cffa",
+          "size": 339641,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/aethernle-2-b16bbeaa.png"
+        },
+        {
+          "caption": {
+            "en": "Colour nodes on a clip",
+            "it": "I nodi colore di una clip"
+          },
+          "sha256": "b2748deefb51ae1ebac9abe18d693bd9a2f324a92168254a82f7ffcc117d022b",
+          "size": 292139,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/aethernle-3-b2748dee.png"
+        }
+      ],
+      "subtitle": {
+        "en": "Video editor with text-based editing",
+        "it": "Editor video con montaggio dal testo"
+      },
+      "version": "0.4.4"
     }
   ],
   "launcher": {
@@ -1159,5 +1272,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.8/RougesSetup.exe",
     "version": "0.1.8"
   },
-  "serial": 70
+  "serial": 71
 }
