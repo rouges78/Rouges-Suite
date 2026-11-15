@@ -851,10 +851,30 @@
       "accent_dark": "#da77f2",
       "accent_light": "#862e9c",
       "description": {
-        "en": "Plays any format up to 4K HDR with hardware decoding, seek-bar previews, subtitles, speed, A-B loop and an always-on-top window.",
-        "it": "Apre qualsiasi formato fino al 4K HDR con decodifica hardware, anteprime sulla barra, sottotitoli, velocità, loop A-B e finestra sempre in primo piano."
+        "en": "Plays any format up to 4K HDR with hardware decoding, seek-bar previews, subtitles, speed, A-B loop and an always-on-top window. Repairs damaged videos and creates automatic subtitles.",
+        "it": "Apre qualsiasi formato fino al 4K HDR con decodifica hardware, anteprime sulla barra, sottotitoli, velocità, loop A-B e finestra sempre in primo piano. Ripara i video danneggiati e crea sottotitoli automatici."
       },
       "features": [
+        {
+          "text": {
+            "en": "Cut-off copies, downloads and recordings (MP4, MOV, MKV, WebM) and OBS files without a seek index are spotted on opening: Repair writes a fixed copy next to the original, without quality loss, and opens it at the same point. The original is never touched.",
+            "it": "Copie, download e registrazioni interrotte (MP4, MOV, MKV, WebM) e file di OBS senza indice di ricerca vengono riconosciuti all'apertura: Ripara crea accanto all'originale una copia sistemata, senza perdita di qualità, e la apre dallo stesso punto. L'originale non viene mai toccato."
+          },
+          "title": {
+            "en": "Repairs damaged videos",
+            "it": "Ripara i video danneggiati"
+          }
+        },
+        {
+          "text": {
+            "en": "Sub > Generate automatic subtitles transcribes the audio track with Whisper on your graphics card: a 2-hour film in a few minutes, with lines appearing while it works. Everything stays on your PC; the speech recognition (about 590 MB) is installed once, when you press OK.",
+            "it": "Sub > Genera sottotitoli automatici trascrive la traccia audio con Whisper sulla scheda video: un film di 2 ore in pochi minuti, con le righe che compaiono mentre lavora. Tutto resta sul tuo PC; il riconoscimento vocale (circa 590 MB) si installa una volta sola, quando premi OK."
+          },
+          "title": {
+            "en": "Automatic subtitles",
+            "it": "Sottotitoli automatici"
+          }
+        },
         {
           "text": {
             "en": "Videos longer than 2 minutes reopen at the point you stopped; Home starts over.",
@@ -1139,5 +1159,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.8/RougesSetup.exe",
     "version": "0.1.8"
   },
-  "serial": 68
+  "serial": 69
 }
