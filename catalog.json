@@ -1226,9 +1226,9 @@
       "name": "AetherNLE",
       "package": {
         "exe": "RougesAetherNLE.exe",
-        "sha256": "31c84f6fd961a749caf04afa73bd9596bb80e056dcc527d6cae5832edae471b9",
-        "size": 89001353,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/aethernle-v0.4.4/aethernle-0.4.4.zip"
+        "sha256": "5635be9b613bf32e1beebdf18b844fe76a084266bd1631a1bc11e7e53e1c4c20",
+        "size": 89001539,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/aethernle-v0.4.5/aethernle-0.4.5.zip"
       },
       "screenshots": [
         {
@@ -1263,7 +1263,7 @@
         "en": "Video editor with text-based editing",
         "it": "Editor video con montaggio dal testo"
       },
-      "version": "0.4.4"
+      "version": "0.4.5"
     }
   ],
   "launcher": {
@@ -1272,5 +1272,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.9/RougesSetup.exe",
     "version": "0.1.9"
   },
-  "serial": 72
+  "serial": 73
 }
