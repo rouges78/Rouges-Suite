@@ -74,9 +74,9 @@
       "name": "FTP",
       "package": {
         "exe": "RougesFTP.exe",
-        "sha256": "a3bc37bb89ce2c222935b0254a8a68dfad040cb17903aaf4c2fbdc95c305e5c7",
-        "size": 10692021,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/ftp-v0.2.2/ftp-0.2.2.zip"
+        "sha256": "d10ec8032f22d054f72a7b5cb98312d8ae6cd0d8321a5f79bfd6876f191e532e",
+        "size": 10819554,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/ftp-v0.2.3/ftp-0.2.3.zip"
       },
       "screenshots": [
         {
@@ -93,7 +93,7 @@
         "en": "FTP, FTPS and SFTP file transfer",
         "it": "Trasferimento file FTP, FTPS e SFTP"
       },
-      "version": "0.2.2"
+      "version": "0.2.3"
     },
     {
       "accent_dark": "#b197fc",
@@ -1272,5 +1272,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.10/RougesSetup.exe",
     "version": "0.1.10"
   },
-  "serial": 76
+  "serial": 77
 }
