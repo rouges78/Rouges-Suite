@@ -1267,10 +1267,10 @@
     }
   ],
   "launcher": {
-    "sha256": "4bce93fd9dadc04fc9d9fc16d13ee1bd6ab539fac28ec60073518d9775a5f4fd",
-    "size": 19950080,
-    "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.10/RougesSetup.exe",
-    "version": "0.1.10"
+    "sha256": "52d7dd96afbc40d1e046b54fa3976213ad68b62640123568a369eadb1782e08e",
+    "size": 20040192,
+    "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.11/RougesSetup.exe",
+    "version": "0.1.11"
   },
-  "serial": 89
+  "serial": 90
 }
