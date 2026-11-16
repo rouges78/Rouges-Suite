@@ -845,7 +845,7 @@
         "it": "Produzione di videogiochi"
       },
       "url": "https://gameledger.pages.dev",
-      "version": "0.1.1"
+      "version": "0.1.2"
     },
     {
       "accent_dark": "#da77f2",
@@ -1272,5 +1272,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.10/RougesSetup.exe",
     "version": "0.1.10"
   },
-  "serial": 87
+  "serial": 88
 }
