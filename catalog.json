@@ -1131,9 +1131,9 @@
       "name": "ScanLanPc",
       "package": {
         "exe": "RougesScanLanPc.exe",
-        "sha256": "4ba5adba3a0c35374ab90511e089efef21939977fabc0a67b274cfe23ee56a6b",
-        "size": 4337490,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/scanlan-v0.2.12/scanlan-0.2.12.zip"
+        "sha256": "2931b0cb9cb964702b86709e223fc81cb2f7660351c7b05ee2e2a1c01d36e24b",
+        "size": 4351284,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/scanlan-v0.2.13/scanlan-0.2.13.zip"
       },
       "screenshots": [
         {
@@ -1150,7 +1150,7 @@
         "en": "LAN scanner and PC diagnostics",
         "it": "Scanner LAN e diagnostica dei PC"
       },
-      "version": "0.2.12"
+      "version": "0.2.13"
     },
     {
       "accent_dark": "#a9e34b",
@@ -1272,5 +1272,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.14/RougesSetup.exe",
     "version": "0.1.14"
   },
-  "serial": 100
+  "serial": 101
 }
