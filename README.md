@@ -61,6 +61,7 @@ It downloads the same `RougesSetup.exe`, checks its SHA-256 and runs it.
 | <img src="assets/icons/videoenhancer.svg" width="40" alt=""> | **Rouges-VideoEnhancer** | AI video upscaling and frame interpolation: Real-ESRGAN and RIFE on the GPU, a live before/after preview. |
 | <img src="assets/icons/aethernle.svg" width="40" alt=""> | **Rouges-AetherNLE** | Video editor: a magnetic timeline that turns into tracks with one key, editing from a script transcribed on your PC, node-based colour and export to several formats at once. |
 | <img src="assets/icons/scanlan.svg" width="40" alt=""> | **Rouges-ScanLanPc** | LAN scanner and PC diagnostics: finds the devices on the network in seconds, recognises their role and audits Windows PCs: hardware, software to update and health. |
+| <img src="assets/icons/twinfinder.svg" width="40" alt=""> | **Rouges-TwinFinder** | Duplicate files and orphan assets: finds bit-for-bit identical files with BLAKE3 on every core, even across several drives, and the textures, models and videos no project uses; frees space with the Recycle Bin or hardlinks. |
 | <img src="assets/icons/gameledger.svg" width="40" alt=""> | **Rouges-GameLedger** | Video game production, in the browser: design docs, assets, roadmap, sprints and bugs linked together, separated by project. |
 
 ## Why a launcher
