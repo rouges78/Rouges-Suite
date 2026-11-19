@@ -1339,6 +1339,81 @@
         "it": "Volume per app e cambio rapido dei dispositivi"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#63e6be",
+      "accent_light": "#0b8a66",
+      "description": {
+        "en": "Finds bit-for-bit identical files with BLAKE3 on every core, even across several drives, and assets no project uses; frees space with the Recycle Bin or hardlinks.",
+        "it": "Trova i file identici bit a bit con BLAKE3 su tutti i core, anche tra più dischi, e gli asset che nessun progetto usa; libera spazio con il Cestino o con gli hardlink."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "Files with a unique size are skipped and only the first and last 16 KB are compared: just the files that still have a twin are read in full, on every core.",
+            "it": "I file di dimensione unica vengono scartati e si confrontano solo i primi e gli ultimi 16 KB: si leggono per intero solo i file che hanno ancora un gemello, su tutti i core."
+          },
+          "title": {
+            "en": "Fast on big libraries",
+            "it": "Veloce sulle librerie pesanti"
+          }
+        },
+        {
+          "text": {
+            "en": "Hashes are remembered: unchanged files are not read again, so the second scan of a library takes seconds.",
+            "it": "Gli hash vengono ricordati: i file non cambiati non si rileggono, e la seconda scansione di una libreria richiede pochi secondi."
+          },
+          "title": {
+            "en": "Rescans in a moment",
+            "it": "Riscansioni in un attimo"
+          }
+        },
+        {
+          "text": {
+            "en": "For each group pick the copy to keep; the others go to the Recycle Bin, become hardlinks (same paths, no extra space) or are deleted.",
+            "it": "Per ogni gruppo scegli la copia da tenere; le altre vanno nel Cestino, diventano hardlink (stessi percorsi, nessuno spazio in più) o vengono eliminate."
+          },
+          "title": {
+            "en": "You choose what to keep",
+            "it": "Scegli tu cosa tenere"
+          }
+        },
+        {
+          "text": {
+            "en": "Before acting, size, date and hash of original and copy are checked again: a file that changed after the scan is skipped.",
+            "it": "Prima di agire si ricontrollano dimensione, data e hash di originale e copia: un file cambiato dopo la scansione viene saltato."
+          },
+          "title": {
+            "en": "Checked before touching anything",
+            "it": "Controllato prima di toccare"
+          }
+        },
+        {
+          "text": {
+            "en": "Textures, models, audio and video that no Blender, Unreal, Unity, Godot or video project mentions can be moved to a quarantine folder.",
+            "it": "Texture, modelli, audio e video che nessun progetto Blender, Unreal, Unity, Godot o video nomina si possono spostare in una cartella di quarantena."
+          },
+          "title": {
+            "en": "Orphan assets",
+            "it": "Asset orfani"
+          }
+        }
+      ],
+      "icon": "twins",
+      "id": "twinfinder",
+      "name": "TwinFinder",
+      "package": {
+        "exe": "RougesTwinFinder.exe",
+        "sha256": "793bc0bb08fd80275f373d6e63a72faa87cd636cf62f73004d02a9a991255a68",
+        "size": 2735874,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/twinfinder-v0.1.0/twinfinder-0.1.0.zip"
+      },
+      "screenshots": [],
+      "subtitle": {
+        "en": "Duplicate files and orphan assets",
+        "it": "File duplicati e asset orfani"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -1347,5 +1422,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.14/RougesSetup.exe",
     "version": "0.1.14"
   },
-  "serial": 104
+  "serial": 105
 }
