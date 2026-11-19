@@ -1689,6 +1689,91 @@
         "it": "Cronologia degli appunti e vault di snippet"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#e6d5b8",
+      "accent_light": "#7a5a1e",
+      "description": {
+        "en": "Edit user and system environment variables and the PATH one folder at a time, with broken entries and duplicates highlighted; create junctions and symlinks without mklink; export everything to JSON.",
+        "it": "Modifica le variabili d'ambiente utente e di sistema e il PATH una cartella alla volta, con voci rotte e doppioni evidenziati; crea junction e symlink senza mklink; esporta tutto in JSON."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "Missing folders, duplicates and empty entries are highlighted, as are user entries already in the system PATH. Drag the rows to change the order; CLEAN UP removes the broken ones.",
+            "it": "Cartelle inesistenti, doppioni e voci vuote sono evidenziati, come le voci utente già presenti nel PATH di sistema. Trascini le righe per cambiare l'ordine; PULISCI toglie quelle rotte."
+          },
+          "title": {
+            "en": "The PATH, one folder per row",
+            "it": "Il PATH, una cartella per riga"
+          }
+        },
+        {
+          "text": {
+            "en": "%USERPROFILE%\\bin is shown expanded as programs will see it, with a warning for unknown names. REG_SZ or REG_EXPAND_SZ with one tick.",
+            "it": "%USERPROFILE%\\bin si vede espanso come lo vedranno i programmi, con un avviso per i nomi sconosciuti. REG_SZ o REG_EXPAND_SZ con una spunta."
+          },
+          "title": {
+            "en": "See what a value becomes",
+            "it": "Vedi cosa diventa un valore"
+          }
+        },
+        {
+          "text": {
+            "en": "Edits wait until you apply them. Then only the changed variables are written, after an automatic backup, and Windows is told at once: no restart needed for new programs.",
+            "it": "Le modifiche aspettano finché non le applichi. Poi si scrivono solo le variabili cambiate, dopo un backup automatico, e Windows viene avvisato subito: i programmi nuovi le vedono senza riavviare."
+          },
+          "title": {
+            "en": "Nothing changes until APPLY",
+            "it": "Niente cambia fino ad APPLICA"
+          }
+        },
+        {
+          "text": {
+            "en": "Create a junction or a symlink to a folder or a file, with the equivalent mklink command shown. Inspect a folder to list its links and find the broken ones; removing a link never touches its target.",
+            "it": "Crei una junction o un symlink a una cartella o a un file, con il comando mklink equivalente. Ispezioni una cartella per elencarne i collegamenti e trovare quelli rotti; togliere un collegamento non tocca mai la destinazione."
+          },
+          "title": {
+            "en": "Junctions and symlinks",
+            "it": "Junction e symlink"
+          }
+        },
+        {
+          "text": {
+            "en": "Export every variable to JSON and import it later: MERGE adds what is missing, PATH folders included, REPLACE makes everything identical.",
+            "it": "Esporti tutte le variabili in JSON e le reimporti: UNISCI aggiunge quello che manca, cartelle del PATH comprese, SOSTITUISCI rende tutto identico."
+          },
+          "title": {
+            "en": "Take your variables to a new PC",
+            "it": "Le variabili su un PC nuovo"
+          }
+        },
+        {
+          "text": {
+            "en": "System variables are read only until you restart the app as administrator. The last 30 backups can be restored from the Snapshot tab.",
+            "it": "Le variabili di sistema restano in sola lettura finché non riavvii l'app come amministratore. Gli ultimi 30 backup si ripristinano dalla scheda Snapshot."
+          },
+          "title": {
+            "en": "System variables, safely",
+            "it": "Variabili di sistema, in sicurezza"
+          }
+        }
+      ],
+      "icon": "env",
+      "id": "env",
+      "name": "Env",
+      "package": {
+        "exe": "RougesEnv.exe",
+        "sha256": "82ddeade697a3957d9d5501d6e3be50f362b0706bf738a4cc4f4d86820089646",
+        "size": 7747370,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/env-v0.1.0/env-0.1.0.zip"
+      },
+      "screenshots": [],
+      "subtitle": {
+        "en": "Environment variables, PATH and links",
+        "it": "Variabili d'ambiente, PATH e collegamenti"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -1697,5 +1782,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.14/RougesSetup.exe",
     "version": "0.1.14"
   },
-  "serial": 108
+  "serial": 109
 }
