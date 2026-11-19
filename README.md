@@ -68,6 +68,7 @@ It downloads the same `RougesSetup.exe`, checks its SHA-256 and runs it.
 | <img src="assets/icons/unpack.svg" width="40" alt=""> | **Rouges-Unpack** | Archive extractor and compressor: opens ZIP, 7Z, RAR, TAR, GZ, ZST, XZ and BZ2 with no licence pop-ups, extracts without scattering files around, previews the tree and compresses to .zip or .tar.zst. |
 | <img src="assets/icons/clipvault.svg" width="40" alt=""> | **Rouges-ClipVault** | Clipboard history and snippet vault: everything you copy, text, code, paths, colors and images, one shortcut away, with instant fuzzy search, text read in images and a vault of named snippets. |
 | <img src="assets/icons/env.svg" width="40" alt=""> | **Rouges-Env** | Environment variables, PATH and links: edit user and system variables and the PATH one folder at a time, with broken entries and duplicates highlighted; create junctions and symlinks without mklink. |
+| <img src="assets/icons/grid.svg" width="40" alt=""> | **Rouges-Grid** | Per-monitor grids and window workspaces: snap windows into zones with Shift + drag or from the keyboard, put every window back in its place in one click, and keep any window on top, see-through or borderless, from the notification area. |
 | <img src="assets/icons/gameledger.svg" width="40" alt=""> | **Rouges-GameLedger** | Video game production, in the browser: design docs, assets, roadmap, sprints and bugs linked together, separated by project. |
 
 ## Why a launcher
@@ -89,7 +90,7 @@ SHA-256 matches the catalog, and only from `https://` addresses.
 ## Made with Slint
 
 Rouges-Launcher, Rouges-FTP, Rouges-FutureNote, Rouges-PDFKing, Rouges-Pc2Pc, Rouges-Kalc+, Rouges-Snap, Rouges-Mixer,
-Rouges-Unpack, Rouges-ClipVault and Rouges-Env are built with
+Rouges-Unpack, Rouges-ClipVault, Rouges-Env and Rouges-Grid are built with
 [Slint](https://slint.dev), used under the Slint Royalty-free License.
 
 <a href="https://slint.dev"><img src="https://github.com/slint-ui/slint/raw/master/logo/MadeWithSlint-logo-whitebg.png" height="60" alt="Made with Slint"></a>
