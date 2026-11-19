@@ -1594,6 +1594,101 @@
         "it": "Screenshot, annotazioni e registrazione"
       },
       "version": "0.2.0"
+    },
+    {
+      "accent_dark": "#f06bd0",
+      "accent_light": "#a31f8a",
+      "description": {
+        "en": "Everything you copy, text, code, paths, colors and images, in a local database, one shortcut away, with instant fuzzy search, text read in images and a vault of named snippets.",
+        "it": "Tutto quello che copi, testo, codice, percorsi, colori e immagini, in un database locale a una scorciatoia di distanza, con ricerca fuzzy istantanea, testo letto nelle immagini e un vault di snippet con nome."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "Ctrl+Alt+V (or another shortcut) opens ClipVault over any program; Enter pastes the item where you were, always as plain text. It lives in the tray, with no taskbar button.",
+            "it": "Ctrl+Alt+V (o un'altra scorciatoia) apre ClipVault sopra qualsiasi programma; Invio incolla la voce dove eri, sempre come testo semplice. Vive nell'area di notifica, senza pulsante sulla barra."
+          },
+          "title": {
+            "en": "One shortcut, next to the mouse",
+            "it": "Una scorciatoia, accanto al mouse"
+          }
+        },
+        {
+          "text": {
+            "en": "Fuzzy search in the style of fzf: cfgjs finds config.json, words in any order. A full-text index finds words even at the end of very long texts.",
+            "it": "Ricerca fuzzy in stile fzf: cfgjs trova config.json, parole in qualsiasi ordine. Un indice full-text trova le parole anche in fondo ai testi lunghissimi."
+          },
+          "title": {
+            "en": "Find it with a few letters",
+            "it": "Lo ritrovi con poche lettere"
+          }
+        },
+        {
+          "text": {
+            "en": "Copied images are read by the OCR built into Windows, offline: their text can be searched and copied. Images are kept as lossless WebP.",
+            "it": "Le immagini copiate vengono lette dall'OCR integrato in Windows, senza rete: il loro testo si cerca e si copia. Le immagini restano in WebP senza perdita."
+          },
+          "title": {
+            "en": "Text read in screenshots",
+            "it": "Testo letto negli screenshot"
+          }
+        },
+        {
+          "text": {
+            "en": "Text, code, file paths, HEX and RGB colors with their swatch, and images, each with the program it came from.",
+            "it": "Testo, codice, percorsi di file, colori HEX e RGB con il loro campione e immagini, ognuno con il programma da cui arriva."
+          },
+          "title": {
+            "en": "Knows what you copied",
+            "it": "Sa cosa hai copiato"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+S keeps an item for good, F2 gives it a name, Ctrl+N writes a new one. The history limit and CLEAR HISTORY never touch the vault.",
+            "it": "Ctrl+S tiene una voce per sempre, F2 le dà un nome, Ctrl+N ne scrive una nuova. Il limite della cronologia e SVUOTA CRONOLOGIA non toccano mai il vault."
+          },
+          "title": {
+            "en": "A vault of snippets",
+            "it": "Un vault di snippet"
+          }
+        },
+        {
+          "text": {
+            "en": "No network, no telemetry. Copies from password managers are not recorded, and REC pauses the recording whenever you want.",
+            "it": "Niente rete, niente telemetria. Le copie dei gestori di password non vengono registrate, e REC sospende la registrazione quando vuoi."
+          },
+          "title": {
+            "en": "Passwords stay out",
+            "it": "Le password restano fuori"
+          }
+        }
+      ],
+      "icon": "clipvault",
+      "id": "clipvault",
+      "name": "ClipVault",
+      "package": {
+        "exe": "RougesClipVault.exe",
+        "sha256": "dc2e8d4536d045593e694079418a475c9d87dcfccccc9fc0a4884b8590600526",
+        "size": 8644022,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/clipvault-v0.1.0/clipvault-0.1.0.zip"
+      },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "History with text, a color, a screenshot read by OCR and code",
+            "it": "Cronologia con testo, un colore, uno screenshot letto dall'OCR e codice"
+          },
+          "sha256": "40e60c5f9fe7982c3b2990b4a1224a72248e2fe9b3d10a5b5475be18a9941f35",
+          "size": 228864,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/clipvault-1-40e60c5f.png"
+        }
+      ],
+      "subtitle": {
+        "en": "Clipboard history and snippet vault",
+        "it": "Cronologia degli appunti e vault di snippet"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -1602,5 +1697,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.14/RougesSetup.exe",
     "version": "0.1.14"
   },
-  "serial": 107
+  "serial": 108
 }
