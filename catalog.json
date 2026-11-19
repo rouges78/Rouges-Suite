@@ -1518,9 +1518,9 @@
       "name": "Unpack",
       "package": {
         "exe": "RougesUnpack.exe",
-        "sha256": "4ca128f013c6afb4cf7b0bcc305a409e2d36d87e90033260f8958067af357073",
-        "size": 9071882,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/unpack-v0.1.0/unpack-0.1.0.zip"
+        "sha256": "746111e6678df0a38918dca24c4c1dd6618fa835899712324a3f641924e81421",
+        "size": 9071655,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/unpack-v0.1.1/unpack-0.1.1.zip"
       },
       "screenshots": [
         {
@@ -1537,7 +1537,7 @@
         "en": "Archive extractor and compressor",
         "it": "Estrazione e compressione di archivi"
       },
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     {
       "accent_dark": "#ced4da",
@@ -1831,5 +1831,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.15/RougesSetup.exe",
     "version": "0.1.15"
   },
-  "serial": 116
+  "serial": 117
 }
