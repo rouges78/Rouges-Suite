@@ -1559,12 +1559,12 @@
         },
         {
           "text": {
-            "en": "Shift+PrtSc records an MP4, Ctrl+Shift+PrtSc a GIF that stores only what changes; the same key stops. The bar and the frame around the area stay out of the video.",
-            "it": "Shift+STAMP registra un MP4, Ctrl+Shift+STAMP una GIF che salva solo quello che cambia; lo stesso tasto ferma. La barra e il bordo attorno all'area restano fuori dal video."
+            "en": "Shift+PrtSc records an MP4 with the system sound, the microphone or both, in sync with the picture; Ctrl+Shift+PrtSc a GIF that stores only what changes. The same key stops, and the bar and frame stay out of the video.",
+            "it": "Shift+STAMP registra un MP4 con l'audio del sistema, il microfono o tutti e due, in sincrono con l'immagine; Ctrl+Shift+STAMP una GIF che salva solo quello che cambia. Lo stesso tasto ferma, e barra e bordo restano fuori dal video."
           },
           "title": {
-            "en": "Screen recording",
-            "it": "Registrazione dello schermo"
+            "en": "Screen recording with sound",
+            "it": "Registrazione dello schermo con l'audio"
           }
         },
         {
@@ -1593,9 +1593,9 @@
       "name": "Snap",
       "package": {
         "exe": "RougesSnap.exe",
-        "sha256": "1d7e619b930a99c3b711b6b2ae7889187c8e8b02a58dd33072638409b4836529",
-        "size": 7613918,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/snap-v0.2.0/snap-0.2.0.zip"
+        "sha256": "a59a4466a5a7a2e7b58e5403c1aa7114780c1746f4f12fe9adead541ed9d12b4",
+        "size": 7642820,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/snap-v0.3.0/snap-0.3.0.zip"
       },
       "screenshots": [
         {
@@ -1603,16 +1603,16 @@
             "en": "Capture, record and what happens after",
             "it": "Cattura, registrazione e cosa succede dopo"
           },
-          "sha256": "25e4106eff58752c37676c1b72ecd17c53c6bf55425f20c19cb3084e3278c775",
-          "size": 67974,
-          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/snap-1-25e4106e.png"
+          "sha256": "8dc60a52c9c9f3cf2e7754746a2251110e754c0c910ab8d1453efee49f56ea79",
+          "size": 72790,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/snap-1-8dc60a52.png"
         }
       ],
       "subtitle": {
         "en": "Screenshots, annotations and recording",
         "it": "Screenshot, annotazioni e registrazione"
       },
-      "version": "0.2.0"
+      "version": "0.3.0"
     },
     {
       "accent_dark": "#f06bd0",
@@ -1811,5 +1811,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.15/RougesSetup.exe",
     "version": "0.1.15"
   },
-  "serial": 112
+  "serial": 113
 }
