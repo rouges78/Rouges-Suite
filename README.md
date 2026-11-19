@@ -61,7 +61,13 @@ It downloads the same `RougesSetup.exe`, checks its SHA-256 and runs it.
 | <img src="assets/icons/videoenhancer.svg" width="40" alt=""> | **Rouges-VideoEnhancer** | AI video upscaling and frame interpolation: Real-ESRGAN and RIFE on the GPU, a live before/after preview. |
 | <img src="assets/icons/aethernle.svg" width="40" alt=""> | **Rouges-AetherNLE** | Video editor: a magnetic timeline that turns into tracks with one key, editing from a script transcribed on your PC, node-based colour and export to several formats at once. |
 | <img src="assets/icons/scanlan.svg" width="40" alt=""> | **Rouges-ScanLanPc** | LAN scanner and PC diagnostics: finds the devices on the network in seconds, recognises their role and audits Windows PCs: hardware, software to update and health. |
+| <img src="assets/icons/snap.svg" width="40" alt=""> | **Rouges-Snap** | Screenshots, annotations and recording: capture a region, a window or the full screen with PrtSc and mark it up with arrows, text, numbered steps and pixelation; record the screen as MP4 or GIF. |
+| <img src="assets/icons/optimizer.svg" width="40" alt=""> | **Rouges-Optimizer** | Batch image and texture optimizer: drop hundreds of images or whole folders and convert them in parallel on every CPU core to WebP, AVIF, JPEG or PNG, with power-of-two resizing and a before/after view. |
+| <img src="assets/icons/mixer.svg" width="40" alt=""> | **Rouges-Mixer** | Per-app volume and quick device switch: volume and mute for every app, the default speakers, headphones or microphone in one click, audio profiles and global hotkeys, from the notification area. |
 | <img src="assets/icons/twinfinder.svg" width="40" alt=""> | **Rouges-TwinFinder** | Duplicate files and orphan assets: finds bit-for-bit identical files with BLAKE3 on every core, even across several drives, and the textures, models and videos no project uses; frees space with the Recycle Bin or hardlinks. |
+| <img src="assets/icons/unpack.svg" width="40" alt=""> | **Rouges-Unpack** | Archive extractor and compressor: opens ZIP, 7Z, RAR, TAR, GZ, ZST, XZ and BZ2 with no licence pop-ups, extracts without scattering files around, previews the tree and compresses to .zip or .tar.zst. |
+| <img src="assets/icons/clipvault.svg" width="40" alt=""> | **Rouges-ClipVault** | Clipboard history and snippet vault: everything you copy, text, code, paths, colors and images, one shortcut away, with instant fuzzy search, text read in images and a vault of named snippets. |
+| <img src="assets/icons/env.svg" width="40" alt=""> | **Rouges-Env** | Environment variables, PATH and links: edit user and system variables and the PATH one folder at a time, with broken entries and duplicates highlighted; create junctions and symlinks without mklink. |
 | <img src="assets/icons/gameledger.svg" width="40" alt=""> | **Rouges-GameLedger** | Video game production, in the browser: design docs, assets, roadmap, sprints and bugs linked together, separated by project. |
 
 ## Why a launcher
@@ -82,7 +88,8 @@ SHA-256 matches the catalog, and only from `https://` addresses.
 
 ## Made with Slint
 
-Rouges-Launcher, Rouges-FTP, Rouges-FutureNote, Rouges-PDFKing, Rouges-Pc2Pc, Rouges-Kalc+ and Rouges-Snap are built with
+Rouges-Launcher, Rouges-FTP, Rouges-FutureNote, Rouges-PDFKing, Rouges-Pc2Pc, Rouges-Kalc+, Rouges-Snap, Rouges-Mixer,
+Rouges-Unpack, Rouges-ClipVault and Rouges-Env are built with
 [Slint](https://slint.dev), used under the Slint Royalty-free License.
 
 <a href="https://slint.dev"><img src="https://github.com/slint-ui/slint/raw/master/logo/MadeWithSlint-logo-whitebg.png" height="60" alt="Made with Slint"></a>
