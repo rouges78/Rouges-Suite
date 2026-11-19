@@ -1688,9 +1688,9 @@
       "name": "ClipVault",
       "package": {
         "exe": "RougesClipVault.exe",
-        "sha256": "dc2e8d4536d045593e694079418a475c9d87dcfccccc9fc0a4884b8590600526",
-        "size": 8644022,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/clipvault-v0.1.0/clipvault-0.1.0.zip"
+        "sha256": "49f1f41b6ba9845c1aa4241eacb607d2e837fceb85ec8600e376714210d1c570",
+        "size": 8653807,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/clipvault-v0.1.1/clipvault-0.1.1.zip"
       },
       "screenshots": [
         {
@@ -1707,7 +1707,7 @@
         "en": "Clipboard history and snippet vault",
         "it": "Cronologia degli appunti e vault di snippet"
       },
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     {
       "accent_dark": "#e6d5b8",
@@ -1811,5 +1811,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.15/RougesSetup.exe",
     "version": "0.1.15"
   },
-  "serial": 113
+  "serial": 114
 }
