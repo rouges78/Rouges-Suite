@@ -1333,7 +1333,17 @@
         "size": 7469808,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mixer-v0.1.0/mixer-0.1.0.zip"
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "caption": {
+            "en": "Output and input devices, and the volume of each app",
+            "it": "Dispositivi di uscita e di ingresso, e il volume di ogni app"
+          },
+          "sha256": "52045111b135aed6e48d77b5ca7b377d9808d3775ef311bed515ed493d4b7f7c",
+          "size": 67023,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/mixer-1-52045111.png"
+        }
+      ],
       "subtitle": {
         "en": "Per-app volume and quick device switch",
         "it": "Volume per app e cambio rapido dei dispositivi"
@@ -1512,7 +1522,17 @@
         "size": 9071882,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/unpack-v0.1.0/unpack-0.1.0.zip"
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "caption": {
+            "en": "An archive opened as a tree: tick what to extract and see what will be created",
+            "it": "Un archivio aperto ad albero: spunti cosa estrarre e vedi cosa verrà creato"
+          },
+          "sha256": "289618af50b526408d613378946e4a312a04df6a787797be4842d0abcd9f271e",
+          "size": 63388,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/unpack-1-289618af.png"
+        }
+      ],
       "subtitle": {
         "en": "Archive extractor and compressor",
         "it": "Estrazione e compressione di archivi"
@@ -1811,5 +1831,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.15/RougesSetup.exe",
     "version": "0.1.15"
   },
-  "serial": 114
+  "serial": 115
 }
