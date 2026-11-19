@@ -464,9 +464,9 @@
       "name": "Pc2Pc",
       "package": {
         "exe": "RougesPc2Pc.exe",
-        "sha256": "15be72622c15c7f5574c68b3ecc5deb16c2a29ed826b0a7275a707971e07da1d",
-        "size": 12369580,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pc2pc-v0.3.3/pc2pc-0.3.3.zip"
+        "sha256": "5bed4e3c0232373d802dcde2b27c72ae301ca9084a37522c4f42bf7c183a902d",
+        "size": 12545789,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pc2pc-v0.4.0/pc2pc-0.4.0.zip"
       },
       "screenshots": [
         {
@@ -483,7 +483,7 @@
         "en": "Lightweight remote desktop",
         "it": "Desktop remoto leggero"
       },
-      "version": "0.3.3"
+      "version": "0.4.0"
     },
     {
       "accent_dark": "#f783ac",
@@ -1831,5 +1831,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.15/RougesSetup.exe",
     "version": "0.1.15"
   },
-  "serial": 118
+  "serial": 119
 }
