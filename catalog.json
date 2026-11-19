@@ -1264,6 +1264,81 @@
         "it": "Editor video con montaggio dal testo"
       },
       "version": "0.5.2"
+    },
+    {
+      "accent_dark": "#e8a87c",
+      "accent_light": "#9c4a1a",
+      "description": {
+        "en": "Volume and mute for every app, the default speakers, headphones or microphone in one click, audio profiles and global hotkeys, from the notification area.",
+        "it": "Volume e muto per ogni app, casse, cuffie o microfono predefiniti con un clic, profili audio e scorciatoie globali, dall'area di notifica."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "Volume and mute for each app, with all the audio sessions of a browser together, and a dot on the apps that are playing now.",
+            "it": "Volume e muto per ogni app, con tutte le sessioni audio di un browser insieme, e un pallino sulle app che stanno suonando."
+          },
+          "title": {
+            "en": "Every app on its own",
+            "it": "Ogni app per conto suo"
+          }
+        },
+        {
+          "text": {
+            "en": "Speakers, headphones or microphone become the Windows default from the window, the tray menu or a hotkey.",
+            "it": "Casse, cuffie o microfono diventano i predefiniti di Windows dalla finestra, dal menu dell'icona o con una scorciatoia."
+          },
+          "title": {
+            "en": "Switch device in one click",
+            "it": "Cambi dispositivo con un clic"
+          }
+        },
+        {
+          "text": {
+            "en": "Studio, Game, Call: one click sets output, input and app volumes together; apps that start later get their volume too.",
+            "it": "Studio, Gioco, Chiamata: un clic imposta insieme uscita, ingresso e volumi delle app; anche le app che partono dopo ricevono il loro volume."
+          },
+          "title": {
+            "en": "Profiles for every moment",
+            "it": "Profili per ogni momento"
+          }
+        },
+        {
+          "text": {
+            "en": "Mute Discord, the browser, the app in the foreground or the microphone while you do something else; next device and profiles too.",
+            "it": "Muta Discord, il browser, l'app in primo piano o il microfono mentre fai altro; anche dispositivo successivo e profili."
+          },
+          "title": {
+            "en": "Your hotkeys, everywhere",
+            "it": "Le tue scorciatoie, ovunque"
+          }
+        },
+        {
+          "text": {
+            "en": "Windows tells the mixer when a device arrives, an app opens audio or a volume changes: nothing runs in the background in the meantime.",
+            "it": "Windows avvisa il mixer quando arriva un dispositivo, un'app apre l'audio o cambia un volume: nel frattempo non gira niente."
+          },
+          "title": {
+            "en": "Always up to date, no polling",
+            "it": "Sempre aggiornato, senza polling"
+          }
+        }
+      ],
+      "icon": "mixer",
+      "id": "mixer",
+      "name": "Mixer",
+      "package": {
+        "exe": "RougesMixer.exe",
+        "sha256": "6666bc3e4d00a6a8cee3710bb5e0a74cd22c44af5b5b6b26207cba03553ec3bc",
+        "size": 7469808,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mixer-v0.1.0/mixer-0.1.0.zip"
+      },
+      "screenshots": [],
+      "subtitle": {
+        "en": "Per-app volume and quick device switch",
+        "it": "Volume per app e cambio rapido dei dispositivi"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -1272,5 +1347,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.14/RougesSetup.exe",
     "version": "0.1.14"
   },
-  "serial": 103
+  "serial": 104
 }
