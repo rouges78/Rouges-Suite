@@ -1898,6 +1898,110 @@
         "it": "Ottimizzazione in blocco di immagini e texture"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#a5d8ff",
+      "accent_light": "#1c5d99",
+      "description": {
+        "en": "Grids for every monitor with Shift + drag or from the keyboard, workspaces that put every window back in its place in one click, always on top, opacity and borders, from the notification area.",
+        "it": "Griglie per ogni monitor con Maiusc + trascina o dalla tastiera, workspace che rimettono ogni finestra al suo posto con un clic, sempre in primo piano, opacità e bordi, dall'area di notifica."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "Halves, 2/3 + 1/3, thirds, quadrants, main + stack, a wide centre for ultrawide screens, or your own formula like 2 1/1,1. Gaps of 0 to 16 pixels.",
+            "it": "Metà, 2/3 + 1/3, terzi, quadranti, principale + pila, un centro largo per gli ultrawide, o una formula tua come 2 1/1,1. Spaziatura da 0 a 16 pixel."
+          },
+          "title": {
+            "en": "A grid for every monitor",
+            "it": "Una griglia per ogni monitor"
+          }
+        },
+        {
+          "text": {
+            "en": "Hold Shift while you move a window: the numbered zones appear on the monitor under the pointer, and the window fills the one you drop it on. Without Shift it moves as usual.",
+            "it": "Tieni premuto Maiusc mentre sposti una finestra: sul monitor sotto il puntatore compaiono le zone numerate, e la finestra riempie quella dove la lasci. Senza Maiusc si sposta come sempre."
+          },
+          "title": {
+            "en": "Shift + drag",
+            "it": "Maiusc + trascina"
+          }
+        },
+        {
+          "text": {
+            "en": "Save every open window as Development, Office or Streaming, maximized and minimized ones too, and put them back from the window, the tray menu or a hotkey, even after a restart.",
+            "it": "Salvi tutte le finestre aperte come Sviluppo, Ufficio o Streaming, anche ingrandite o ridotte a icona, e le rimetti dalla finestra, dal menu dell'icona o con una scorciatoia, anche dopo un riavvio."
+          },
+          "title": {
+            "en": "Workspaces in one click",
+            "it": "Workspace con un clic"
+          }
+        },
+        {
+          "text": {
+            "en": "Keep any window always on top, make it see-through from 20 to 100%, or remove its title bar and frame; a second click puts them back as they were.",
+            "it": "Tieni qualsiasi finestra sempre in primo piano, rendila trasparente dal 20 al 100% o togli barra del titolo e cornice; un secondo clic le rimette com'erano."
+          },
+          "title": {
+            "en": "On top, opacity, no borders",
+            "it": "Primo piano, opacità, senza bordi"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+Alt+arrows to the previous or next zone and to the next monitor, Ctrl+Alt+Numpad for zones 1 to 9, and your own hotkeys for the quick functions and workspaces.",
+            "it": "Ctrl+Alt+frecce per la zona precedente o successiva e per il monitor successivo, Ctrl+Alt+tastierino per le zone da 1 a 9, e le tue scorciatoie per funzioni rapide e workspace."
+          },
+          "title": {
+            "en": "Everything from the keyboard",
+            "it": "Tutto dalla tastiera"
+          }
+        },
+        {
+          "text": {
+            "en": "Windows line up on their visible edge, without the invisible borders of Windows 10 and 11, even across monitors with different scaling. About 30 MB of memory, nothing running while idle.",
+            "it": "Le finestre si allineano al bordo visibile, senza i bordi invisibili di Windows 10 e 11, anche tra monitor con scale diverse. Circa 30 MB di memoria, niente in esecuzione a riposo."
+          },
+          "title": {
+            "en": "Pixel-exact, at every scale",
+            "it": "Al pixel, a ogni scala"
+          }
+        }
+      ],
+      "icon": "grid",
+      "id": "grid",
+      "name": "Grid",
+      "package": {
+        "exe": "RougesGrid.exe",
+        "sha256": "8ba2c8b678cd3090e5c00e0d8be0a3e41782d2954a0e1c5330d97f06b5835017",
+        "size": 7455398,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/grid-v0.1.0/grid-0.1.0.zip"
+      },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "An ultrawide with 1 2 1 and a second monitor with main + stack",
+            "it": "Un ultrawide con 1 2 1 e un secondo monitor con principale + pila"
+          },
+          "sha256": "219e631f2a832a3e3ecb44028b88caf3181c5351d2ec5fbd2ffb690d72d0b5fc",
+          "size": 54943,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/grid-1-219e631f.png"
+        },
+        {
+          "caption": {
+            "en": "Workspaces with their hotkeys",
+            "it": "I workspace con le loro scorciatoie"
+          },
+          "sha256": "0a5fbc3978787309191592c904f70aa12fdf3edfa5717639a9abbfefbb21c83d",
+          "size": 72585,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/grid-2-0a5fbc39.png"
+        }
+      ],
+      "subtitle": {
+        "en": "Per-monitor grids and window workspaces",
+        "it": "Griglie per monitor e workspace di finestre"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -1906,5 +2010,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.15/RougesSetup.exe",
     "version": "0.1.15"
   },
-  "serial": 120
+  "serial": 121
 }
