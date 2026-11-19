@@ -1499,6 +1499,101 @@
         "it": "Estrazione e compressione di archivi"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#ced4da",
+      "accent_light": "#495057",
+      "description": {
+        "en": "Capture a region, a window or the full screen with PrtSc and mark it up with arrows, text, numbered steps and pixelation; record the screen as MP4 or GIF. Everything goes to the clipboard and to Pictures.",
+        "it": "Cattura una regione, una finestra o lo schermo intero con STAMP e annotala con frecce, testo, passi numerati e pixel; registra lo schermo in MP4 o GIF. Tutto negli appunti e in Immagini."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "The screen freezes: hover to highlight the window under the pointer and click it, or drag a rectangle with its size in pixels.",
+            "it": "Lo schermo si congela: passando col mouse si evidenzia la finestra sotto il puntatore e un clic la cattura, oppure trascini un rettangolo con la sua misura in pixel."
+          },
+          "title": {
+            "en": "Region or window in one move",
+            "it": "Regione o finestra in un gesto"
+          }
+        },
+        {
+          "text": {
+            "en": "PrtSc, Ctrl+PrtSc and Alt+PrtSc work even with the window closed. If Windows keeps PrtSc for itself, Ctrl+Shift+4, 3 and 5 take over.",
+            "it": "STAMP, Ctrl+STAMP e Alt+STAMP funzionano anche a finestra chiusa. Se Windows tiene STAMP per sé, subentrano Ctrl+Shift+4, 3 e 5."
+          },
+          "title": {
+            "en": "Global hotkeys",
+            "it": "Scorciatoie globali"
+          }
+        },
+        {
+          "text": {
+            "en": "Rectangles, arrows, pen, highlighter, text and numbered steps in six colours and three sizes, with undo and redo.",
+            "it": "Rettangoli, frecce, penna, evidenziatore, testo e passi numerati in sei colori e tre misure, con annulla e ripeti."
+          },
+          "title": {
+            "en": "Annotate for tutorials",
+            "it": "Annotazioni per i tutorial"
+          }
+        },
+        {
+          "text": {
+            "en": "Shift+PrtSc records an MP4, Ctrl+Shift+PrtSc a GIF that stores only what changes; the same key stops. The bar and the frame around the area stay out of the video.",
+            "it": "Shift+STAMP registra un MP4, Ctrl+Shift+STAMP una GIF che salva solo quello che cambia; lo stesso tasto ferma. La barra e il bordo attorno all'area restano fuori dal video."
+          },
+          "title": {
+            "en": "Screen recording",
+            "it": "Registrazione dello schermo"
+          }
+        },
+        {
+          "text": {
+            "en": "Pixelate passwords, e-mail addresses and names before sharing, and crop away the rest.",
+            "it": "Pixel su password, indirizzi e nomi prima di condividere, e ritaglio per togliere il resto."
+          },
+          "title": {
+            "en": "Hide what is private",
+            "it": "Nascondi i dati privati"
+          }
+        },
+        {
+          "text": {
+            "en": "Every capture goes to the clipboard and to Pictures\\Rouges Snap as a PNG named by date and time, never overwritten.",
+            "it": "Ogni cattura va negli appunti e in Immagini\\Rouges Snap come PNG con data e ora nel nome, mai sovrascritto."
+          },
+          "title": {
+            "en": "Ready to paste",
+            "it": "Pronta da incollare"
+          }
+        }
+      ],
+      "icon": "snap",
+      "id": "snap",
+      "name": "Snap",
+      "package": {
+        "exe": "RougesSnap.exe",
+        "sha256": "1d7e619b930a99c3b711b6b2ae7889187c8e8b02a58dd33072638409b4836529",
+        "size": 7613918,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/snap-v0.2.0/snap-0.2.0.zip"
+      },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "Capture, record and what happens after",
+            "it": "Cattura, registrazione e cosa succede dopo"
+          },
+          "sha256": "25e4106eff58752c37676c1b72ecd17c53c6bf55425f20c19cb3084e3278c775",
+          "size": 67974,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/snap-1-25e4106e.png"
+        }
+      ],
+      "subtitle": {
+        "en": "Screenshots, annotations and recording",
+        "it": "Screenshot, annotazioni e registrazione"
+      },
+      "version": "0.2.0"
     }
   ],
   "launcher": {
@@ -1507,5 +1602,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.14/RougesSetup.exe",
     "version": "0.1.14"
   },
-  "serial": 106
+  "serial": 107
 }
