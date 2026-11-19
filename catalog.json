@@ -1414,6 +1414,91 @@
         "it": "File duplicati e asset orfani"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#a9e34b",
+      "accent_light": "#4b7a0a",
+      "description": {
+        "en": "Opens ZIP, 7Z, RAR, TAR, GZ, ZST, XZ and BZ2 with no licence pop-ups, extracts without scattering files around, previews the tree and compresses to .zip or .tar.zst.",
+        "it": "Apre ZIP, 7Z, RAR, TAR, GZ, ZST, XZ e BZ2 senza pop-up di licenza, estrae senza spargere file, mostra l'albero prima di estrarre e comprime in .zip o .tar.zst."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "An archive with a single folder extracts that folder; loose files go into a folder named after the archive. Nothing is ever overwritten: a name already taken becomes name (2).",
+            "it": "Un archivio con una sola cartella estrae quella cartella; i file sparsi finiscono in una cartella con il nome dell'archivio. Niente viene mai sovrascritto: un nome già preso diventa nome (2)."
+          },
+          "title": {
+            "en": "No files scattered around",
+            "it": "Niente file sparsi"
+          }
+        },
+        {
+          "text": {
+            "en": "ZIP, 7Z, RAR4 and RAR5 (encrypted, multi-volume), TAR and GZ, ZST, XZ, BZ2, recognised by their content, not by the extension. RAR uses the official RARLAB engine.",
+            "it": "ZIP, 7Z, RAR4 e RAR5 (cifrati, a volumi), TAR e GZ, ZST, XZ, BZ2, riconosciuti dal contenuto e non dall'estensione. Per i RAR c'è il motore ufficiale di RARLAB."
+          },
+          "title": {
+            "en": "Every common format, RAR too",
+            "it": "Tutti i formati comuni, anche RAR"
+          }
+        },
+        {
+          "text": {
+            "en": "The archive opens as a tree with sizes: tick what you need and extract only that. Encrypted archives ask for the password.",
+            "it": "L'archivio si apre come un albero con le dimensioni: spunti quello che ti serve ed estrai solo quello. Gli archivi cifrati chiedono la password."
+          },
+          "title": {
+            "en": "Look before you extract",
+            "it": "Guardi prima di estrarre"
+          }
+        },
+        {
+          "text": {
+            "en": "To .zip, which opens everywhere, or to .tar.zst, much faster and smaller, on one core, half of them or all of them.",
+            "it": "In .zip, che si apre ovunque, o in .tar.zst, molto più veloce e piccolo, su un core, metà o tutti."
+          },
+          "title": {
+            "en": "Fast compression, your choice of cores",
+            "it": "Compressione veloce, scegli tu i core"
+          }
+        },
+        {
+          "text": {
+            "en": "Optional Extract here, Open and Compress entries in the right-click menu, for the current user only, plus drag-and-drop onto the window.",
+            "it": "Voci facoltative Estrai qui, Apri e Comprimi nel menu del tasto destro, solo per l'utente corrente, e trascinamento sulla finestra."
+          },
+          "title": {
+            "en": "From Explorer",
+            "it": "Da Esplora file"
+          }
+        },
+        {
+          "text": {
+            "en": "Entries that try to write outside the folder (../, absolute paths) and links are skipped and counted. Cancelling leaves nothing half-extracted.",
+            "it": "Le voci che provano a scrivere fuori dalla cartella (../, percorsi assoluti) e i collegamenti vengono saltati e contati. Annullare non lascia niente di estratto a metà."
+          },
+          "title": {
+            "en": "Safe with downloaded archives",
+            "it": "Sicuro con gli archivi scaricati"
+          }
+        }
+      ],
+      "icon": "unpack",
+      "id": "unpack",
+      "name": "Unpack",
+      "package": {
+        "exe": "RougesUnpack.exe",
+        "sha256": "4ca128f013c6afb4cf7b0bcc305a409e2d36d87e90033260f8958067af357073",
+        "size": 9071882,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/unpack-v0.1.0/unpack-0.1.0.zip"
+      },
+      "screenshots": [],
+      "subtitle": {
+        "en": "Archive extractor and compressor",
+        "it": "Estrazione e compressione di archivi"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -1422,5 +1507,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.14/RougesSetup.exe",
     "version": "0.1.14"
   },
-  "serial": 105
+  "serial": 106
 }
