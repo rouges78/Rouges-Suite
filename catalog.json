@@ -1768,7 +1768,17 @@
         "size": 7747370,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/env-v0.1.0/env-0.1.0.zip"
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "caption": {
+            "en": "The user PATH with missing folders, a duplicate and an empty entry, before APPLY",
+            "it": "Il PATH utente con cartelle inesistenti, una doppia e una voce vuota, prima di APPLICA"
+          },
+          "sha256": "b0bd6a2b118ab040e8be42cfabbc70675be6795ba4b586ba18c40ee88f933f59",
+          "size": 128413,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/env-1-b0bd6a2b.png"
+        }
+      ],
       "subtitle": {
         "en": "Environment variables, PATH and links",
         "it": "Variabili d'ambiente, PATH e collegamenti"
@@ -1782,5 +1792,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.15/RougesSetup.exe",
     "version": "0.1.15"
   },
-  "serial": 110
+  "serial": 111
 }
