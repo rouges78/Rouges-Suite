@@ -1408,7 +1408,26 @@
         "size": 2735874,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/twinfinder-v0.1.0/twinfinder-0.1.0.zip"
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "caption": {
+            "en": "Groups of identical files: keep one copy, the others to the Recycle Bin or as hardlinks",
+            "it": "Gruppi di file identici: tieni una copia, le altre nel Cestino o come hardlink"
+          },
+          "sha256": "fff83212fd258cc489089c90f83d0f675274bc346f31f19dbe2f80a5162cdcab",
+          "size": 93169,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/twinfinder-1-fff83212.png"
+        },
+        {
+          "caption": {
+            "en": "Assets no project mentions, ready for the Recycle Bin or quarantine",
+            "it": "Asset che nessun progetto nomina, pronti per il Cestino o la quarantena"
+          },
+          "sha256": "cfbc0b7398b031b50bd9ee85810e0dc736be145fb58b58e32abf9138ea2a763b",
+          "size": 63870,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/twinfinder-2-cfbc0b73.png"
+        }
+      ],
       "subtitle": {
         "en": "Duplicate files and orphan assets",
         "it": "File duplicati e asset orfani"
@@ -1792,5 +1811,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.15/RougesSetup.exe",
     "version": "0.1.15"
   },
-  "serial": 111
+  "serial": 112
 }
