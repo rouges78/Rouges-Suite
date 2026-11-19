@@ -81,7 +81,7 @@ SHA-256 matches the catalog, and only from `https://` addresses.
 
 ## Made with Slint
 
-Rouges-Launcher, Rouges-FTP, Rouges-FutureNote, Rouges-PDFKing, Rouges-Pc2Pc and Rouges-Kalc+ are built with
+Rouges-Launcher, Rouges-FTP, Rouges-FutureNote, Rouges-PDFKing, Rouges-Pc2Pc, Rouges-Kalc+ and Rouges-Snap are built with
 [Slint](https://slint.dev), used under the Slint Royalty-free License.
 
 <a href="https://slint.dev"><img src="https://github.com/slint-ui/slint/raw/master/logo/MadeWithSlint-logo-whitebg.png" height="60" alt="Made with Slint"></a>
