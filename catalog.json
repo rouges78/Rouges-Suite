@@ -2002,6 +2002,101 @@
         "it": "Griglie per monitor e workspace di finestre"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#ff6b81",
+      "accent_light": "#c2255c",
+      "description": {
+        "en": "Send a code and you are talking: voice, screen, webcam and files straight between the computers, no account and no server in the middle, up to 5 people.",
+        "it": "Un codice da mandare e state parlando: voce, schermo, webcam e file direttamente tra i computer, senza account e senza server in mezzo, fino a 5 persone."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "NEW CALL gives a one-time code: whoever types it in JOIN is in the call, with no account and nothing else to install. The code stays on screen to invite more people.",
+            "it": "NUOVA CHIAMATA dà un codice monouso: chi lo scrive in PARTECIPA è nella chiamata, senza account e senza altro da installare. Il codice resta a schermo per invitare altre persone."
+          },
+          "title": {
+            "en": "A code and you are talking",
+            "it": "Un codice e state parlando"
+          }
+        },
+        {
+          "text": {
+            "en": "Everyone is connected straight to everyone else, encrypted end to end, through the routers or through a relay only when they block a direct connection.",
+            "it": "Ognuno è collegato direttamente a tutti gli altri, con cifratura da un capo all'altro, attraverso i router o tramite un relay solo quando bloccano il collegamento diretto."
+          },
+          "title": {
+            "en": "Up to 5 people, directly",
+            "it": "Fino a 5 persone, direttamente"
+          }
+        },
+        {
+          "text": {
+            "en": "Opus that repairs lost packets, a noise filter for keyboards and fans, Windows' echo cancellation where the computer has it (ECHO TEST tells you), and push-to-talk on any key, even in a full-screen game.",
+            "it": "Opus che ripara i pacchetti persi, un filtro per tastiere e ventole, la cancellazione dell'eco di Windows dove il computer ce l'ha (PROVA ECO lo dice), e il push-to-talk su qualsiasi tasto, anche in un gioco a schermo intero."
+          },
+          "title": {
+            "en": "A clear voice",
+            "it": "Una voce pulita"
+          }
+        },
+        {
+          "text": {
+            "en": "Shared screens are encoded by the graphics card (NVIDIA, AMD, Intel) and keep text sharp, each in its own window; webcam pictures wait for the voice, so lips and words match.",
+            "it": "Gli schermi condivisi li codifica la scheda video (NVIDIA, AMD, Intel) e il testo resta nitido, ognuno nella sua finestra; le immagini della webcam aspettano la voce, così labbra e parole coincidono."
+          },
+          "title": {
+            "en": "Screen at 60 FPS, webcam in sync",
+            "it": "Schermo a 60 FPS, webcam sincronizzata"
+          }
+        },
+        {
+          "text": {
+            "en": "Offer a file to the call: each person accepts or declines it, and it goes straight from computer to computer, after the voice and the video, into Downloads\\Rouges-Call.",
+            "it": "Offri un file alla chiamata: ognuno lo accetta o lo rifiuta, e va direttamente da computer a computer, dopo la voce e il video, in Download\\Rouges-Call."
+          },
+          "title": {
+            "en": "Files of any size",
+            "it": "File di qualsiasi dimensione"
+          }
+        },
+        {
+          "text": {
+            "en": "The call's sound, one WAV file per person, all aligned, in Documents\\Rouges-Call. Everyone in the call sees who is recording.",
+            "it": "L'audio della chiamata, un file WAV per persona, tutti allineati, in Documenti\\Rouges-Call. Tutti nella chiamata vedono chi sta registrando."
+          },
+          "title": {
+            "en": "Record on your computer",
+            "it": "Registra sul tuo computer"
+          }
+        }
+      ],
+      "icon": "call",
+      "id": "call",
+      "name": "Call",
+      "package": {
+        "exe": "RougesCall.exe",
+        "sha256": "3107a6f57637b652ceeb406a4e1899ea4f5bc9aea38db9734b432fc66594c9b6",
+        "size": 13469848,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/call-v0.5.0/call-0.5.0.zip"
+      },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "A call of five, with a file offered to the call",
+            "it": "Una chiamata a cinque, con un file offerto alla chiamata"
+          },
+          "sha256": "c0b1083c998d4a95b8f98caf5b90d28d196c0ef702bf105789ee568b392768db",
+          "size": 61397,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/call-1-c0b1083c.png"
+        }
+      ],
+      "subtitle": {
+        "en": "PC to PC calls, up to 5 people",
+        "it": "Chiamate da PC a PC, fino a 5 persone"
+      },
+      "version": "0.5.0"
     }
   ],
   "launcher": {
@@ -2010,5 +2105,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.16/RougesSetup.exe",
     "version": "0.1.16"
   },
-  "serial": 123
+  "serial": 124
 }
