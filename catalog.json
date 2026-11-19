@@ -1823,6 +1823,81 @@
         "it": "Variabili d'ambiente, PATH e collegamenti"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#99e9f2",
+      "accent_light": "#0b7285",
+      "description": {
+        "en": "Drop hundreds of images or whole folders and convert them in parallel on every CPU core to WebP, AVIF, JPEG or PNG, with power-of-two resizing and a before/after view.",
+        "it": "Trascina centinaia di immagini o cartelle e convertile in parallelo su tutti i core in WebP, AVIF, JPEG o PNG, con ridimensionamento a potenze di due e confronto prima/dopo."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "One file per core with rayon, SIMD resizing with fast_image_resize, mozjpeg, libwebp and rav1e encoders.",
+            "it": "Un file per core con rayon, ridimensionamento SIMD con fast_image_resize, encoder mozjpeg, libwebp e rav1e."
+          },
+          "title": {
+            "en": "Every core at work",
+            "it": "Tutti i core al lavoro"
+          }
+        },
+        {
+          "text": {
+            "en": "PNG and TGA to WebP, AVIF or PNG with power-of-two sizes (nearest, down or up) and a size limit.",
+            "it": "Da PNG e TGA a WebP, AVIF o PNG con misure a potenze di due (più vicina, inferiore o superiore) e un limite."
+          },
+          "title": {
+            "en": "Made for game textures",
+            "it": "Pensato per le texture dei giochi"
+          }
+        },
+        {
+          "text": {
+            "en": "A before/after slider on a 100% crop with the current preset, and the exact size of the final file.",
+            "it": "Un cursore prima/dopo su un ritaglio al 100% con il preset in uso, e il peso esatto del file finale."
+          },
+          "title": {
+            "en": "See what you lose",
+            "it": "Vedi cosa perdi"
+          }
+        },
+        {
+          "text": {
+            "en": "Original and new size with the percentage for every file, and the total in MB; metadata such as EXIF and GPS removed.",
+            "it": "Peso originale e nuovo con la percentuale per ogni file, e il totale in MB; metadati come EXIF e GPS rimossi."
+          },
+          "title": {
+            "en": "Savings file by file",
+            "it": "Risparmio file per file"
+          }
+        },
+        {
+          "text": {
+            "en": "An optional “Optimize with Rouges@Optimizer” entry on images and folders, for the current user only.",
+            "it": "Una voce facoltativa «Ottimizza con Rouges@Optimizer» su immagini e cartelle, solo per l'utente corrente."
+          },
+          "title": {
+            "en": "From Explorer",
+            "it": "Da Esplora file"
+          }
+        }
+      ],
+      "icon": "optimize",
+      "id": "optimizer",
+      "name": "Optimizer",
+      "package": {
+        "exe": "RougesOptimizer.exe",
+        "sha256": "c32ea11cd59ac629aeb45d55b3015f23b83b6765f3ef1c21cb6afb41615ad521",
+        "size": 4512460,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/optimizer-v0.1.0/optimizer-0.1.0.zip"
+      },
+      "screenshots": [],
+      "subtitle": {
+        "en": "Batch image and texture optimizer",
+        "it": "Ottimizzazione in blocco di immagini e texture"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -1831,5 +1906,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.15/RougesSetup.exe",
     "version": "0.1.15"
   },
-  "serial": 119
+  "serial": 120
 }
