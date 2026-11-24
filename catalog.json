@@ -2211,6 +2211,101 @@
         "it": "Dati dai documenti d'identità italiani al CSV"
       },
       "version": "2.0.2"
+    },
+    {
+      "accent_dark": "#f2b66d",
+      "accent_light": "#8f4f12",
+      "description": {
+        "en": "Finds your subscriptions in CSV and PDF bank statements, sums them per month and per year, flags price increases and helps you cancel with the right page, ready letters and a check on the next statements. All local and encrypted.",
+        "it": "Trova gli abbonamenti negli estratti conto CSV e PDF, fa i conti al mese e all'anno, segnala i rincari e aiuta a disdire con la pagina giusta, le lettere pronte e la verifica sugli estratti successivi. Tutto in locale e cifrato."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "Import the CSV of your bank, PayPal or Revolut, or a PDF statement, or drop them on the window: weekly to yearly charges are found by themselves, even several subscriptions behind the same APPLE.COM/BILL. Overlapping statements never duplicate anything.",
+            "it": "Importi il CSV della banca, di PayPal o di Revolut, o un estratto PDF, oppure li trascini nella finestra: gli addebiti da settimanali ad annuali si trovano da soli, anche più abbonamenti dietro lo stesso APPLE.COM/BILL. Estratti sovrapposti non duplicano niente."
+          },
+          "title": {
+            "en": "Found by themselves",
+            "it": "Trovati da soli"
+          }
+        },
+        {
+          "text": {
+            "en": "The monthly cost with yearly and quarterly charges spread over the months, what this month really costs, the yearly total, the cost per account or card and the next 30 days, so a yearly renewal is never a surprise.",
+            "it": "Il costo al mese con annuali e trimestrali divisi sui mesi, quanto costa davvero questo mese, il totale all'anno, il costo per conto o carta e i prossimi 30 giorni, così un rinnovo annuale non è mai una sorpresa."
+          },
+          "title": {
+            "en": "Spread and real cost",
+            "it": "Costo spalmato e reale"
+          }
+        },
+        {
+          "text": {
+            "en": "When a service goes from 12.99 to 13.99 € the history shows it and an alert tells you; a subscription that stopped being charged is marked as stopped.",
+            "it": "Quando un servizio passa da 12,99 a 13,99 € lo storico lo mostra e un avviso te lo dice; un abbonamento che non viene più addebitato è segnato come fermo."
+          },
+          "title": {
+            "en": "Silent price increases",
+            "it": "Rincari silenziosi"
+          }
+        },
+        {
+          "text": {
+            "en": "A link to the provider's manage page, letters for a cancellation, a phone or pay-TV withdrawal (Italian Law 40/2007) or a direct-debit revocation, to copy or open in your email. After MARK AS CANCELLED the next statements check it, with a red alarm if it is charged again.",
+            "it": "Il link alla pagina di gestione del fornitore, le lettere di disdetta, recesso da telefonia o pay-TV (Legge 40/2007) o revoca dell'addebito diretto, da copiare o aprire nella posta. Dopo SEGNA COME DISDETTO i prossimi estratti la verificano, con l'allarme rosso se l'addebito ripassa."
+          },
+          "title": {
+            "en": "Cancel, then verify",
+            "it": "Disdici, poi verifica"
+          }
+        },
+        {
+          "text": {
+            "en": "An optional read-only scan of your mailbox finds the receipts and matches them to the charges: APPLE.COM/BILL becomes iCloud+ 200 GB. Nothing is marked as read, and the password stays in Windows Credential Manager.",
+            "it": "Una lettura facoltativa della posta, in sola lettura, trova le ricevute e le abbina agli addebiti: APPLE.COM/BILL diventa iCloud+ 200 GB. Niente viene segnato come letto e la password resta nel Gestore credenziali di Windows."
+          },
+          "title": {
+            "en": "What is behind a generic charge",
+            "it": "Cosa c'è dietro un addebito generico"
+          }
+        },
+        {
+          "text": {
+            "en": "No bank credentials and no server: everything stays in one file encrypted with your Windows account, and deleted data is really erased.",
+            "it": "Niente credenziali della banca e nessun server: tutto resta in un unico file cifrato con il tuo account Windows, e i dati cancellati vengono cancellati davvero."
+          },
+          "title": {
+            "en": "No bank login, encrypted",
+            "it": "Nessun accesso alla banca, cifrato"
+          }
+        }
+      ],
+      "icon": "card",
+      "id": "ccard",
+      "name": "CCard",
+      "package": {
+        "exe": "RougesCCard.exe",
+        "sha256": "154bcef8d70b2b342592a460c6d0cd53fbd04c90ecffb9318deaf1abad4aaaa6",
+        "size": 10942295,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/ccard-v0.1.0/ccard-0.1.0.zip"
+      },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "The overview: cost per month and year, next charges, a price increase and a charge after a cancellation",
+            "it": "Il riepilogo: costo al mese e all'anno, prossimi addebiti, un rincaro e un addebito dopo una disdetta"
+          },
+          "sha256": "db07fe9b043d70bf29fe2b8cf8246cad6070c653f97db175bfff2377a9c70167",
+          "size": 166624,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/ccard-1-db07fe9b.png"
+        }
+      ],
+      "subtitle": {
+        "en": "Subscriptions and recurring charges",
+        "it": "Abbonamenti e addebiti ricorrenti"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -2219,5 +2314,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.18/RougesSetup.exe",
     "version": "0.1.18"
   },
-  "serial": 133
+  "serial": 134
 }
