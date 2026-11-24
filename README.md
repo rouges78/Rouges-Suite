@@ -71,6 +71,8 @@ It downloads the same `RougesSetup.exe`, checks its SHA-256 and runs it.
 | <img src="assets/icons/grid.svg" width="40" alt=""> | **Rouges-Grid** | Per-monitor grids and window workspaces: snap windows into zones with Shift + drag or from the keyboard, put every window back in its place in one click, and keep any window on top, see-through or borderless, from the notification area. |
 | <img src="assets/icons/call.svg" width="40" alt=""> | **Rouges-Call** | Calls from PC to PC, up to 5 people: send a code and you are talking, with voice, screen sharing at 60 FPS, webcam, files and local recording going straight between the computers, no account and no server in the middle. |
 | <img src="assets/icons/docuextract.svg" width="40" alt=""> | **Rouges-DocuExtract** | Data from Italian identity documents to CSV: reads identity cards, driving licences, passports and health cards from images and PDFs with OCR on your PC, shows the confidence of every field and exports to CSV or to the Alloggiati Web file. |
+| <img src="assets/icons/ccard.svg" width="40" alt=""> | **Rouges-CCard** | Subscriptions and recurring charges: finds your subscriptions in CSV and PDF bank statements, sums them per month and per year, flags price increases and helps you cancel them, with a check on the next statements. All local and encrypted. |
+| <img src="assets/icons/studiomok.svg" width="40" alt=""> | **Rouges-StudioMok** | AI images, 3D models and video on a node canvas: from a prompt or a picture to multi-views, props extracted one per node, 3D models and clips, with your own fal.ai, Google or OpenAI keys or locally with ComfyUI. Every file stays on your PC. |
 | <img src="assets/icons/gameledger.svg" width="40" alt=""> | **Rouges-GameLedger** | Video game production, in the browser: design docs, assets, roadmap, sprints and bugs linked together, separated by project. |
 
 ## Why a launcher
@@ -92,7 +94,7 @@ SHA-256 matches the catalog, and only from `https://` addresses.
 ## Made with Slint
 
 Rouges-Launcher, Rouges-FTP, Rouges-FutureNote, Rouges-PDFKing, Rouges-Pc2Pc, Rouges-Kalc+, Rouges-Snap, Rouges-Mixer,
-Rouges-Unpack, Rouges-ClipVault, Rouges-Env, Rouges-Grid, Rouges-Call and Rouges-DocuExtract are built with
+Rouges-Unpack, Rouges-ClipVault, Rouges-Env, Rouges-Grid, Rouges-Call, Rouges-DocuExtract and Rouges-CCard are built with
 [Slint](https://slint.dev), used under the Slint Royalty-free License.
 
 <a href="https://slint.dev"><img src="https://github.com/slint-ui/slint/raw/master/logo/MadeWithSlint-logo-whitebg.png" height="60" alt="Made with Slint"></a>
