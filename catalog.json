@@ -2381,9 +2381,9 @@
       "name": "StudioMok",
       "package": {
         "exe": "RougesStudioMok.exe",
-        "sha256": "883d42989622837c19345b22a39f23576b857caaeaa9b6d6ea55e5a31460c4a3",
-        "size": 3827034,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/studiomok-v0.1.0/studiomok-0.1.0.zip"
+        "sha256": "f7cb9ed4acfd0b55c119b82e04baa12092522466606b3788392511fdfdf81c59",
+        "size": 3840699,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/studiomok-v0.1.1/studiomok-0.1.1.zip"
       },
       "screenshots": [
         {
@@ -2400,7 +2400,7 @@
         "en": "AI images, 3D models and video, on a node canvas",
         "it": "Immagini, modelli 3D e video con l'IA, a nodi"
       },
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ],
   "launcher": {
@@ -2409,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 138
+  "serial": 139
 }
