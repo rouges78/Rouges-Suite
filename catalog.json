@@ -189,16 +189,16 @@
       "name": "Browser",
       "package": {
         "exe": "RougesBrowser.exe",
-        "sha256": "d878185b522de7f03291e6bc3ff22f5dbc16578566166e3cea298d1223739265",
-        "size": 4025915,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/browser-v0.5.3/browser-0.5.3.zip"
+        "sha256": "cafb15e43f4828c857d45144fcb5d790bdebf4e62b0bd6c42898d511acb48966",
+        "size": 4029912,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/browser-v0.5.4/browser-0.5.4.zip"
       },
       "screenshots": [],
       "subtitle": {
         "en": "Light, tracker-free browsing",
         "it": "Navigazione leggera e senza tracker"
       },
-      "version": "0.5.3"
+      "version": "0.5.4"
     },
     {
       "accent_dark": "#ffd43b",
@@ -2409,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 139
+  "serial": 140
 }
