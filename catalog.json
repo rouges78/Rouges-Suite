@@ -2116,6 +2116,101 @@
         "it": "Chiamate da PC a PC, fino a 5 persone"
       },
       "version": "0.5.0"
+    },
+    {
+      "accent_dark": "#9ad0c2",
+      "accent_light": "#2f6f62",
+      "description": {
+        "en": "Reads Italian identity cards, driving licences, passports and health cards from images and PDFs with OCR on your PC, shows the confidence of every field and exports to CSV or to the Alloggiati Web file.",
+        "it": "Legge carta d'identità, patente, passaporto e tessera sanitaria da immagini e PDF con OCR sul tuo PC, mostra la confidenza di ogni campo ed esporta in CSV o nel tracciato Alloggiati Web."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "Identity card, driving licence, passport and health card are recognised on their own, from photos, scans and multi-page PDFs.",
+            "it": "Carta d'identità, patente, passaporto e tessera sanitaria vengono riconosciuti da soli, da foto, scansioni e PDF di più pagine."
+          },
+          "title": {
+            "en": "Four Italian documents",
+            "it": "Quattro documenti italiani"
+          }
+        },
+        {
+          "text": {
+            "en": "Text recognition runs locally with PP-OCR models: no account, no cloud, nothing is sent anywhere.",
+            "it": "Il riconoscimento del testo gira in locale con i modelli PP-OCR: niente account, niente cloud, niente viene inviato."
+          },
+          "title": {
+            "en": "Documents stay on your PC",
+            "it": "I documenti restano sul tuo PC"
+          }
+        },
+        {
+          "text": {
+            "en": "Green means verified, yellow means compare with the document, red means wrong and not exported. Click a value to correct it next to the picture of the document.",
+            "it": "Verde vuol dire verificato, giallo da confrontare con il documento, rosso sbagliato e non esportato. Clic su un valore per correggerlo accanto all'immagine del documento."
+          },
+          "title": {
+            "en": "Confidence at a glance",
+            "it": "Confidenza a colpo d'occhio"
+          }
+        },
+        {
+          "text": {
+            "en": "Document number and dates from the MRZ lines of identity cards and passports are verified with their check digits; names are compared with the printed ones.",
+            "it": "Numero e date delle righe MRZ di carte d'identità e passaporti vengono verificati con le cifre di controllo; i nomi confrontati con quelli stampati."
+          },
+          "title": {
+            "en": "Machine-readable zone decoded",
+            "it": "Zona a lettura ottica decodificata"
+          }
+        },
+        {
+          "text": {
+            "en": "Point it at the scanner's folder: new documents are processed as they arrive and filed into processed, with a copy of the originals.",
+            "it": "Indicagli la cartella dello scanner: i nuovi documenti vengono elaborati appena arrivano e archiviati in processed, con una copia degli originali."
+          },
+          "title": {
+            "en": "Folder watch",
+            "it": "Sorveglianza di una cartella"
+          }
+        },
+        {
+          "text": {
+            "en": "For accommodation hosts: builds the fixed-width file for the Italian State Police portal, and checks every row again at the moment of export.",
+            "it": "Per chi ospita: genera il file a lunghezza fissa per il portale della Polizia di Stato, e ricontrolla ogni riga al momento dell'export."
+          },
+          "title": {
+            "en": "Alloggiati Web file",
+            "it": "Tracciato Alloggiati Web"
+          }
+        }
+      ],
+      "icon": "idcard",
+      "id": "docuextract",
+      "name": "DocuExtract",
+      "package": {
+        "exe": "RougesDocuExtract.exe",
+        "sha256": "538dc43258a6f9673f6459d591a89b23d7a0be2410c019112a9bfd43e5836719",
+        "size": 42401764,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/docuextract-v2.0.0/docuextract-2.0.0.zip"
+      },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "A page read: document type, fields with their confidence, picture and raw text",
+            "it": "Una pagina letta: tipo di documento, campi con la loro confidenza, immagine e testo grezzo"
+          },
+          "sha256": "a0de5052509c682b8fb6b0c420c15de635ac75c002f25dee8263ebc1915d852b",
+          "size": 146994,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/docuextract-1-a0de5052.png"
+        }
+      ],
+      "subtitle": {
+        "en": "Data from Italian ID documents to CSV",
+        "it": "Dati dai documenti d'identità italiani al CSV"
+      },
+      "version": "2.0.0"
     }
   ],
   "launcher": {
@@ -2124,5 +2219,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.17/RougesSetup.exe",
     "version": "0.1.17"
   },
-  "serial": 129
+  "serial": 130
 }
