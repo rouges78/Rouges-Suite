@@ -2306,6 +2306,101 @@
         "it": "Abbonamenti e addebiti ricorrenti"
       },
       "version": "0.1.0"
+    },
+    {
+      "accent_dark": "#f783ac",
+      "accent_light": "#c2255c",
+      "description": {
+        "en": "A node canvas: from a prompt or a picture to images, multi-views, 3D models and videos, with your own fal.ai, Google or OpenAI keys, or locally with ComfyUI. It splits a character into one node per prop and keeps every file on your PC.",
+        "it": "Una canvas a nodi: da un prompt o da un'immagine a immagini, multi-view, modelli 3D e video, con le tue chiavi fal.ai, Google o OpenAI, o in locale con ComfyUI. Estrae ogni oggetto di un personaggio in un nodo e tiene tutti i file sul PC."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "Prompt, image, multi-view, character sheet, re-angle, image to 3D, image to video: each node feeds the next. Generate on a node also runs the nodes upstream that have no result yet.",
+            "it": "Prompt, immagine, multi-view, character sheet, cambio d'angolo, immagine → 3D, immagine → video: ogni nodo alimenta il successivo. Genera su un nodo lancia anche i nodi a monte che non hanno ancora un risultato."
+          },
+          "title": {
+            "en": "Wire it, press Generate",
+            "it": "Collega e premi Genera"
+          }
+        },
+        {
+          "text": {
+            "en": "Props extraction finds the hat, the cloak and the boots of a character (or the furniture of a room) and gives each its own picture and, if you like, its own 3D model, ready for Blender.",
+            "it": "Estrai oggetti trova il cappello, il mantello e gli stivali di un personaggio (o i mobili di una stanza) e dà a ognuno la sua immagine e, se vuoi, il suo modello 3D, pronto per Blender."
+          },
+          "title": {
+            "en": "One node per prop",
+            "it": "Un nodo per ogni oggetto"
+          }
+        },
+        {
+          "text": {
+            "en": "Nano Banana, GPT Image, Tripo, Hunyuan3D, Veo and Seedance through fal.ai, Google or OpenAI with your own keys, kept in the Windows Credential Manager. Runs of several generations ask first.",
+            "it": "Nano Banana, GPT Image, Tripo, Hunyuan3D, Veo e Seedance tramite fal.ai, Google o OpenAI con le tue chiavi, custodite nel Gestore credenziali di Windows. Le esecuzioni con più generazioni chiedono prima."
+          },
+          "title": {
+            "en": "Your keys, no subscription",
+            "it": "Le tue chiavi, nessun abbonamento"
+          }
+        },
+        {
+          "text": {
+            "en": "Connect ComfyUI with your TRELLIS.2 workflow and image to 3D runs on your PC. A game preset asks for low-poly meshes of about 12k triangles.",
+            "it": "Collega ComfyUI con il tuo workflow TRELLIS.2 e l'immagine → 3D gira sul tuo PC. Il preset per giochi chiede mesh low-poly di circa 12k triangoli."
+          },
+          "title": {
+            "en": "Free 3D on your GPU",
+            "it": "3D gratis sulla tua GPU"
+          }
+        },
+        {
+          "text": {
+            "en": "Change a prompt or a setting and every result downstream is marked out of date; Generate all redoes only those, in order. Each node keeps its history to compare and pick from.",
+            "it": "Cambi un prompt o un'impostazione e ogni risultato a valle è segnato da rigenerare; Genera tutto rifà solo quelli, nell'ordine giusto. Ogni nodo tiene la cronologia per confrontare e scegliere."
+          },
+          "title": {
+            "en": "Out of date shows",
+            "it": "Si vede cosa è da rifare"
+          }
+        },
+        {
+          "text": {
+            "en": "Every result is saved in the project folder. 3D viewer with texture, clay, normals and wireframe; export to GLB, OBJ, STL or FBX; rig and animate in ActionForge with one click. Demo mode tries everything for free.",
+            "it": "Ogni risultato è salvato nella cartella del progetto. Visore 3D con texture, argilla, normali e wireframe; export in GLB, OBJ, STL o FBX; rig e animazioni in ActionForge con un clic. La modalità demo prova tutto gratis."
+          },
+          "title": {
+            "en": "Files on your PC",
+            "it": "File sul tuo PC"
+          }
+        }
+      ],
+      "icon": "nodes",
+      "id": "studiomok",
+      "name": "StudioMok",
+      "package": {
+        "exe": "RougesStudioMok.exe",
+        "sha256": "883d42989622837c19345b22a39f23576b857caaeaa9b6d6ea55e5a31460c4a3",
+        "size": 3827034,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/studiomok-v0.1.0/studiomok-0.1.0.zip"
+      },
+      "screenshots": [
+        {
+          "caption": {
+            "en": "The clothing workflow in demo mode: dressed character, one node per garment and a 3D model for each",
+            "it": "Il flusso dei vestiti in modalità demo: personaggio vestito, un nodo per capo e un modello 3D per ognuno"
+          },
+          "sha256": "a03b8b304d9b0e6827f9d98add6ab85370f52d00529ab6ad0c819e81fa9ed7e1",
+          "size": 697355,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/studiomok-1-a03b8b30.png"
+        }
+      ],
+      "subtitle": {
+        "en": "AI images, 3D models and video, on a node canvas",
+        "it": "Immagini, modelli 3D e video con l'IA, a nodi"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -2314,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.18/RougesSetup.exe",
     "version": "0.1.18"
   },
-  "serial": 136
+  "serial": 137
 }
