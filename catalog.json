@@ -2191,9 +2191,9 @@
       "name": "DocuExtract",
       "package": {
         "exe": "RougesDocuExtract.exe",
-        "sha256": "9099f0be3754e9f2eb971f5c777a21ac748a49df4aaecdf47d4810a7f8e5f6fc",
-        "size": 42411309,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/docuextract-v2.0.1/docuextract-2.0.1.zip"
+        "sha256": "63adfdb4a0166d1ab0c337d427e3730561007fdbddf2e07f941c12b78d61de96",
+        "size": 42411825,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/docuextract-v2.0.2/docuextract-2.0.2.zip"
       },
       "screenshots": [
         {
@@ -2210,7 +2210,7 @@
         "en": "Data from Italian ID documents to CSV",
         "it": "Dati dai documenti d'identità italiani al CSV"
       },
-      "version": "2.0.1"
+      "version": "2.0.2"
     }
   ],
   "launcher": {
@@ -2219,5 +2219,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.18/RougesSetup.exe",
     "version": "0.1.18"
   },
-  "serial": 132
+  "serial": 133
 }
