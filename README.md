@@ -70,6 +70,7 @@ It downloads the same `RougesSetup.exe`, checks its SHA-256 and runs it.
 | <img src="assets/icons/env.svg" width="40" alt=""> | **Rouges-Env** | Environment variables, PATH and links: edit user and system variables and the PATH one folder at a time, with broken entries and duplicates highlighted; create junctions and symlinks without mklink. |
 | <img src="assets/icons/grid.svg" width="40" alt=""> | **Rouges-Grid** | Per-monitor grids and window workspaces: snap windows into zones with Shift + drag or from the keyboard, put every window back in its place in one click, and keep any window on top, see-through or borderless, from the notification area. |
 | <img src="assets/icons/call.svg" width="40" alt=""> | **Rouges-Call** | Calls from PC to PC, up to 5 people: send a code and you are talking, with voice, screen sharing at 60 FPS, webcam, files and local recording going straight between the computers, no account and no server in the middle. |
+| <img src="assets/icons/docuextract.svg" width="40" alt=""> | **Rouges-DocuExtract** | Data from Italian identity documents to CSV: reads identity cards, driving licences, passports and health cards from images and PDFs with OCR on your PC, shows the confidence of every field and exports to CSV or to the Alloggiati Web file. |
 | <img src="assets/icons/gameledger.svg" width="40" alt=""> | **Rouges-GameLedger** | Video game production, in the browser: design docs, assets, roadmap, sprints and bugs linked together, separated by project. |
 
 ## Why a launcher
@@ -91,7 +92,7 @@ SHA-256 matches the catalog, and only from `https://` addresses.
 ## Made with Slint
 
 Rouges-Launcher, Rouges-FTP, Rouges-FutureNote, Rouges-PDFKing, Rouges-Pc2Pc, Rouges-Kalc+, Rouges-Snap, Rouges-Mixer,
-Rouges-Unpack, Rouges-ClipVault, Rouges-Env, Rouges-Grid and Rouges-Call are built with
+Rouges-Unpack, Rouges-ClipVault, Rouges-Env, Rouges-Grid, Rouges-Call and Rouges-DocuExtract are built with
 [Slint](https://slint.dev), used under the Slint Royalty-free License.
 
 <a href="https://slint.dev"><img src="https://github.com/slint-ui/slint/raw/master/logo/MadeWithSlint-logo-whitebg.png" height="60" alt="Made with Slint"></a>
