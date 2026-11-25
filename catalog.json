@@ -2216,14 +2216,14 @@
       "accent_dark": "#f2b66d",
       "accent_light": "#8f4f12",
       "description": {
-        "en": "Finds your subscriptions in CSV and PDF bank statements, sums them per month and per year, flags price increases and helps you cancel with the right page, ready letters and a check on the next statements. All local and encrypted.",
-        "it": "Trova gli abbonamenti negli estratti conto CSV e PDF, fa i conti al mese e all'anno, segnala i rincari e aiuta a disdire con la pagina giusta, le lettere pronte e la verifica sugli estratti successivi. Tutto in locale e cifrato."
+        "en": "Finds your subscriptions in CSV, Excel and PDF bank statements, sums them per month and per year, flags price increases and helps you cancel with the right page, ready letters and a check on the next statements. All local and encrypted.",
+        "it": "Trova gli abbonamenti negli estratti conto CSV, Excel e PDF, fa i conti al mese e all'anno, segnala i rincari e aiuta a disdire con la pagina giusta, le lettere pronte e la verifica sugli estratti successivi. Tutto in locale e cifrato."
       },
       "features": [
         {
           "text": {
-            "en": "Import the CSV of your bank, PayPal or Revolut, or a PDF statement, or drop them on the window: weekly to yearly charges are found by themselves, even several subscriptions behind the same APPLE.COM/BILL. Overlapping statements never duplicate anything.",
-            "it": "Importi il CSV della banca, di PayPal o di Revolut, o un estratto PDF, oppure li trascini nella finestra: gli addebiti da settimanali ad annuali si trovano da soli, anche più abbonamenti dietro lo stesso APPLE.COM/BILL. Estratti sovrapposti non duplicano niente."
+            "en": "Import the CSV or Excel file of your bank, PayPal or Revolut, or a PDF statement, or drop them on the window: weekly to yearly charges are found by themselves, even several subscriptions behind the same APPLE.COM/BILL. Overlapping statements never duplicate anything.",
+            "it": "Importi il CSV o l'Excel della banca, di PayPal o di Revolut, o un estratto PDF, oppure li trascini nella finestra: gli addebiti da settimanali ad annuali si trovano da soli, anche più abbonamenti dietro lo stesso APPLE.COM/BILL. Estratti sovrapposti non duplicano niente."
           },
           "title": {
             "en": "Found by themselves",
@@ -2286,9 +2286,9 @@
       "name": "CCard",
       "package": {
         "exe": "RougesCCard.exe",
-        "sha256": "154bcef8d70b2b342592a460c6d0cd53fbd04c90ecffb9318deaf1abad4aaaa6",
-        "size": 10942295,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/ccard-v0.1.0/ccard-0.1.0.zip"
+        "sha256": "28d008ab29917bc9a8ee525c750e75e9ee8428e53caa57abcb73f25e0834ff69",
+        "size": 11700377,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/ccard-v0.2.0/ccard-0.2.0.zip"
       },
       "screenshots": [
         {
@@ -2305,7 +2305,7 @@
         "en": "Subscriptions and recurring charges",
         "it": "Abbonamenti e addebiti ricorrenti"
       },
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     {
       "accent_dark": "#f783ac",
@@ -2409,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 158
+  "serial": 159
 }
