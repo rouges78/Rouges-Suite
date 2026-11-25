@@ -2381,9 +2381,9 @@
       "name": "StudioMok",
       "package": {
         "exe": "RougesStudioMok.exe",
-        "sha256": "f7cb9ed4acfd0b55c119b82e04baa12092522466606b3788392511fdfdf81c59",
-        "size": 3840699,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/studiomok-v0.1.1/studiomok-0.1.1.zip"
+        "sha256": "0da597603e6519aaf49aa5f9ce5e7796a475fd289799c6caf8a3147ea6a61d2a",
+        "size": 3943930,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/studiomok-v0.1.2/studiomok-0.1.2.zip"
       },
       "screenshots": [
         {
@@ -2391,16 +2391,16 @@
             "en": "The clothing workflow in demo mode: dressed character, one node per garment and a 3D model for each",
             "it": "Il flusso dei vestiti in modalità demo: personaggio vestito, un nodo per capo e un modello 3D per ognuno"
           },
-          "sha256": "a03b8b304d9b0e6827f9d98add6ab85370f52d00529ab6ad0c819e81fa9ed7e1",
-          "size": 697355,
-          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/studiomok-1-a03b8b30.png"
+          "sha256": "b43c95e16594202665c32b27e18e8e6cb79e90a0e289aad5f46d21d2eb1bea48",
+          "size": 579470,
+          "url": "https://raw.githubusercontent.com/rouges78/Rouges-Suite/main/assets/screenshots/studiomok-1-b43c95e1.png"
         }
       ],
       "subtitle": {
         "en": "AI images, 3D models and video, on a node canvas",
         "it": "Immagini, modelli 3D e video con l'IA, a nodi"
       },
-      "version": "0.1.1"
+      "version": "0.1.2"
     }
   ],
   "launcher": {
@@ -2409,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 155
+  "serial": 156
 }
