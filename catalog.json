@@ -755,17 +755,17 @@
         "kind": "installer",
         "previous_exe": "%LOCALAPPDATA%\\Rouges@Mail\\lightmail.exe",
         "previous_uninstaller": "%LOCALAPPDATA%\\Rouges@Mail\\uninstall.exe",
-        "sha256": "00e52dc46e131e8b519d6dd3d75f437bd76d94ffe8234381a480b65d4e7c529a",
-        "size": 3793346,
+        "sha256": "c2c6ba7df94e19b903ab42df838d656feafd28b80e3cf175779d7bf411236d66",
+        "size": 3818551,
         "uninstaller": "%LOCALAPPDATA%\\Rouges-LightMail\\uninstall.exe",
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mail-v0.2.8/Rouges-LightMail_0.2.8_x64-setup.exe"
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mail-v0.2.9/Rouges-LightMail_0.2.9_x64-setup.exe"
       },
       "screenshots": [],
       "subtitle": {
         "en": "Lightweight email",
         "it": "Posta elettronica leggera"
       },
-      "version": "0.2.8"
+      "version": "0.2.9"
     },
     {
       "accent_dark": "#7bd88f",
@@ -2409,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 146
+  "serial": 147
 }
