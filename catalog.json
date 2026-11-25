@@ -1613,9 +1613,9 @@
       "name": "Snap",
       "package": {
         "exe": "RougesSnap.exe",
-        "sha256": "a59a4466a5a7a2e7b58e5403c1aa7114780c1746f4f12fe9adead541ed9d12b4",
-        "size": 7642820,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/snap-v0.3.0/snap-0.3.0.zip"
+        "sha256": "2f93a4f8919ba199ea69a195b7231760b0a3c67163a6aaf352f5ea63a95e3b1b",
+        "size": 7608784,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/snap-v0.4.0/snap-0.4.0.zip"
       },
       "screenshots": [
         {
@@ -1632,7 +1632,7 @@
         "en": "Screenshots, annotations and recording",
         "it": "Screenshot, annotazioni e registrazione"
       },
-      "version": "0.3.0"
+      "version": "0.4.0"
     },
     {
       "accent_dark": "#f06bd0",
@@ -2409,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 151
+  "serial": 152
 }
