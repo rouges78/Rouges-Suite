@@ -1448,8 +1448,8 @@
       "accent_dark": "#a9e34b",
       "accent_light": "#4b7a0a",
       "description": {
-        "en": "Opens ZIP, 7Z, RAR, TAR, GZ, ZST, XZ and BZ2 with no licence pop-ups, extracts without scattering files around, previews the tree and compresses to .zip or .tar.zst.",
-        "it": "Apre ZIP, 7Z, RAR, TAR, GZ, ZST, XZ e BZ2 senza pop-up di licenza, estrae senza spargere file, mostra l'albero prima di estrarre e comprime in .zip o .tar.zst."
+        "en": "Opens ZIP, 7Z, RAR, TAR, GZ, ZST, XZ and BZ2 with no licence pop-ups, extracts without scattering files around, previews the tree and compresses to .zip, .7z or .tar.zst, with an optional password.",
+        "it": "Apre ZIP, 7Z, RAR, TAR, GZ, ZST, XZ e BZ2 senza pop-up di licenza, estrae senza spargere file, mostra l'albero prima di estrarre e comprime in .zip, .7z o .tar.zst, con password facoltativa."
       },
       "features": [
         {
@@ -1474,8 +1474,8 @@
         },
         {
           "text": {
-            "en": "The archive opens as a tree with sizes: tick what you need and extract only that. Encrypted archives ask for the password.",
-            "it": "L'archivio si apre come un albero con le dimensioni: spunti quello che ti serve ed estrai solo quello. Gli archivi cifrati chiedono la password."
+            "en": "The archive opens as a tree with sizes and a search box: tick what you need and extract only that, or double-click a file to open it. Encrypted archives ask for the password.",
+            "it": "L'archivio si apre come un albero con le dimensioni e una ricerca: spunti quello che ti serve ed estrai solo quello, o apri un file con un doppio clic. Gli archivi cifrati chiedono la password."
           },
           "title": {
             "en": "Look before you extract",
@@ -1484,18 +1484,18 @@
         },
         {
           "text": {
-            "en": "To .zip, which opens everywhere, or to .tar.zst, much faster and smaller, on one core, half of them or all of them.",
-            "it": "In .zip, che si apre ovunque, o in .tar.zst, molto più veloce e piccolo, su un core, metà o tutti."
+            "en": "To .zip, which opens everywhere, to .7z, smaller, or to .tar.zst, much faster, using as many cores as you choose. .zip and .7z can be protected with an AES-256 password; in .7z the file names are hidden too.",
+            "it": "In .zip, che si apre ovunque, in .7z, più piccolo, o in .tar.zst, molto più veloce, con i core che scegli tu. .zip e .7z si possono proteggere con una password AES-256; nel .7z sono nascosti anche i nomi dei file."
           },
           "title": {
-            "en": "Fast compression, your choice of cores",
-            "it": "Compressione veloce, scegli tu i core"
+            "en": "Compression with a password",
+            "it": "Compressione con password"
           }
         },
         {
           "text": {
-            "en": "Optional Extract here, Open and Compress entries in the right-click menu, for the current user only, plus drag-and-drop onto the window.",
-            "it": "Voci facoltative Estrai qui, Apri e Comprimi nel menu del tasto destro, solo per l'utente corrente, e trascinamento sulla finestra."
+            "en": "Optional Extract here, Open and Compress entries in the right-click menu, for the current user only, opening archives with a double-click if you want, and drag-and-drop onto the window.",
+            "it": "Voci facoltative Estrai qui, Apri e Comprimi nel menu del tasto destro, solo per l'utente corrente, apertura degli archivi con un doppio clic se vuoi, e trascinamento sulla finestra."
           },
           "title": {
             "en": "From Explorer",
@@ -1504,8 +1504,8 @@
         },
         {
           "text": {
-            "en": "Entries that try to write outside the folder (../, absolute paths) and links are skipped and counted. Cancelling leaves nothing half-extracted.",
-            "it": "Le voci che provano a scrivere fuori dalla cartella (../, percorsi assoluti) e i collegamenti vengono saltati e contati. Annullare non lascia niente di estratto a metà."
+            "en": "Entries that try to write outside the folder (../, absolute paths) and links are skipped and counted. Files from a downloaded archive keep the downloaded-from-the-internet mark. Cancelling leaves nothing half-extracted.",
+            "it": "Le voci che provano a scrivere fuori dalla cartella (../, percorsi assoluti) e i collegamenti vengono saltati e contati. I file di un archivio scaricato mantengono il segno di file scaricato da internet. Annullare non lascia niente di estratto a metà."
           },
           "title": {
             "en": "Safe with downloaded archives",
@@ -2409,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 160
+  "serial": 161
 }
