@@ -1414,9 +1414,9 @@
       "name": "TwinFinder",
       "package": {
         "exe": "RougesTwinFinder.exe",
-        "sha256": "793bc0bb08fd80275f373d6e63a72faa87cd636cf62f73004d02a9a991255a68",
-        "size": 2735874,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/twinfinder-v0.1.0/twinfinder-0.1.0.zip"
+        "sha256": "224a4f24aa9df6e7228980141b597557e9d40d0ac10bbe9f174dca34d4662678",
+        "size": 2892543,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/twinfinder-v0.2.0/twinfinder-0.2.0.zip"
       },
       "screenshots": [
         {
@@ -1442,7 +1442,7 @@
         "en": "Duplicate files and orphan assets",
         "it": "File duplicati e asset orfani"
       },
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     {
       "accent_dark": "#a9e34b",
@@ -2409,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 152
+  "serial": 153
 }
