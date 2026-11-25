@@ -2401,6 +2401,91 @@
         "it": "Immagini, modelli 3D e video con l'IA, a nodi"
       },
       "version": "0.1.2"
+    },
+    {
+      "accent_dark": "#8ce99a",
+      "accent_light": "#2b8a3e",
+      "description": {
+        "en": "Every week it reads YouTube, Reddit and Product Hunt, keeps the signals that stand out and asks the AI engine you choose, on your PC or in the cloud, for up to 5 concrete ideas with demand, competition and effort scores.",
+        "it": "Ogni settimana legge YouTube, Reddit e Product Hunt, tiene i segnali che spiccano e chiede al motore AI che scegli, sul tuo PC o nel cloud, fino a 5 idee concrete con punteggi di domanda, concorrenza e fattibilità."
+      },
+      "features": [
+        {
+          "text": {
+            "en": "Finds the videos of the week that do much better than the channel's size would suggest, Shorts and AI-made videos included, and reads the comments of the strongest ones.",
+            "it": "Trova i video della settimana che vanno molto meglio di quanto farebbe pensare la grandezza del canale, Shorts e video fatti con l'AI compresi, e legge i commenti dei più forti."
+          },
+          "title": {
+            "en": "Videos far above their channel",
+            "it": "Video molto sopra il loro canale"
+          }
+        },
+        {
+          "text": {
+            "en": "Reddit threads where someone looks for a tool or would pay to replace one, and Product Hunt launches with a real discussion, not just votes.",
+            "it": "Thread di Reddit in cui qualcuno cerca uno strumento o pagherebbe per sostituirne uno, e lanci di Product Hunt con una discussione vera, non solo voti."
+          },
+          "title": {
+            "en": "Demand people write down",
+            "it": "La domanda scritta dalle persone"
+          }
+        },
+        {
+          "text": {
+            "en": "Small numbers, hidden subscribers and content-farm channels that publish more than 3 videos a day are dropped; the AI gets the best 10 signals of each category.",
+            "it": "Numeri piccoli, iscritti nascosti e canali content farm che pubblicano più di 3 video al giorno vengono scartati; all'AI arrivano i 10 segnali migliori di ogni categoria."
+          },
+          "title": {
+            "en": "Noise left out before the AI",
+            "it": "Il rumore fuori prima dell'AI"
+          }
+        },
+        {
+          "text": {
+            "en": "Ollama or LM Studio on your PC, or DeepSeek, OpenAI, OpenRouter and Groq with your own key. Ideas cite only the signals they come from; invented ones are removed.",
+            "it": "Ollama o LM Studio sul tuo PC, oppure DeepSeek, OpenAI, OpenRouter e Groq con la tua chiave. Le idee citano solo i segnali da cui nascono; quelli inventati vengono tolti."
+          },
+          "title": {
+            "en": "The AI engine you want",
+            "it": "Il motore AI che vuoi"
+          }
+        },
+        {
+          "text": {
+            "en": "Pick day and hour: the scan starts on its own, catches up if the PC was off, and a Windows notification tells you when the report is ready.",
+            "it": "Scegli giorno e ora: la scansione parte da sola, recupera se il PC era spento, e una notifica di Windows ti dice quando il report è pronto."
+          },
+          "title": {
+            "en": "Runs by itself every week",
+            "it": "Gira da sola ogni settimana"
+          }
+        },
+        {
+          "text": {
+            "en": "API keys stay in the Windows Credential Manager, signals and reports in a local database. The report can be copied, saved as Markdown or printed to PDF.",
+            "it": "Le chiavi API restano nel Gestore credenziali di Windows, segnali e report in un database locale. Il report si copia, si salva in Markdown o si stampa in PDF."
+          },
+          "title": {
+            "en": "Keys and data on your PC",
+            "it": "Chiavi e dati sul tuo PC"
+          }
+        }
+      ],
+      "icon": "radar",
+      "id": "market",
+      "name": "Market",
+      "package": {
+        "exe": "RougesMarket.exe",
+        "sha256": "ff4a013d33f0a8a9297139d4d3d40d48dff0ee8f7b163771fc1868809715c5f8",
+        "size": 3911667,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/market-v0.1.0/market-0.1.0.zip"
+      },
+      "screenshots": [],
+      "subtitle": {
+        "en": "Weekly radar of product and channel ideas",
+        "it": "Radar settimanale di idee per prodotti e canali"
+      },
+      "version": "0.1.0"
     }
   ],
   "launcher": {
@@ -2409,5 +2494,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 162
+  "serial": 163
 }
