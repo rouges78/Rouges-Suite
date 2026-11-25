@@ -1354,8 +1354,8 @@
       "accent_dark": "#63e6be",
       "accent_light": "#0b8a66",
       "description": {
-        "en": "Finds bit-for-bit identical files with BLAKE3 on every core, even across several drives, and assets no project uses; frees space with the Recycle Bin or hardlinks.",
-        "it": "Trova i file identici bit a bit con BLAKE3 su tutti i core, anche tra più dischi, e gli asset che nessun progetto usa; libera spazio con il Cestino o con gli hardlink."
+        "en": "Finds bit-for-bit identical files with BLAKE3 on every core, even across several drives, and assets no project uses; frees space with the Recycle Bin or hardlinks, and moves orphans to a quarantine you can restore.",
+        "it": "Trova i file identici bit a bit con BLAKE3 su tutti i core, anche tra più dischi, e gli asset che nessun progetto usa; libera spazio con il Cestino o con gli hardlink, e sposta gli orfani in una quarantena che si può ripristinare."
       },
       "features": [
         {
@@ -1380,8 +1380,8 @@
         },
         {
           "text": {
-            "en": "For each group pick the copy to keep; the others go to the Recycle Bin, become hardlinks (same paths, no extra space) or are deleted.",
-            "it": "Per ogni gruppo scegli la copia da tenere; le altre vanno nel Cestino, diventano hardlink (stessi percorsi, nessuno spazio in più) o vengono eliminate."
+            "en": "For each group pick the copy to keep; the others go to the Recycle Bin or become hardlinks (same paths, no extra space). Copies in protected folders are always kept.",
+            "it": "Per ogni gruppo scegli la copia da tenere; le altre vanno nel Cestino o diventano hardlink (stessi percorsi, nessuno spazio in più). Le copie nelle cartelle protette si tengono sempre."
           },
           "title": {
             "en": "You choose what to keep",
@@ -1390,8 +1390,8 @@
         },
         {
           "text": {
-            "en": "Before acting, size, date and hash of original and copy are checked again: a file that changed after the scan is skipped.",
-            "it": "Prima di agire si ricontrollano dimensione, data e hash di originale e copia: un file cambiato dopo la scansione viene saltato."
+            "en": "Before acting, size, date and hash of original and copy are checked again: a file that changed after the scan is skipped. On network and USB drives, where Windows would delete for good instead of using the Recycle Bin, files are left alone.",
+            "it": "Prima di agire si ricontrollano dimensione, data e hash di originale e copia: un file cambiato dopo la scansione viene saltato. Sui dischi di rete e USB, dove Windows cancellerebbe per sempre invece di usare il Cestino, i file restano dove sono."
           },
           "title": {
             "en": "Checked before touching anything",
@@ -1400,8 +1400,8 @@
         },
         {
           "text": {
-            "en": "Textures, models, audio and video that no Blender, Unreal, Unity, Godot or video project mentions can be moved to a quarantine folder.",
-            "it": "Texture, modelli, audio e video che nessun progetto Blender, Unreal, Unity, Godot o video nomina si possono spostare in una cartella di quarantena."
+            "en": "Textures, models, audio and video that no Blender, Unreal, Unity, Godot or video project mentions can be moved to a quarantine folder and put back later. UDIM tiles and image sequences count as one asset.",
+            "it": "Texture, modelli, audio e video che nessun progetto Blender, Unreal, Unity, Godot o video nomina si possono spostare in una cartella di quarantena e rimettere al loro posto in seguito. Le tile UDIM e le sequenze di immagini contano come un solo asset."
           },
           "title": {
             "en": "Orphan assets",
@@ -1430,8 +1430,8 @@
         },
         {
           "caption": {
-            "en": "Assets no project mentions, ready for the Recycle Bin or quarantine",
-            "it": "Asset che nessun progetto nomina, pronti per il Cestino o la quarantena"
+            "en": "Assets no project mentions, ready for the quarantine",
+            "it": "Asset che nessun progetto nomina, pronti per la quarantena"
           },
           "sha256": "cfbc0b7398b031b50bd9ee85810e0dc736be145fb58b58e32abf9138ea2a763b",
           "size": 63870,
@@ -2409,5 +2409,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 156
+  "serial": 157
 }
