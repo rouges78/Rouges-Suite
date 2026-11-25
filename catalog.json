@@ -1828,24 +1828,24 @@
       "accent_dark": "#99e9f2",
       "accent_light": "#0b7285",
       "description": {
-        "en": "Drop hundreds of images or whole folders and convert them in parallel on every CPU core to WebP, AVIF, JPEG or PNG, with power-of-two resizing and a before/after view.",
-        "it": "Trascina centinaia di immagini o cartelle e convertile in parallelo su tutti i core in WebP, AVIF, JPEG o PNG, con ridimensionamento a potenze di due e confronto prima/dopo."
+        "en": "Drop hundreds of images or whole folders and convert them in parallel on every core to WebP, AVIF, JPEG or PNG, as small as the best command-line tools, with power-of-two sizes, texture channel packing and a before/after view.",
+        "it": "Trascina centinaia di immagini o cartelle e convertile in parallelo su tutti i core in WebP, AVIF, JPEG o PNG, piccole come con i migliori strumenti a riga di comando, con misure a potenze di due, impacchettamento dei canali delle texture e confronto prima/dopo."
       },
       "features": [
         {
           "text": {
-            "en": "One file per core with rayon, SIMD resizing with fast_image_resize, mozjpeg, libwebp and rav1e encoders.",
-            "it": "Un file per core con rayon, ridimensionamento SIMD con fast_image_resize, encoder mozjpeg, libwebp e rav1e."
+            "en": "mozjpeg, libwebp, libaom and oxipng on every core: measured against cwebp, avifenc and oxipng, the same files; against Caesium, smaller JPEGs at a higher quality.",
+            "it": "mozjpeg, libwebp, libaom e oxipng su tutti i core: misurati contro cwebp, avifenc e oxipng, gli stessi file; contro Caesium, JPEG più piccoli a qualità più alta."
           },
           "title": {
-            "en": "Every core at work",
-            "it": "Tutti i core al lavoro"
+            "en": "As small as the best tools",
+            "it": "Piccoli come i migliori strumenti"
           }
         },
         {
           "text": {
-            "en": "PNG and TGA to WebP, AVIF or PNG with power-of-two sizes (nearest, down or up) and a size limit.",
-            "it": "Da PNG e TGA a WebP, AVIF o PNG con misure a potenze di due (più vicina, inferiore o superiore) e un limite."
+            "en": "Power-of-two sizes, AO, roughness and metallic packed into ORM or Unity maps, normal maps corrected after resizing, 16-bit heightmaps kept in PNG.",
+            "it": "Misure a potenze di due, AO, ruvidità e metallico impacchettati in ORM o nelle mappe di Unity, normal map corrette dopo il ridimensionamento, heightmap a 16 bit conservate in PNG."
           },
           "title": {
             "en": "Made for game textures",
@@ -1854,8 +1854,8 @@
         },
         {
           "text": {
-            "en": "A before/after slider on a 100% crop with the current preset, and the exact size of the final file.",
-            "it": "Un cursore prima/dopo su un ritaglio al 100% con il preset in uso, e il peso esatto del file finale."
+            "en": "A before/after slider on a 100% crop with the current preset, the size and saving of every file, and a ⚠ on a file that loses an animation, bits or its colour profile.",
+            "it": "Un cursore prima/dopo su un ritaglio al 100% con il preset in uso, peso e risparmio di ogni file, e un ⚠ sul file che perde un'animazione, dei bit o il profilo colore."
           },
           "title": {
             "en": "See what you lose",
@@ -1864,12 +1864,12 @@
         },
         {
           "text": {
-            "en": "Original and new size with the percentage for every file, and the total in MB; metadata such as EXIF and GPS removed.",
-            "it": "Peso originale e nuovo con la percentuale per ogni file, e il totale in MB; metadati come EXIF e GPS rimossi."
+            "en": "EXIF, GPS and XMP removed from JPEG, PNG and WebP without compressing again; colour profiles and animations stay.",
+            "it": "EXIF, GPS e XMP tolti da JPEG, PNG e WebP senza ricomprimere; profili colore e animazioni restano."
           },
           "title": {
-            "en": "Savings file by file",
-            "it": "Risparmio file per file"
+            "en": "Only the metadata",
+            "it": "Solo i metadati"
           }
         },
         {
@@ -2494,5 +2494,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.19/RougesSetup.exe",
     "version": "0.1.19"
   },
-  "serial": 163
+  "serial": 164
 }
