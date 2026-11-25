@@ -966,8 +966,8 @@
       "accent_dark": "#ff7a45",
       "accent_light": "#c2410c",
       "description": {
-        "en": "Real-ESRGAN upscaling and RIFE interpolation on the GPU, a live before/after preview and the original audio kept.",
-        "it": "Upscaling Real-ESRGAN e interpolazione RIFE su GPU, anteprima dal vivo prima/dopo e audio originale conservato."
+        "en": "Real-ESRGAN upscaling and RIFE interpolation on the GPU, a live before/after preview, a queue of videos that resumes after an interruption, and the original audio kept.",
+        "it": "Upscaling Real-ESRGAN e interpolazione RIFE su GPU, anteprima dal vivo prima/dopo, una coda di video che riprende dopo un'interruzione, e audio originale conservato."
       },
       "features": [
         {
@@ -992,8 +992,8 @@
         },
         {
           "text": {
-            "en": "Drag the divider to compare original and result, zoom with the wheel, and move along the timeline to try another frame.",
-            "it": "Trascini il divisore per confrontare originale e risultato, zoomi con la rotella e scorri la timeline per provare un altro fotogramma."
+            "en": "Drag the divider to compare original and result, zoom with the wheel, and move along the timeline to try another frame. The preview also estimates how long the job will take and how big the file will be.",
+            "it": "Trascini il divisore per confrontare originale e risultato, zoomi con la rotella e scorri la timeline per provare un altro fotogramma. L'anteprima stima anche quanto durerà il lavoro e quanto peserà il file."
           },
           "title": {
             "en": "Check before you render",
@@ -1002,22 +1002,42 @@
         },
         {
           "text": {
-            "en": "Auto acceleration picks a provider for NVIDIA, AMD or Intel GPUs, with the CPU as fallback; the log shows which one is running.",
-            "it": "L'accelerazione automatica sceglie il motore adatto a GPU NVIDIA, AMD o Intel, con la CPU come riserva; il log indica quale è attivo."
+            "en": "Add several videos, each with its own settings and its own start and end. If a job is interrupted, starting it again picks up where it stopped.",
+            "it": "Aggiungi più video, ognuno con le sue impostazioni e il suo inizio e fine. Se un lavoro si interrompe, riavviandolo riprende da dove si era fermato."
           },
           "title": {
-            "en": "Uses the GPU you have",
-            "it": "Usa la GPU che hai"
+            "en": "Queue and resume",
+            "it": "Coda e ripresa"
           }
         },
         {
           "text": {
-            "en": "ProRes and FFV1 outputs go through a 16-bit pipeline; other formats use 8 bits.",
-            "it": "In uscita ProRes e FFV1 l'elaborazione è a 16 bit; gli altri formati usano 8 bit."
+            "en": "Vertical phone videos come out upright, DVDs keep their proportions, interlaced videos are deinterlaced, and HDR is converted without washed-out colours. The original is never touched.",
+            "it": "I video verticali del telefono escono dritti, i DVD mantengono le proporzioni, gli interlacciati vengono deinterlacciati e l'HDR viene convertito senza colori slavati. L'originale non viene mai toccato."
           },
           "title": {
-            "en": "16-bit for ProRes and FFV1",
-            "it": "16 bit per ProRes e FFV1"
+            "en": "A faithful picture",
+            "it": "Un'immagine fedele"
+          }
+        },
+        {
+          "text": {
+            "en": "Opens CD-ROM formats such as VMD, Smacker, RoQ, Bink and Interplay MVE, and recognises them to clean up dithering and compression blocks before the AI.",
+            "it": "Apre i formati da CD-ROM come VMD, Smacker, RoQ, Bink e Interplay MVE, e li riconosce per attenuare dithering e blocchi di compressione prima dell'AI."
+          },
+          "title": {
+            "en": "90s game videos",
+            "it": "Video dei giochi anni '90"
+          }
+        },
+        {
+          "text": {
+            "en": "Auto acceleration picks a provider for NVIDIA, AMD or Intel GPUs, with the CPU as fallback; the menu lists only what this PC has.",
+            "it": "L'accelerazione automatica sceglie il motore adatto a GPU NVIDIA, AMD o Intel, con la CPU come riserva; il menu elenca solo quello che c'è su questo PC."
+          },
+          "title": {
+            "en": "Uses the GPU you have",
+            "it": "Usa la GPU che hai"
           }
         },
         {
@@ -2494,5 +2514,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.20/RougesSetup.exe",
     "version": "0.1.20"
   },
-  "serial": 166
+  "serial": 167
 }
