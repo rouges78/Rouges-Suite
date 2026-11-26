@@ -1540,7 +1540,7 @@
             "de": "Eine Tabelle mit Suche und Filtern nach Typ, Status und Meilenstein. Status direkt in der Zeile ändern: Idee, In Arbeit, Ready for Engine, In-Game.",
             "en": "A table with search and filters by type, status and milestone. Change status inline: Idea, In progress, Ready for Engine, In-Game.",
             "es": "Una tabla con búsqueda y filtros por tipo, estado e hito. Cambia el estado en la misma fila: Idea, En curso, Ready for Engine, In-Game.",
-            "fr": "Un tableau avec recherche et filtres par type, statut et jalon. Changez le statut directement dans la ligne : Idea, In progress, Ready for Engine, In-Game.",
+            "fr": "Un tableau avec recherche et filtres par type, statut et jalon. Changez le statut directement dans la ligne : Idée, En cours, Ready for Engine, In-Game.",
             "it": "Tabella con ricerca e filtri per tipo, stato e milestone. Lo stato si cambia in riga: Idea, In corso, Ready for Engine, In-Game.",
             "ja": "種類、ステータス、マイルストーンで検索・絞り込みできるテーブル。ステータスはその場で変更: アイデア、進行中、Ready for Engine、In-Game。",
             "pl": "Tabela z wyszukiwaniem i filtrami według typu, statusu i kamienia milowego. Zmieniaj status w miejscu: Pomysł, W toku, Ready for Engine, In-Game.",
@@ -1584,7 +1584,7 @@
             "de": "Ein Kanban von Backlog bis Erledigt mit Drag & Drop, auch per Tastatur (Leertaste, Pfeiltasten, Leertaste), nach Meilenstein gefiltert.",
             "en": "A Kanban from Backlog to Done with drag and drop, from the keyboard too (Space, arrows, Space), filtered by milestone.",
             "es": "Un Kanban de Backlog a Hecho con arrastrar y soltar, también desde el teclado (Espacio, flechas, Espacio), filtrado por hito.",
-            "fr": "Un Kanban de Backlog à Done avec glisser-déposer, au clavier aussi (Espace, flèches, Espace), filtré par jalon.",
+            "fr": "Un Kanban de Backlog à Terminé avec glisser-déposer, au clavier aussi (Espace, flèches, Espace), filtré par jalon.",
             "it": "Kanban da Backlog a Fatto con trascinamento, anche da tastiera (Spazio, frecce, Spazio), filtrabile per milestone.",
             "ja": "バックログから完了までのカンバン。ドラッグ アンド ドロップでもキーボード (Space、矢印キー、Space) でも操作でき、マイルストーンで絞り込めます。",
             "pl": "Kanban od Backlog do Gotowe z przeciąganiem i upuszczaniem, także z klawiatury (Spacja, strzałki, Spacja), filtrowany według kamienia milowego.",
@@ -4896,5 +4896,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.20/RougesSetup.exe",
     "version": "0.1.20"
   },
-  "serial": 170
+  "serial": 171
 }
