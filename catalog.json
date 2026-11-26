@@ -152,9 +152,9 @@
       "name": "FTP",
       "package": {
         "exe": "RougesFTP.exe",
-        "sha256": "d10ec8032f22d054f72a7b5cb98312d8ae6cd0d8321a5f79bfd6876f191e532e",
-        "size": 10819554,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/ftp-v0.2.3/ftp-0.2.3.zip"
+        "sha256": "d350ddd588d9a3643a431b3555a2d913045a397db548755d2e6437be780d8504",
+        "size": 9277504,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/ftp-v0.3.1/ftp-0.3.1.zip"
       },
       "screenshots": [
         {
@@ -183,7 +183,7 @@
         "pl": "Przesyłanie plików przez FTP, FTPS i SFTP",
         "pt": "Transferência de arquivos por FTP, FTPS e SFTP"
       },
-      "version": "0.2.3"
+      "version": "0.3.1"
     },
     {
       "accent_dark": "#b197fc",
@@ -4904,5 +4904,5 @@
       "version": "0.1.20"
     }
   ],
-  "serial": 185
+  "serial": 186
 }
