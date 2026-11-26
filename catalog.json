@@ -3436,7 +3436,7 @@
             "de": "Fehlende Ordner, Duplikate und leere Einträge werden hervorgehoben, ebenso Benutzereinträge, die schon im System-PATH stehen. Ziehen Sie die Zeilen, um die Reihenfolge zu ändern; BEREINIGEN entfernt die defekten.",
             "en": "Missing folders, duplicates and empty entries are highlighted, as are user entries already in the system PATH. Drag the rows to change the order; CLEAN UP removes the broken ones.",
             "es": "Se resaltan las carpetas que no existen, los duplicados y las entradas vacías, así como las entradas de usuario que ya están en el PATH del sistema. Arrastra las filas para cambiar el orden; LIMPIAR quita las rotas.",
-            "fr": "Les dossiers manquants, les doublons et les entrées vides sont mis en évidence, comme les entrées utilisateur déjà présentes dans le PATH système. Faites glisser les lignes pour changer l'ordre ; CLEAN UP supprime celles qui sont cassées.",
+            "fr": "Les dossiers manquants, les doublons et les entrées vides sont mis en évidence, comme les entrées utilisateur déjà présentes dans le PATH système. Faites glisser les lignes pour changer l'ordre ; NETTOYER supprime celles qui sont cassées.",
             "it": "Cartelle inesistenti, doppioni e voci vuote sono evidenziati, come le voci utente già presenti nel PATH di sistema. Trascini le righe per cambiare l'ordine; PULISCI toglie quelle rotte.",
             "ja": "存在しないフォルダー、重複、空のエントリ、そしてシステムの PATH に既にあるユーザー エントリを強調表示。行をドラッグして順序を変更でき、「クリーンアップ」で壊れたエントリを削除します。",
             "pl": "Brakujące foldery, duplikaty i puste wpisy są wyróżniane, podobnie jak wpisy użytkownika obecne już w systemowym PATH. Przeciągaj wiersze, aby zmienić kolejność; WYCZYŚĆ usuwa błędne.",
@@ -3490,7 +3490,7 @@
             "de": "Nichts ändert sich vor ÜBERNEHMEN",
             "en": "Nothing changes until APPLY",
             "es": "Nada cambia hasta APLICAR",
-            "fr": "Rien ne change avant APPLY",
+            "fr": "Rien ne change avant APPLIQUER",
             "it": "Niente cambia fino ad APPLICA",
             "ja": "「適用」まで何も変わらない",
             "pl": "Nic się nie zmienia do ZASTOSUJ",
@@ -3524,7 +3524,7 @@
             "de": "Exportieren Sie alle Variablen als JSON und importieren Sie sie später: ZUSAMMENFÜHREN ergänzt, was fehlt, PATH-Ordner inklusive, ERSETZEN macht alles identisch.",
             "en": "Export every variable to JSON and import it later: MERGE adds what is missing, PATH folders included, REPLACE makes everything identical.",
             "es": "Exporta todas las variables a JSON e impórtalas más tarde: COMBINAR añade lo que falta, carpetas del PATH incluidas, REEMPLAZAR lo deja todo idéntico.",
-            "fr": "Exportez toutes les variables en JSON et importez-les plus tard : MERGE ajoute ce qui manque, dossiers du PATH compris, REPLACE rend tout identique.",
+            "fr": "Exportez toutes les variables en JSON et importez-les plus tard : FUSIONNER ajoute ce qui manque, dossiers du PATH compris, REMPLACER rend tout identique.",
             "it": "Esporti tutte le variabili in JSON e le reimporti: UNISCI aggiunge quello che manca, cartelle del PATH comprese, SOSTITUISCI rende tutto identico.",
             "ja": "すべての変数を JSON に書き出し、後で読み込めます。「マージ」は PATH のフォルダーも含めて不足分を追加し、「置換」はすべてを同一にします。",
             "pl": "Wyeksportuj każdą zmienną do JSON i zaimportuj ją później: SCAL dodaje to, czego brakuje, łącznie z folderami PATH, ZASTĄP sprawia, że wszystko jest identyczne.",
@@ -3579,7 +3579,7 @@
             "de": "Der Benutzer-PATH mit fehlenden Ordnern, einem Duplikat und einem leeren Eintrag, vor ÜBERNEHMEN",
             "en": "The user PATH with missing folders, a duplicate and an empty entry, before APPLY",
             "es": "El PATH del usuario con carpetas que no existen, un duplicado y una entrada vacía, antes de APLICAR",
-            "fr": "Le PATH utilisateur avec des dossiers manquants, un doublon et une entrée vide, avant APPLY",
+            "fr": "Le PATH utilisateur avec des dossiers manquants, un doublon et une entrée vide, avant APPLIQUER",
             "it": "Il PATH utente con cartelle inesistenti, una doppia e una voce vuota, prima di APPLICA",
             "ja": "「適用」前の、存在しないフォルダー、重複、空のエントリを含むユーザー PATH",
             "pl": "PATH użytkownika z brakującymi folderami, duplikatem i pustym wpisem, przed ZASTOSUJ",
@@ -4896,5 +4896,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.20/RougesSetup.exe",
     "version": "0.1.20"
   },
-  "serial": 173
+  "serial": 174
 }
