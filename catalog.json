@@ -2651,9 +2651,9 @@
       "name": "Mixer",
       "package": {
         "exe": "RougesMixer.exe",
-        "sha256": "d973ae23fdc33496020392b7c98a11a31c5879413020caa61a4d39c8bf2a1769",
-        "size": 7565320,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mixer-v0.1.4/mixer-0.1.4.zip"
+        "sha256": "ecbe247d15aa53cf5dec128ad7efd97982b99fb1db0a55a49bf68341bf1fcb4e",
+        "size": 7566392,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mixer-v0.1.5/mixer-0.1.5.zip"
       },
       "screenshots": [
         {
@@ -2682,7 +2682,7 @@
         "pl": "Głośność dla każdej aplikacji i szybka zmiana urządzenia",
         "pt": "Volume por app e troca rápida de dispositivo"
       },
-      "version": "0.1.4"
+      "version": "0.1.5"
     },
     {
       "accent_dark": "#63e6be",
@@ -4896,5 +4896,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.20/RougesSetup.exe",
     "version": "0.1.20"
   },
-  "serial": 182
+  "serial": 183
 }
