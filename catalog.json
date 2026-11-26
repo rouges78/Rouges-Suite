@@ -3339,7 +3339,7 @@
             "de": "Strg+S behält ein Element dauerhaft, F2 gibt ihm einen Namen, Strg+N schreibt ein neues. Das Verlaufslimit und VERLAUF LÖSCHEN berühren den Tresor nie.",
             "en": "Ctrl+S keeps an item for good, F2 gives it a name, Ctrl+N writes a new one. The history limit and CLEAR HISTORY never touch the vault.",
             "es": "Ctrl+S conserva un elemento para siempre, F2 le da un nombre, Ctrl+N escribe uno nuevo. El límite del historial y BORRAR HISTORIAL nunca tocan el almacén.",
-            "fr": "Ctrl+S garde un élément pour de bon, F2 lui donne un nom, Ctrl+N en écrit un nouveau. La limite de l'historique et CLEAR HISTORY ne touchent jamais au coffre.",
+            "fr": "Ctrl+S garde un élément pour de bon, F2 lui donne un nom, Ctrl+N en écrit un nouveau. La limite de l'historique et EFFACER L'HISTORIQUE ne touchent jamais au coffre.",
             "it": "Ctrl+S tiene una voce per sempre, F2 le dà un nome, Ctrl+N ne scrive una nuova. Il limite della cronologia e SVUOTA CRONOLOGIA non toccano mai il vault.",
             "ja": "Ctrl+S で項目を永久に保存、F2 で名前を付け、Ctrl+N で新規作成。履歴の上限や「履歴をクリア」が保管庫に影響することはありません。",
             "pl": "Ctrl+S zachowuje element na stałe, F2 nadaje mu nazwę, Ctrl+N tworzy nowy. Limit historii i WYCZYŚĆ HISTORIĘ nigdy nie dotykają skarbca.",
@@ -4896,5 +4896,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.20/RougesSetup.exe",
     "version": "0.1.20"
   },
-  "serial": 181
+  "serial": 182
 }
