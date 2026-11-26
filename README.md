@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Download-Rouges--Launcher-ff3b4a?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Download Rouges-Launcher">
   </a>
 </p>
-<p align="center"><sub>Windows 10 and 11 · English and Italian</sub></p>
+<p align="center"><sub>Windows 10 and 11 · English, Italiano, Español, Français, Deutsch, Português, Polski, 日本語</sub></p>
 
 <p align="center">
   <picture>
