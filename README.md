@@ -91,6 +91,19 @@ The app catalog (`catalog.json`) is signed: the launcher accepts it only with a 
 (`catalog.json.sig`) and only if it is not older than the one it already has. Each package is installed only if its
 SHA-256 matches the catalog, and only from `https://` addresses.
 
+## Support the suite
+
+The apps are free. If they save you time, you can buy me a coffee on Ko-fi: it keeps the suite going, and it tells
+me the work is worth continuing. The launcher has the same link, **♥ SUPPORT**, next to its settings.
+
+<a href="https://ko-fi.com/rouges78"><img src="https://img.shields.io/badge/Support_on-Ko--fi-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white" height="36" alt="Support on Ko-fi"></a>
+
+## Custom work
+
+Every app in this suite is designed, written and released by one developer, most of them native Rust programs with a
+[Slint](https://slint.dev) interface. Need a tool like these for your team or your business, or help with a Windows
+desktop app in Rust? Get in touch through [GitHub](https://github.com/rouges78).
+
 ## Made with Slint
 
 Rouges-Launcher, Rouges-FTP, Rouges-FutureNote, Rouges-PDFKing, Rouges-Pc2Pc, Rouges-Kalc+, Rouges-Snap, Rouges-Mixer,

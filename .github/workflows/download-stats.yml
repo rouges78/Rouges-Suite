@@ -1,0 +1,39 @@
+# Weekly snapshot of the release download counts, kept in downloads.csv on the "stats" branch
+# (GitHub only keeps running totals, lost with a deleted release). The table of the week is in the
+# run's summary: Actions > Download stats.
+name: Download stats
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git fetch origin stats && git show origin/stats:downloads.csv > /tmp/downloads.csv || true
+          python3 .github/scripts/download_stats.py /tmp/downloads.csv >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Save
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin stats >/dev/null; then
+            git checkout -B stats origin/stats
+          else
+            git checkout --orphan stats && git rm -rq --cached . && git clean -fdq
+          fi
+          cp /tmp/downloads.csv downloads.csv
+          git add downloads.csv
+          git diff --cached --quiet || git commit -qm "Download stats $(date -u +%F)"
+          git push origin stats
