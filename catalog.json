@@ -1327,146 +1327,68 @@
       "accent_dark": "#ffa94d",
       "accent_light": "#a64d00",
       "description": {
-        "de": "Ein schneller, minimalistischer Desktop-E-Mail-Client.",
         "en": "A fast, minimal desktop email client.",
-        "es": "Un cliente de correo de escritorio rápido y minimalista.",
-        "fr": "Un client de messagerie de bureau rapide et minimaliste.",
-        "it": "Client di posta desktop veloce e minimale.",
-        "ja": "高速でミニマルなデスクトップ メール クライアント。",
-        "pl": "Szybki, minimalistyczny klient poczty na komputer.",
-        "pt": "Um cliente de e-mail para desktop, rápido e minimalista."
+        "it": "Client di posta desktop veloce e minimale."
       },
       "features": [
         {
           "text": {
-            "de": "Nachrichten werden heruntergeladen und lokal komprimiert gespeichert, mit sofortiger Volltextsuche, die auch offline funktioniert. Das Archiv lässt sich mit einem Master-Passwort verschlüsseln.",
             "en": "Messages are downloaded and kept locally, compressed, with instant full-text search that works offline. The archive can be encrypted with a master password.",
-            "es": "Los mensajes se descargan y se guardan en local, comprimidos, con búsqueda instantánea en todo el texto que funciona sin conexión. El archivo puede cifrarse con una contraseña maestra.",
-            "fr": "Les messages sont téléchargés et conservés localement, compressés, avec une recherche plein texte instantanée qui fonctionne hors connexion. L'archive peut être chiffrée par un mot de passe principal.",
-            "it": "I messaggi vengono scaricati e conservati in locale, compressi, con ricerca immediata nel testo anche offline. L'archivio si può cifrare con una password principale.",
-            "ja": "メッセージはダウンロードして圧縮し、ローカルに保存。オフラインでも使える瞬時の全文検索付き。アーカイブはマスター パスワードで暗号化できます。",
-            "pl": "Wiadomości są pobierane i przechowywane lokalnie w postaci skompresowanej, z błyskawicznym wyszukiwaniem pełnotekstowym działającym offline. Archiwum można zaszyfrować hasłem głównym.",
-            "pt": "As mensagens são baixadas e guardadas localmente, compactadas, com busca instantânea no texto completo que funciona offline. O arquivo pode ser criptografado com uma senha mestra."
+            "it": "I messaggi vengono scaricati e conservati in locale, compressi, con ricerca immediata nel testo anche offline. L'archivio si può cifrare con una password principale."
           },
           "title": {
-            "de": "Alle Ihre E-Mails auf Ihrem PC",
             "en": "All your mail on your PC",
-            "es": "Todo tu correo en tu PC",
-            "fr": "Tout votre courrier sur votre PC",
-            "it": "Tutta la posta sul tuo PC",
-            "ja": "すべてのメールを PC に",
-            "pl": "Cała poczta na Twoim komputerze",
-            "pt": "Todo o seu e-mail no seu PC"
+            "it": "Tutta la posta sul tuo PC"
           }
         },
         {
           "text": {
-            "de": "Funktioniert mit jedem Anbieter über IMAP oder POP3, einschließlich Gmail und PEC. Kontopasswörter bleiben in der Windows-Anmeldeinformationsverwaltung.",
             "en": "Works with any provider over IMAP or POP3, Gmail and PEC included. Account passwords stay in the Windows Credential Manager.",
-            "es": "Funciona con cualquier proveedor por IMAP o POP3, Gmail y PEC incluidos. Las contraseñas de las cuentas se quedan en el Administrador de credenciales de Windows.",
-            "fr": "Fonctionne avec tout fournisseur en IMAP ou POP3, Gmail et PEC compris. Les mots de passe des comptes restent dans le Gestionnaire d'identification Windows.",
-            "it": "Funziona con qualsiasi provider via IMAP o POP3, compresi Gmail e PEC. Le password degli account restano nel Gestore credenziali di Windows.",
-            "ja": "IMAP または POP3 でどのプロバイダーにも対応 (Gmail、PEC を含む)。アカウントのパスワードは Windows 資格情報マネージャーに保存されます。",
-            "pl": "Działa z każdym dostawcą przez IMAP lub POP3, w tym z Gmailem i PEC. Hasła kont pozostają w Menedżerze poświadczeń systemu Windows.",
-            "pt": "Funciona com qualquer provedor via IMAP ou POP3, incluindo Gmail e PEC. As senhas das contas ficam no Gerenciador de Credenciais do Windows."
+            "it": "Funziona con qualsiasi provider via IMAP o POP3, compresi Gmail e PEC. Le password degli account restano nel Gestore credenziali di Windows."
           },
           "title": {
-            "de": "IMAP- und POP3-Konten",
             "en": "IMAP and POP3 accounts",
-            "es": "Cuentas IMAP y POP3",
-            "fr": "Comptes IMAP et POP3",
-            "it": "Account IMAP e POP3",
-            "ja": "IMAP と POP3 のアカウント",
-            "pl": "Konta IMAP i POP3",
-            "pt": "Contas IMAP e POP3"
+            "it": "Account IMAP e POP3"
           }
         },
         {
           "text": {
-            "de": "Mit Ollama auf Ihrem PC: eine Nachricht zusammenfassen, eine Antwort entwerfen oder Ihren Text kürzer, förmlicher oder übersetzt machen. Der Nachrichtentext verlässt nie den Computer.",
             "en": "With Ollama on your PC: summarise a message, draft a reply, or make your text shorter, more formal or translated. Message text never leaves the computer.",
-            "es": "Con Ollama en tu PC: resume un mensaje, redacta una respuesta o haz tu texto más corto, más formal o tradúcelo. El texto de los mensajes nunca sale del equipo.",
-            "fr": "Avec Ollama sur votre PC : résumer un message, rédiger une réponse, ou rendre votre texte plus court, plus formel ou traduit. Le texte des messages ne quitte jamais l'ordinateur.",
-            "it": "Con Ollama sul tuo PC riassume un messaggio, scrive una bozza di risposta, rende il testo più breve, più formale o lo traduce. Il testo delle email non esce dal computer.",
-            "ja": "PC 上の Ollama で、メッセージの要約、返信の下書き、文章の短縮・丁寧な表現への書き換え・翻訳ができます。メッセージの本文がコンピューターの外に出ることはありません。",
-            "pl": "Z Ollamą na Twoim komputerze: streść wiadomość, przygotuj szkic odpowiedzi albo skróć, uformalnij lub przetłumacz swój tekst. Treść wiadomości nigdy nie opuszcza komputera.",
-            "pt": "Com o Ollama no seu PC: resuma uma mensagem, esboce uma resposta ou deixe seu texto mais curto, mais formal ou traduzido. O texto das mensagens nunca sai do computador."
+            "it": "Con Ollama sul tuo PC riassume un messaggio, scrive una bozza di risposta, rende il testo più breve, più formale o lo traduce. Il testo delle email non esce dal computer."
           },
           "title": {
-            "de": "Lokaler KI-Assistent",
             "en": "Local AI assistant",
-            "es": "Asistente de IA local",
-            "fr": "Assistant IA local",
-            "it": "Assistente AI locale",
-            "ja": "ローカル AI アシスタント",
-            "pl": "Lokalny asystent AI",
-            "pt": "Assistente de IA local"
+            "it": "Assistente AI locale"
           }
         },
         {
           "text": {
-            "de": "Markiert verdächtige Nachrichten und Links, die eine andere als die tatsächliche Adresse anzeigen. Externe Inhalte bleiben blockiert, bis Sie sie zulassen.",
             "en": "Flags suspicious messages and links that show an address different from the real one. Remote content stays blocked until you allow it.",
-            "es": "Marca los mensajes sospechosos y los enlaces que muestran una dirección distinta de la real. El contenido remoto queda bloqueado hasta que lo permitas.",
-            "fr": "Signale les messages suspects et les liens qui affichent une adresse différente de la vraie. Le contenu distant reste bloqué tant que vous ne l'autorisez pas.",
-            "it": "Segnala i messaggi sospetti e i link che mostrano un indirizzo diverso da quello reale. I contenuti remoti restano bloccati finché non li consenti.",
-            "ja": "不審なメッセージや、実際とは異なるアドレスを表示するリンクを警告します。リモート コンテンツは許可するまでブロックされます。",
-            "pl": "Oznacza podejrzane wiadomości i linki, które pokazują inny adres niż rzeczywisty. Treści zdalne pozostają zablokowane, dopóki na nie nie zezwolisz.",
-            "pt": "Sinaliza mensagens suspeitas e links que mostram um endereço diferente do real. O conteúdo remoto fica bloqueado até você permitir."
+            "it": "Segnala i messaggi sospetti e i link che mostrano un indirizzo diverso da quello reale. I contenuti remoti restano bloccati finché non li consenti."
           },
           "title": {
-            "de": "Phishing-Warnungen",
             "en": "Phishing warnings",
-            "es": "Avisos de phishing",
-            "fr": "Alertes d'hameçonnage",
-            "it": "Avvisi contro il phishing",
-            "ja": "フィッシング警告",
-            "pl": "Ostrzeżenia przed phishingiem",
-            "pt": "Alertas de phishing"
+            "it": "Avvisi contro il phishing"
           }
         },
         {
           "text": {
-            "de": "Stellen Sie eine Nachricht auf später zurück, planen Sie den Versand für morgen früh und lassen Sie sich erinnern, wenn niemand geantwortet hat.",
             "en": "Snooze a message until later, schedule a send for tomorrow morning, and get reminded when nobody has replied.",
-            "es": "Pospón un mensaje para más tarde, programa un envío para mañana por la mañana y recibe un aviso cuando nadie haya respondido.",
-            "fr": "Reportez un message à plus tard, programmez un envoi pour demain matin et recevez un rappel quand personne n'a répondu.",
-            "it": "Rimandi un messaggio a più tardi, programmi un invio per domattina e ricevi un promemoria se nessuno ha risposto.",
-            "ja": "メッセージを後で再表示したり、明朝の送信を予約したり、返信がないときに通知を受けたりできます。",
-            "pl": "Odłóż wiadomość na później, zaplanuj wysyłkę na jutro rano i dostań przypomnienie, gdy nikt nie odpowiedział.",
-            "pt": "Adie uma mensagem para mais tarde, agende um envio para amanhã de manhã e receba um lembrete quando ninguém responder."
+            "it": "Rimandi un messaggio a più tardi, programmi un invio per domattina e ricevi un promemoria se nessuno ha risposto."
           },
           "title": {
-            "de": "Zurückstellen, später senden, Erinnerungen",
             "en": "Snooze, send later, reminders",
-            "es": "Posponer, enviar más tarde, recordatorios",
-            "fr": "Report, envoi programmé, rappels",
-            "it": "Rimanda, invio programmato, promemoria",
-            "ja": "スヌーズ、送信予約、リマインダー",
-            "pl": "Odkładanie, wysyłka później, przypomnienia",
-            "pt": "Adiar, enviar depois, lembretes"
+            "it": "Rimanda, invio programmato, promemoria"
           }
         },
         {
           "text": {
-            "de": "Kopiert Ihre E-Mails als .eml- und HTML-Dateien in einen beliebigen Ordner oder auf ein NAS, mit einer durchsuchbaren index.html, die in jedem Browser funktioniert. Das Backup kann sich täglich selbst aktualisieren.",
             "en": "Copies your mail to any folder or NAS as .eml and HTML files, with a searchable index.html you can browse in any browser. It can update itself daily.",
-            "es": "Copia tu correo en cualquier carpeta o NAS como archivos .eml y HTML, con un index.html con búsqueda que se abre en cualquier navegador. Puede actualizarse sola cada día.",
-            "fr": "Copie votre courrier dans n'importe quel dossier ou NAS en fichiers .eml et HTML, avec un index.html consultable dans n'importe quel navigateur. Elle peut se mettre à jour chaque jour.",
-            "it": "Copia la posta in una cartella o su un NAS come file .eml e HTML, con un index.html consultabile da qualsiasi browser. Può aggiornarsi da solo ogni giorno.",
-            "ja": "メールを任意のフォルダーや NAS に .eml と HTML ファイルとしてコピー。検索できる index.html はどのブラウザーでも閲覧できます。毎日自動で更新することもできます。",
-            "pl": "Kopiuje pocztę do dowolnego folderu lub na NAS jako pliki .eml i HTML, z przeszukiwalnym index.html, który otworzysz w każdej przeglądarce. Może aktualizować się codziennie.",
-            "pt": "Copia seu e-mail para qualquer pasta ou NAS em arquivos .eml e HTML, com um index.html pesquisável que abre em qualquer navegador. Pode se atualizar sozinho todos os dias."
+            "it": "Copia la posta in una cartella o su un NAS come file .eml e HTML, con un index.html consultabile da qualsiasi browser. Può aggiornarsi da solo ogni giorno."
           },
           "title": {
-            "de": "Backup, lesbar ohne die App",
             "en": "Backup readable without the app",
-            "es": "Copia de seguridad legible sin la app",
-            "fr": "Sauvegarde lisible sans l'application",
-            "it": "Backup leggibile senza l'app",
-            "ja": "アプリなしで読めるバックアップ",
-            "pl": "Kopia zapasowa czytelna bez aplikacji",
-            "pt": "Backup legível sem o app"
+            "it": "Backup leggibile senza l'app"
           }
         }
       ],
@@ -1481,23 +1403,17 @@
         "kind": "installer",
         "previous_exe": "%LOCALAPPDATA%\\Rouges@Mail\\lightmail.exe",
         "previous_uninstaller": "%LOCALAPPDATA%\\Rouges@Mail\\uninstall.exe",
-        "sha256": "f22cdd921cda7af143e7cf517f39ad1b56bb155afa6b6ef80484862855521ba1",
-        "size": 3965159,
+        "sha256": "c87bedf2418266162fd9f797e6c747a8e985439eed2ea88218a2501d7c7e1ef3",
+        "size": 3724800,
         "uninstaller": "%LOCALAPPDATA%\\Rouges-LightMail\\uninstall.exe",
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mail-v0.2.10/Rouges-LightMail_0.2.10_x64-setup.exe"
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/mail-v0.2.11/Rouges-LightMail_0.2.11_x64-setup.exe"
       },
       "screenshots": [],
       "subtitle": {
-        "de": "Schlanker E-Mail-Client",
         "en": "Lightweight email",
-        "es": "Correo ligero",
-        "fr": "Messagerie légère",
-        "it": "Posta elettronica leggera",
-        "ja": "軽量なメール クライアント",
-        "pl": "Lekka poczta e-mail",
-        "pt": "E-mail leve"
+        "it": "Posta elettronica leggera"
       },
-      "version": "0.2.10"
+      "version": "0.2.11"
     },
     {
       "accent_dark": "#7bd88f",
@@ -4896,5 +4812,5 @@
     "url": "https://github.com/rouges78/Rouges-Suite/releases/download/launcher-v0.1.20/RougesSetup.exe",
     "version": "0.1.20"
   },
-  "serial": 178
+  "serial": 179
 }
