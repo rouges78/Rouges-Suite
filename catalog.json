@@ -4132,9 +4132,9 @@
       "name": "Call",
       "package": {
         "exe": "RougesCall.exe",
-        "sha256": "3107a6f57637b652ceeb406a4e1899ea4f5bc9aea38db9734b432fc66594c9b6",
-        "size": 13469848,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/call-v0.5.0/call-0.5.0.zip"
+        "sha256": "81c5a9acf815acd5c4631992ddb2a01f5e0c33f8f09b24f1e301f3662bdcbeec",
+        "size": 13621503,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/call-v0.6.0/call-0.6.0.zip"
       },
       "screenshots": [
         {
@@ -4163,7 +4163,7 @@
         "pl": "Rozmowy między komputerami, do 5 osób",
         "pt": "Chamadas de PC para PC, até 5 pessoas"
       },
-      "version": "0.5.0"
+      "version": "0.6.0"
     },
     {
       "accent_dark": "#9ad0c2",
@@ -4904,5 +4904,5 @@
       "version": "0.1.20"
     }
   ],
-  "serial": 187
+  "serial": 188
 }
