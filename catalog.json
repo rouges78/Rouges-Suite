@@ -735,8 +735,8 @@
       "name": "PDFKing",
       "package": {
         "exe": "PDFKing.exe",
-        "sha256": "4c2b77e3eb2796b38b17a8a56a921115b782ed37917243178611c60fc2aa0394",
-        "size": 27239957,
+        "sha256": "d29ac78804f0355478702bfe9ac29f21ec6f30839b4b138a9f39492203c6958e",
+        "size": 27533179,
         "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pdfking-v0.1.10/pdfking-0.1.10.zip"
       },
       "screenshots": [
@@ -4904,5 +4904,5 @@
       "version": "0.1.20"
     }
   ],
-  "serial": 190
+  "serial": 191
 }
