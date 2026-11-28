@@ -3932,9 +3932,9 @@
       "name": "Grid",
       "package": {
         "exe": "RougesGrid.exe",
-        "sha256": "8ba2c8b678cd3090e5c00e0d8be0a3e41782d2954a0e1c5330d97f06b5835017",
-        "size": 7455398,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/grid-v0.1.0/grid-0.1.0.zip"
+        "sha256": "72e79ef8ff2813e31a7c89ef64babdf1249e44a64fa173b0ee605873e6da4275",
+        "size": 5745588,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/grid-v0.2.1/grid-0.2.1.zip"
       },
       "screenshots": [
         {
@@ -3978,7 +3978,7 @@
         "pl": "Siatki dla każdego monitora i obszary robocze okien",
         "pt": "Grades por monitor e espaços de trabalho de janelas"
       },
-      "version": "0.1.0"
+      "version": "0.2.1"
     },
     {
       "accent_dark": "#ff6b81",
@@ -4904,5 +4904,5 @@
       "version": "0.1.20"
     }
   ],
-  "serial": 202
+  "serial": 203
 }
