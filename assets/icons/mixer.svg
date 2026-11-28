@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#e8a87c"/><g transform="translate(6.08 6.08) scale(0.62)"><path d="M8 4.5v23M16 4.5v23M24 4.5v23" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/><rect x="4" y="17.5" width="8" height="5" rx="1.2" fill="#111111"/><rect x="12" y="8" width="8" height="5" rx="1.2" fill="#111111"/><rect x="20" y="13" width="8" height="5" rx="1.2" fill="#111111"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Rouges-Mixer: tre cursori di un mixer su fondo Rouge Noir, quello centrale nel rosso della suite. -->
+  <rect x="8" y="8" width="240" height="240" rx="44" fill="#0f0f10"/>
+  <rect x="8.5" y="8.5" width="239" height="239" rx="43.5" fill="none" stroke="#3a3a40" stroke-width="3"/>
+  <g stroke="#55555e" stroke-width="12" stroke-linecap="round">
+    <path d="M72 58 V198"/>
+    <path d="M128 58 V198"/>
+    <path d="M184 58 V198"/>
+  </g>
+  <rect x="48" y="138" width="48" height="28" rx="6" fill="#f2f2f2"/>
+  <rect x="104" y="76" width="48" height="28" rx="6" fill="#ff3b4a"/>
+  <rect x="160" y="112" width="48" height="28" rx="6" fill="#f2f2f2"/>
+</svg>

@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#63e6be"/><g transform="translate(6.08 6.08) scale(0.62)"><g fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3.5h9l5 5v13.5a1.5 1.5 0 0 1-1.5 1.5h-12.5a1.5 1.5 0 0 1-1.5-1.5v-17a1.5 1.5 0 0 1 1.5-1.5z"/><path d="M18 3.5v5h5"/><path d="M25.5 11.5v15.5a1.5 1.5 0 0 1-1.5 1.5h-12"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Rouges-TwinFinder: a file in white and its twin behind in the suite's red, on a Rouge Noir background. -->
+  <rect x="8" y="8" width="240" height="240" rx="44" fill="#0f0f10"/>
+  <rect x="8.5" y="8.5" width="239" height="239" rx="43.5" fill="none" stroke="#3a3a40" stroke-width="3"/>
+  <g transform="translate(24 24) scale(6.5)"><path d="M25.5 11.5v15.5a1.5 1.5 0 0 1-1.5 1.5h-12" fill="none" stroke="#ff3b4a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 3.5h9l5 5v13.5a1.5 1.5 0 0 1-1.5 1.5h-12.5a1.5 1.5 0 0 1-1.5-1.5v-17a1.5 1.5 0 0 1 1.5-1.5z" fill="none" stroke="#f2f2f2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 3.5v5h5" fill="none" stroke="#f2f2f2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
