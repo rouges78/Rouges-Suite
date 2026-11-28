@@ -3569,9 +3569,9 @@
       "name": "Env",
       "package": {
         "exe": "RougesEnv.exe",
-        "sha256": "82ddeade697a3957d9d5501d6e3be50f362b0706bf738a4cc4f4d86820089646",
-        "size": 7747370,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/env-v0.1.0/env-0.1.0.zip"
+        "sha256": "a78458dbcc97efb4a3df16ca284943259f7e28f5035140936ab7bf7ed3204604",
+        "size": 7863293,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/env-v0.1.1/env-0.1.1.zip"
       },
       "screenshots": [
         {
@@ -3600,7 +3600,7 @@
         "pl": "Zmienne środowiskowe, PATH i dowiązania",
         "pt": "Variáveis de ambiente, PATH e links"
       },
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     {
       "accent_dark": "#99e9f2",
@@ -4904,5 +4904,5 @@
       "version": "0.1.20"
     }
   ],
-  "serial": 200
+  "serial": 201
 }
