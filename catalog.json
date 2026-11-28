@@ -735,9 +735,9 @@
       "name": "PDFKing",
       "package": {
         "exe": "PDFKing.exe",
-        "sha256": "d29ac78804f0355478702bfe9ac29f21ec6f30839b4b138a9f39492203c6958e",
-        "size": 27533179,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pdfking-v0.1.10/pdfking-0.1.10.zip"
+        "sha256": "bb82445b0560b9d6320bfe7215b92eb72bcad15559b18e2190d60e555f90daf4",
+        "size": 27927132,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/pdfking-v0.1.11/pdfking-0.1.11.zip"
       },
       "screenshots": [
         {
@@ -766,7 +766,7 @@
         "pl": "Czytnik i edytor PDF",
         "pt": "Leitor e editor de PDF"
       },
-      "version": "0.1.10"
+      "version": "0.1.11"
     },
     {
       "accent_dark": "#38d9a9",
@@ -4904,5 +4904,5 @@
       "version": "0.1.20"
     }
   ],
-  "serial": 196
+  "serial": 197
 }
