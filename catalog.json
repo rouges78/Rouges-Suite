@@ -1105,9 +1105,9 @@
       "name": "Kalc+",
       "package": {
         "exe": "RougesKalc.exe",
-        "sha256": "c1a79eae0e66aebc3f4df64bb93049de0ff3a73e2700f4ad82d23701572abca8",
-        "size": 6984325,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/kalc-v0.1.5/kalc-0.1.5.zip"
+        "sha256": "0a63b6c94908f164cef311ed775360a726aac92d70a48016b53348d43dffc8a6",
+        "size": 7100132,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/kalc-v0.1.6/kalc-0.1.6.zip"
       },
       "screenshots": [
         {
@@ -1136,7 +1136,7 @@
         "pl": "Kalkulator z taśmą",
         "pt": "Calculadora com fita"
       },
-      "version": "0.1.5"
+      "version": "0.1.6"
     },
     {
       "accent_dark": "#ff8787",
@@ -4904,5 +4904,5 @@
       "version": "0.1.20"
     }
   ],
-  "serial": 198
+  "serial": 199
 }
