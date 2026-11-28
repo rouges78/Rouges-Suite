@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Rouges-Market: a radar, its rings in grey, the sweep and the blip in the suite's red, the centre in white, on a Rouge Noir background. -->
+  <rect x="8" y="8" width="240" height="240" rx="44" fill="#0f0f10"/>
+  <rect x="8.5" y="8.5" width="239" height="239" rx="43.5" fill="none" stroke="#3a3a40" stroke-width="3"/>
+  <g transform="translate(24 24) scale(6.5)"><circle cx="16" cy="16" r="11.5" fill="none" stroke="#55555e" stroke-width="2.2"/><circle cx="16" cy="16" r="6.5" fill="none" stroke="#55555e" stroke-width="2.2"/><path d="M16 16 24.5 8.2" fill="none" stroke="#ff3b4a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="21.2" cy="20.6" r="2.1" fill="#ff3b4a"/><circle cx="16" cy="16" r="2" fill="#f2f2f2"/></g>
+</svg>
