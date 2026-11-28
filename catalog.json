@@ -1859,9 +1859,9 @@
       "name": "PlayVideo",
       "package": {
         "exe": "RougesPlayVideo.exe",
-        "sha256": "a4492ecd22a2b7d2ac69272c191f7e6fc7971de8700c21f1e9b859ef7da0cfea",
-        "size": 47192447,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/playvideo-v0.1.6/playvideo-0.1.6.zip"
+        "sha256": "5c9f6f499a628a5c6261ba7fff91c78ec5faa98fc599d641b84ad19a600a25ba",
+        "size": 47214496,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/playvideo-v0.1.7/playvideo-0.1.7.zip"
       },
       "screenshots": [
         {
@@ -1890,7 +1890,7 @@
         "pl": "Odtwarzacz wideo",
         "pt": "Reprodutor de vídeo"
       },
-      "version": "0.1.6"
+      "version": "0.1.7"
     },
     {
       "accent_dark": "#ff7a45",
@@ -4904,5 +4904,5 @@
       "version": "0.1.20"
     }
   ],
-  "serial": 201
+  "serial": 202
 }
