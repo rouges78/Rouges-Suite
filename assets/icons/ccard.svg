@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#f2b66d"/><g transform="translate(6.08 6.08) scale(0.62)"><g fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7" width="25" height="18" rx="2.5"/><path d="M3.5 12.5h25" stroke-width="3" stroke-linecap="butt"/><path d="M8 20h5M16.5 20h3"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Rouges-CCard: a card in white, its stripe in the suite's red, the numbers in grey, on a Rouge Noir background. -->
+  <rect x="8" y="8" width="240" height="240" rx="44" fill="#0f0f10"/>
+  <rect x="8.5" y="8.5" width="239" height="239" rx="43.5" fill="none" stroke="#3a3a40" stroke-width="3"/>
+  <g transform="translate(24 24) scale(6.5)"><rect x="3.5" y="7" width="25" height="18" rx="2.5" fill="none" stroke="#f2f2f2" stroke-width="2.2"/><path d="M3.5 12.5h25" fill="none" stroke="#ff3b4a" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/><path d="M8 20h5M16.5 20h3" fill="none" stroke="#55555e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

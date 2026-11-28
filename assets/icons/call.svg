@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#ff6b81"/><g transform="translate(6.08 6.08) scale(0.62)"><path d="M10.4 4.5 13.6 10.6 11.1 13.1C12.6 16.5 15.5 19.4 18.9 20.9L21.4 18.4 27.5 21.6V24.4C27.5 26.1 26.1 27.5 24.4 27.5 13.5 27.5 4.5 18.5 4.5 7.6 4.5 5.9 5.9 4.5 7.6 4.5Z" fill="#111111"/><path d="M18.5 4.5A9 9 0 0 1 27.5 13.5M18.5 9A4.5 4.5 0 0 1 23 13.5" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Rouges-Call: the launcher's call symbol (handset and signal waves) on a Rouge Noir background,
+       the handset in the suite's red. -->
+  <rect x="8" y="8" width="240" height="240" rx="44" fill="#0f0f10"/>
+  <rect x="8.5" y="8.5" width="239" height="239" rx="43.5" fill="none" stroke="#3a3a40" stroke-width="3"/>
+  <g transform="translate(24 24) scale(6.5)">
+    <path d="M10.4 4.5 13.6 10.6 11.1 13.1C12.6 16.5 15.5 19.4 18.9 20.9L21.4 18.4 27.5 21.6V24.4C27.5 26.1 26.1 27.5 24.4 27.5 13.5 27.5 4.5 18.5 4.5 7.6 4.5 5.9 5.9 4.5 7.6 4.5Z" fill="#ff3b4a"/>
+    <path d="M18.5 4.5A9 9 0 0 1 27.5 13.5M18.5 9A4.5 4.5 0 0 1 23 13.5" fill="none" stroke="#f2f2f2" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</svg>
