@@ -1290,9 +1290,9 @@
       "name": "DB",
       "package": {
         "exe": "RougesDB.exe",
-        "sha256": "9d86daf0c3ba92bebde0bbf43b7092ce67428076ed4d1a0fff20128039c543f0",
-        "size": 2913498,
-        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/db-v0.2.3/db-0.2.3.zip"
+        "sha256": "53e6a5df8b5bf43eb335da47c84fccd140efd5343e334c245f99c72e78836f65",
+        "size": 2935526,
+        "url": "https://github.com/rouges78/Rouges-Suite/releases/download/db-v0.2.4/db-0.2.4.zip"
       },
       "screenshots": [
         {
@@ -1321,7 +1321,7 @@
         "pl": "Lekki klient baz danych",
         "pt": "Cliente de banco de dados leve"
       },
-      "version": "0.2.3"
+      "version": "0.2.4"
     },
     {
       "accent_dark": "#ffa94d",
@@ -4904,5 +4904,5 @@
       "version": "0.1.20"
     }
   ],
-  "serial": 203
+  "serial": 204
 }
